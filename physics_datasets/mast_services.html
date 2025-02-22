@@ -1,0 +1,1060 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+<title>MAST Web Services</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<meta name="description" content="The Barbara A. Mikulski Archive for Space Telescopes (MAST)">
+<meta name="keywords" content="astronomical data archive, MAST, NASA, STScI, IUE, HST, Copernicus, UIT, GSC, SDSS, EPOCH, EUVE, FUSE, ASTRO, HUT, WUPPE, HPOL, BEFS, TUES, IMAPS, ORFEUS, FIRST, ROSAT, DSS, VLAFIRST, XMMOM, GALEX, Kepler, ultraviolet/optical astronomy">
+<link href="/styles/default.css" type="text/css" rel="stylesheet">
+<script src="/javascript/drop.js" type="text/javascript"></script>
+<script src="/javascript/Table.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/styles/template_tables.css">
+<link rel="stylesheet" type="text/css" href="/styles/tablesorter.css">
+<link href="/styles/expand_retract.css" type="text/css" rel="stylesheet">
+<link href="/styles/more_less.css" type="text/css" rel="stylesheet">
+<script src="/javascript/previous_more_less.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="/js/input_hide.js"></script>
+<meta property="og:url" content="" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="" />
+</head>
+
+<body> 
+<a name="top" id="top"></a>
+<noscript>drop script allows pulldown menus</noscript>
+   <table id="Table" align="center" width="760" border="0" cellspacing="0" cellpadding="0" 
+     summary="Table containing overall page layout including top banner, nav bars, content and footer">
+   <tr>
+     <td colspan="2">
+   <div id="skip"><a href="#content">Skip to Main Content</a></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr class="tbcolor">
+    <td>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img alt="spacer" src="/images/spacer.gif" width="10" height="71"></td>
+        <td><a href="/index.html"><img src="/images/mastlogo_new.gif" alt="link to MAST page" width="63" height="63" border="0"></a></td>
+        <td><img alt="spacer" src="/images/spacer.gif" width="5" height="71"></td>
+        <td><img alt="logo image" src="/images/mast_signature.gif" width="673" height="60"></td>
+        <td><img alt="spacer" src="/images/spacer.gif" width="10" height="71"></td>
+        <td width="300" align="center"><span class="style1">
+        <span class="style2"></span> 
+        </span></td>
+        <td ><img alt="" src="/images/spacer.gif" width="10" height="71"></td>
+      </tr>
+    </table></td>
+    <td width="100%"></td>
+  </tr>
+  <tr class="tnborder">
+  <td colspan="20" height="1"></td>
+  </tr>
+  <tr class="tncolor">
+    <td>
+
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+     <tr><td class="uppernav">
+     <div id="uppernav">
+     <ul class="tnb-top">
+  <li><span class="style4"><a href="/index.html"> MAST</a></span>
+</li>
+
+<li><span class="style4"><a href="http://www.stsci.edu/portal/"> STScI</a></span>
+</li>
+
+              <li><span class="style4"><a href="/searches.html"> Tools</a></span><img class="tnb-arrow" src="/images/down.gif" alt="submenus">
+                 <ul class="tnb-sub1">
+                <li><span class="style41"><a href="https://exo.mast.stsci.edu/exo/ExoMast/html/exomast.html"> exo.MAST</a></span>
+                <li><span class="style41"><a href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html"> Discovery Portal</a></span>
+                <li><span class="style4"><a href="/cgi-bin/nph-aladin.pl?from=STScI"> Aladin</a></span>
+                <li><span class="style4"><a href="/spec_class/"> Spectral Classifications</a></span>
+                <li><span class="style4"><a href="/canvas/coplot.html"> Coplotter</a></span>
+                <li><span class="style4"><a href="http://specviz.readthedocs.io/en/latest/"> SpecViz Info</a></span>
+                <li><span class="style4"><a href="http://starview.stsci.edu/web/"> StarView Web</a></span>
+                <li><span class="style4"><a href="/abstracts.html"> Abstracts</a></span>
+                <li><span class="style4"><a href="/bibliography/index.html/"> Bibliography Search</a></span>
+                <li><span class="style4"><a href="/stpr/search.php/"> HST PR Images</a></span>
+                <li><span class="style4"><a href="/searches.html"> more...</a></span>
+                </ul>
+</li>
+
+              <li><span class="style4"><a href="/searches.html#missions"> Mission Search</a></span><img class="tnb-arrow" src="/images/down.gif" alt="submenus">
+                 <ul class="tnb-sub1">
+                <li><span class="style41"><a href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html"> Discovery Portal</a></span>
+                <li><span class="style41"><a href="https://mast.stsci.edu/search/ui/#/hst"> Hubble</a></span>
+                <li><span class="style41"><a href="http://hla.stsci.edu/hlaview.html"> Hubble Legacy Archive</a></span>
+                <li><span class="style41"><a href="/hst/spectral_legacy"> Hubble Spectral Legacy Archive</a></span>
+                <li><span class="style41"><a href="/hst/hsc/"> Hubble Source Catalog</a></span>
+                <li><span class="style41"><a href="/stpr/search.php"> HST Press Release Images</a></span>
+                <li><span class="style41"><a href="/cgi-bin/dss_form/"> DSS</a></span>
+                <li><span class="style41"><a href="/jwst/sidarchive/search.php"> JWST SID Archive</a></span>
+                <li><span class="style41"><a href="/k2/epic/search.php"> K2 EPIC</a></span>
+                <li><span class="style41"><a href="/k2/data_search/search.php"> K2 Data</a></span>
+                <li><span class="style41"><a href="/kepler/data_search/search.php"> Kepler Data</a></span>
+                <li><span class="style41"><a href="/kepler/kepler_fov/search.php"> Kepler Targets</a></span>
+                <li><span class="style41"><a href="/panstarrs/search.php"> PanSTARRS</a></span>
+                <li><span class="style41"><a href="/swiftuvot/search.php"> SwiftUVOT</a></span>
+                <li><span class="style41"><a href="/tess/index.html#searchtools"> TESS</a></span>
+                <li><span class="style41"><a href="/xmm-om/search.php"> XMM-OM</a></span>
+                <li><span class="style4"><a href="/befs/search.php"> BEFS (ORFEUS)</a></span>
+                <li><span class="style4"><a href="/copernicus/search.php"> Copernicus-raw</a></span>
+                <li><span class="style4"><a href="/copernicus/coadd/search.php"> Copernicus-coadd</a></span>
+                <li><span class="style4"><a href="/epoch/epoch_mast_directory.html"> EPOCH</a></span>
+                <li><span class="style4"><a href="/euve/search.php"> EUVE</a></span>
+                <li><span class="style4"><a href="/fuse/search.php"> FUSE Observations</a></span>
+                <li><span class="style4"><a href="/fuse/exposure/search.php"> FUSE Exposures</a></span>
+                <li><span class="style4"><a href="http://galex.stsci.edu/GalexView/"> GalexView</a></span>
+                <li><span class="style4"><a href="http://galex.stsci.edu/GR6/?page=mastform"> GALEX</a></span>
+                <li><span class="style4"><a href="http://gsss.stsci.edu/webservices/GSC2/WebForm.aspx"> GSC</a></span>
+                <li><span class="style4"><a href="/hpol/search.php"> HPOL</a></span>
+                <li><span class="style4"><a href="/hut/search.php"> HUT</a></span>
+                <li><span class="style4"><a href="/imaps/search.php"> IMAPS (ORFEUS)</a></span>
+                <li><span class="style4"><a href="/iue/search.php"> IUE</a></span>
+                <li><span class="style4"><a href="/tues/search.php"> TUES (ORFEUS)</a></span>
+                <li><span class="style4"><a href="/uit/search.php"> UIT</a></span>
+                <li><span class="style4"><a href="/vlafirst/search.php"> VLA-FIRST</a></span>
+                <li><span class="style4"><a href="/wuppe/search.php"> WUPPE</a></span>
+                <li><span class="style4"><a href="/searches.html#missions"> more...</a></span>
+                </ul>
+</li>
+
+<li><span class="style4"><a href="/google_search.html"> Search Website</a></span>
+</li>
+
+              <li><span class="style4"><a href="/followus.html"><img class="tnb-arrow" src="/images/facebook.png" alt="facebook">&nbsp;<img class="tnb-arrow" src="/images/twitter.png" alt="twitter">Follow Us</a></span><img class="tnb-arrow" src="/images/down.gif" alt="submenus">
+                 <ul class="tnb-sub1">
+                <li><span class="style4"><a href="http://www.facebook.com/MASTArchive/"> Facebook</a></span>
+                <li><span class="style4"><a href="http://www.twitter.com/MAST_News/"> Twitter</a></span>
+                </ul>
+</li>
+
+<li><span class="style4"><a href="/registration/"> Register</a></span>
+</li>
+
+<li><span class="style4"><a href="http://forum.stsci.edu/"> Forum</a></span>
+</li>
+
+</li>
+
+       </ul></div></td>
+       <td width="100" align="center"><img alt="" src="/images/spacer.gif" width="100" height="8"></td>
+      </tr>
+    </table>
+  </td>
+    <td width="100%"></td>
+  </tr>
+  <tr bgcolor="#000000">
+    <td height="1" colspan="20"><img alt="" src="/images/spacer.gif" width="1" height="1"></td>
+  </tr>
+  <tr><td class="lowernav">
+  <div id="lowernav">
+  <ul>
+       <li><span class="style4"><a  href="/aboutmast.html"> About MAST</a></span>     <li><span class="style4"><a  href="/getting_started.html"> Getting Started</a></span>  </ul>
+  </div>
+  </td>
+    <td width="1" class="lowernav"></td>
+  </tr>
+
+  <tr bgcolor="#000000">
+    <td height="1" colspan="20"><img alt="" src="/images/spacer.gif" width="1" height="1"></td>
+  </tr>
+
+  </table>
+ </td>
+</tr>
+
+    <tr valign="top">
+    <td class="leftMenu">
+    <table cellspacing="0" border="0" cellpadding="0" width="150" style="z-index:1000;">
+    <tr><td>
+    <div id="lnbclass">
+    <ul class="lnb-top style5">
+<li> <a href="/mast_faq.php?mission=MAST">FAQ</a>
+<li><img class="lnb-arrow" src="/images/arrowLTR.gif"  alt="submenu"> <a href="/hlsp/index.html">High-Level Science &nbsp;&nbsp;Products</a>
+<ul class = "lnb-sub1">
+<li><a href="/hlsp/index.html">HLSP Project Search</a>
+<li><a href="/hlsp/search.php">HLSP Target Search</a>
+<li><a href="/hlsp/hlsp_guidelines.html">HLSP Contribution Guidelines</a>
+<li><a href="/hlsp/hlsp_download.html">HLSP Download Options</a>
+<li><a href="/hst/tall.html">HST Treasury, Archival Legacy Programs</a>
+</ul><li><img class="lnb-arrow" src="/images/arrowLTR.gif"  alt="submenu"> <a href="/da_sw.html">Software</a>
+<ul class = "lnb-sub1">
+<li><a href="/scisoft.html">Scisoft</a>
+<li><a href="http://www.stsci.edu/institute/software_hardware/stsdas">STSDAS</a>
+<li><a href="/iue/iuedac.html">IUEDAC</a>
+<li><a href="/euve/euve_sw.html">EUVE IRAF</a>
+<li><a href="http://stsdas.stsci.edu/download/iuetools/">IUE IRAF</a>
+<li><a href="/hut/hut_sw.html">HUT IRAF</a>
+</ul><li><img class="lnb-arrow" src="/images/arrowLTR.gif"  alt="submenu"> <a href="/fits/index.html">FITS</a>
+<ul class = "lnb-sub1">
+<li><a href="/fits/index.html">FITS Info</a>
+<li><a href="http://fits.gsfc.nasa.gov/fits_standard.html">FITS Standard V3.0</a>
+<li><a href="/fits/fits_standard/">FITS Standard V2.0</a>
+<li><a href="/fits/users_guide/">User's Guide</a>
+</ul><li> <a href="/sites.html">Related Sites</a>
+<li><img class="lnb-arrow" src="/images/arrowLTR.gif"  alt="submenu"> <a href="/sites.html">NASA Datacenters</a>
+<ul class = "lnb-sub1">
+<li><a href="http://adswww.harvard.edu/">ADS</a>
+<li><a href="http://heasarc.gsfc.nasa.gov/">HEASARC</a>
+<li><a href="http://irsa.ipac.caltech.edu/">IRSA</a>
+<li><a href="http://lambda.gsfc.nasa.gov/">LAMBDA</a>
+<li><a href="http://ned.ipac.caltech.edu/">NED</a>
+<li><a href="http://nssdc.gsfc.nasa.gov/astro/">NSSDC</a>
+</ul><li> <a href="/vo/mast_services.html">MAST Services</a>
+<li><img class="lnb-arrow" src="/images/arrowLTR.gif"  alt="submenu"> <a href="/vo/index.html">MAST and the VO</a>
+<ul class = "lnb-sub1">
+<li><a href="/vo/index.html">MAST VO Activities</a>
+<li><a href="/vo/mast_services.html">MAST Services</a>
+<li><a href="http://vao.stsci.edu/directory/index.aspx">VAO Registry Page</a>
+<li><a href="http://www.ivoa.net/">IVOA page</a>
+</ul><li><img class="lnb-arrow" src="/images/arrowLTR.gif"  alt="submenu"> <a href="/reports.html">Newsletters & Reports</a>
+<ul class = "lnb-sub1">
+<li><a href="/archive_news/">MAST Newsletters</a>
+<li><a href="/reports/annual_report.html">MAST Annual Reports</a>
+<li><a href="/mug/index.html">MAST Users Group</a>
+<li><a href="/reports/BigDataSDTReport_Final.pdf">Big Data @ STSCI</a>
+<li><a href="/surveyresults/index.html">MAST Survey Results</a>
+<li><a href="/fasst/">FASST Report</a>
+<li><a href="http://www.stsci.edu/science/share/">SHARE Report</a>
+</ul><li> <a href="/data_use.html">Data Use Policy</a>
+<li> <a href="/doi/search/">Dataset Identifiers</a>
+<li> <a href="/acknowledgments.html">Acknowledgments</a>
+</ul></div></td></tr>    <tr><td>&nbsp;</td></tr>
+    <tr>
+    <td align="center">
+    <a href="http://www.stsci.edu/portal/"><img src="/images/stsci_logo.gif" alt="link to STScI page" width="40" height="58" border="0"></a>
+    </td>
+    </tr>
+    </table>
+    <br><td valign="top" bgcolor="#FFFFFF">
+<div id="indt"><br>
+<a name="content" id="content" tabindex="1"></a><style>
+#newhst {
+    text-align: left;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 0.4em 0.4em 0.4em 0.8em;
+    background-color: #154A5B;
+    background-image: url("/images/slack-imgs copy.jpg");
+    background-size: 100% 100%;
+    color: #fff
+}
+#newhst a {
+    color: #FF9D42;
+}
+.warn {
+    color: #f88;
+    font-weight: bold
+}
+</style>
+<!--
+<div id="newhst">
+<h2 class="warn">Service Outage</h2>
+<p> </p>
+</div>
+-->
+<h1 align="center">MAST Web Services</h1>
+
+<a href="#Portal">MAST Discovery Portal API</a>
+<br>
+<a href="#GET">HTTP GET Requests</a>
+<br>
+&nbsp;&nbsp;&nbsp; - <a href="#SCRIPTS">Script Examples</a>
+<br>
+&nbsp;&nbsp;&nbsp; - <a href="#MISSION">Mission Searches</a>
+<br>
+&nbsp;&nbsp;&nbsp; - <a href="#SCS">Simple Cone Search</a>
+<br>
+&nbsp;&nbsp;&nbsp; - <a href="#SIAP">Simple Image Access Protocol</a>
+<br>
+&nbsp;&nbsp;&nbsp; - <a href="#SSAP">Simple Spectral Access Protocol</a>
+<br>
+<a href="#RSS">RSS News Feed</a>
+<br>
+<a href="#SOAP">Soap Services</a>
+<br><br>
+<p>
+
+<h2>
+<a name="Poral"> MAST Discovery Portal API </a>
+</h2>
+Many MAST data holdings can be searched using the MAST Discovery Portal API. 
+This API allows for programmatic access to all 
+data available through the MAST Discovery Portal (<a href="https://mast.stsci.edu">mast.stsci.edu</a>). 
+API documentation is found at <a href="https://mast.stsci.edu/api/v0/">https://mast.stsci.edu/api</a>.
+<p>
+<br>
+
+<h2>
+<a name="GET"> HTTP GET Requests </a>
+</h2>
+MAST data holdings can also be searched 
+using MAST classic HTTP GET requests. The GET request 
+allows the search parameters to be included in the URL.
+As such, they can be called from within programs to automate data 
+searches. The results can be returned in a variety of formats including 
+HTML, VOTable XML format, excel spreadsheet, and 
+comma-separated values which can simplify ingesting results into
+user-written programs. In addition, submitting GET requests can 
+bypass restrictions currently placed on the web search
+forms (e.g., restrictions on the max_records value). 
+Unfortunately, there has been little
+documentation on how the GET requests are formulated. 
+This document will summarize the services currently available
+from MAST and give examples showing how they can be used.
+<p>
+Remember, when creating URLs, special characters must 
+be encoded.
+URLs may only use alphanumerics [0-9a-zA-Z], the characters 
+"$-_.+!*'(),"  and special reserved characters. 
+The characters "<" and ">" must be specified as "%3C" and "%3E"
+respectively. For example, to specify a parameter such as
+RA > 120, the GET request parameter would be RA=%3E120. Blanks 
+can be specified using the "+" character. Nulls can be specified
+as \null. 
+<p><br> 
+
+<h3>
+<a name="SCRIPTS"> Script Examples</a>
+</h3>
+Scripts for retrieving MAST search results can be written
+in many programming languages. Basically you just need to
+download and extract information from a web page.
+A few simple examples are shown below. We welcome more examples
+from users. 
+<ul>
+<li><a href="php_examples.html"><b>PHP Examples</b></a>
+<li><a href="python_examples.html"><b>Python Examples</b></a>
+<li><a href="shell_examples.html"><b>Unix Shell Examples</b></a>
+<li><a href="idl_examples.html"><b>IDL Examples</b></a>
+</ul>
+<p><br>
+
+<h3>
+<a name="MISSION"> Mission Searches</a>
+</h3>
+In general, mission searches are specified in the form:
+<br><br><b>
+https://archive.stsci.edu/[data set]/search.php?action=Search&amp;params
+</b>
+<br><br>
+where [data set] is the MAST-defined acronym for a particular
+set of data (listed below), and params is the list of search 
+parameters as defined below. This does not apply to Kepler or K2 however so
+the correct values for [data set] are shown in parentheses below. 
+Note that "action=Search" is a required parameter for all mission search requests.
+For the pointings search however, action may equal either "Search+Pointings"
+or "Search+Exposures".
+<p>
+The current list of data sets, links to mission-specific search fields, and 
+search general parameters are shown in the following list:
+
+<a name="parameters"></a>
+<ul>
+<li><a href="general_params.html"><b>General Search Parameters</b></a>
+</ul><p><ul>
+<li><b>HST tables</b> - 
+<ul>
+<li><b>hst</b> - <a href="/search_fields.php?mission=hst">Hubble Space Telescope</a>
+<li><b>hsc_sum</b> - <a href="/search_fields.php?mission=hsc_sum">Hubble Source Catalog Summary table</a>
+<li><b>hsc</b> - <a href="/search_fields.php?mission=hsc">Hubble Source Catalog Detailed table</a>
+</ul>
+<li><b>kepler tables</b> - 
+<ul>
+<li><b>kepler data</b> - <a href="/search_fields.php?mission=kepler">Data search</a> (kepler/data_search)
+<li><b>kepler_fov</b> - <a href="/search_fields.php?mission=kepler_fov">Target search,replaces kepler_fov_enh</a> (kepler/kepler_fov)
+<li><b>kic10</b> - <a href="/search_fields.php?mission=kic10">Kepler Input Catalog</a> (kepler/kic10)
+<li><b>kgmatch</b> - <a href="/search_fields.php?mission=kgmatch">Kepler/Galex Cross match</a> (kepler/kgmatch)
+<li><b>kepler KOI planets</b> - <a href="/search_fields.php?mission=kepler_cp">Kepler Confirmed Planets (with KOI-based data)</a> (kepler/confirmed_planets)
+<li><b>kepler published planets</b> - <a href="/search_fields.php?mission=keplernexsci_cp">Kepler Confirmed Planets (with published data)</a> (kepler/published_planets)
+<li><b>KOI</b> - <a href="/search_fields.php?mission=kepler_koi">Kepler Objects of Interest</a> (kepler/koi)
+<li><b>ffi</b> - <a href="/search_fields.php?mission=kepler_ffi">FFIs</a> (kepler/ffi)
+</ul>
+<li><b>k2 tables</b> - 
+<ul>
+<li><b>epic</b> - <a href="/search_fields.php?mission=epic">Ecliptic Plane Input Catalog</a> (k2/epic)
+<li><b>k2 data</b> - <a href="/search_fields.php?mission=k2">Data Search</a> (k2/data_search)
+<li><b>k2 planets</b> - <a href="/search_fields.php?mission=k2_planets">K2 planets</a> (k2/published_planets)
+<li><b>ffi</b> - <a href="/search_fields.php?mission=k2_ffi">FFIs</a> (k2/ffi)
+</ul>
+<li><b>iue</b> - <a href="/search_fields.php?mission=iue">International Ultraviolet Explorer </a>
+<li><b>hut</b> - <a href="/search_fields.php?mission=hut">Hopkins Ultraviolet Telescope </a>
+<li><b>euve</b> - <a href="/search_fields.php?mission=euve">Extreme Ultraviolet Explorer </a>
+<li><b>fuse</b> - <a href="/search_fields.php?mission=fuse">Far-UV Spectroscopic Explorer </a>
+<li><b>uit</b> - <a href="/search_fields.php?mission=uit">Ultraviolet Imageing Telescope </a>
+<li><b>wuppe</b> - <a href="/search_fields.php?mission=wuppe">Wisconsin UV Photo-Polarimeter Explorer
+</a>
+<li><b>befs</b> - <a href="/search_fields.php?mission=befs">Berkeley Extreme and Far-UV
+Spectrometer</a>
+<li><b>tues</b> - <a href="/search_fields.php?mission=tues">T&uuml;bingen Echelle Spectrograph </a>
+<li><b>imaps</b> - <a href="/search_fields.php?mission=imaps">Interstellar Medium Absorption Profile Spectrograph </a>
+<li><b>hlsp</b> - <a href="/search_fields.php?mission=hlsp">High Level Science Products </a>
+<li><b>pointings</b> - <a href="/pointings/help/quickcol.html">HST Image Data grouped by position</a>
+<li><b>copernicus</b> - <a href="/search_fields.php?mission=copernicus">Copernicus Satellite</a>
+<li><b>hpol</b> - <a href="/search_fields.php?mission=hpol">ground based spetropolarimater</a>
+<li><b>vlafirst</b> - <a href="/search_fields.php?mission=vlafirst">VLA Faint Images of the Radio Sky (21-cm)</a>
+<li><b>xmm-om</b> - <a href="/search_fields.php?mission=xmm-om">X-ray Multi-Mirror Telescope Optical Monitor</a>
+<li><b>swift_uvot</b> - <a href="/search_fields.php?mission=swiftuvot">Swift UV/optical Telescope</a>
+</ul> 
+
+<br>
+In general, any parameter listed on the HTML search
+form can be specified in a GET request. If you are parsing
+the results, it would be easier and probably faster, to request
+the search results in CSV or VOTable format using the "outputformat" parameter.
+<p>
+Mission search examples:
+<ul>
+<li>
+Search the HST archive for observations within the specified radius
+(in arcminutes), centered on the given RA and Dec values (in decimal 
+degrees), allow a maximum of 1000 records, and output the default columns
+as comma-separated values:
+<a href="/hst/search.php?RA=53.084&amp;DEC=-27.873&amp;radius=100.&amp;max_records=5000&amp;outputformat=CSV&amp;action=Search"> (Try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/hst/search.php?RA=53.084&amp;DEC=-27.873&amp;radius=100.
+&amp;max_records=1000&amp;outputformat=CSV&amp;action=Search
+</b>
+<br>
+<br>
+
+<li>
+Search the Kepler archive for the first 1000 files (sorted by Kepler ID) that have become public in 2009, that was part of the 
+EX program, and output comma-separated values with RA in decimal hours:
+<a href="/kepler/data_search/search.php?ads_release_date=%3C2010&amp;ktc_investigation_id=EX&amp;max_records=1000&amp;coordformat=dechr&amp;outputformat=CSV&amp;action=Search">(try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/kepler/data_search/search.php?
+ads_release_date=%3C2010&amp;ktc_investigation_id=EX&amp;max_records=1000&amp;coordformat=dechr&amp;outputformat=CSV&amp;action=Search
+</b>
+<br>
+<br>
+
+<li>
+Do similiar cone search for XMM-OM data with a search radius of 5 arcminutes
+show sql query, sexigesimal coordinates, and output results in HTML (this type of request
+is good for testing)
+<a href="/xmm-om/search.php?RA=53.084&amp;DEC=-27.873&amp;radius=5.&amp;showquery=on&amp;action=Search"> (Try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/xmm-om/search.php?RA=53.084&amp;DEC=-27.873
+&amp;radius=5.&amp;showquery=on&amp;action=Search
+</b>
+<br>
+<br>
+
+<li>
+Search the Kepler/GALEX cross match catalog for nuvg_color values between 0.0 and 0.5.
+Use the kggoldstandard version for more accurate matches.
+<a href="/kepler/kgmatch/search.php?action=Search&search_table=kggoldstandard&nuvg_color=0.0..0.5">
+(try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/kepler/kgmatch/search.php?action=Search&search_table=kggoldstandard&nuvg_color=0.0..0.5
+</b>
+<br>
+<br>
+
+<li>
+Search the Kepler target search form for entries where fuvnuv is not null,
+the number of seasons on CCD = 4, and the effective temperature is > 10,000.
+<a href="/kepler/kepler_fov/search.php?action=Search&fuvnuv=!\null&kct_num_season_onccd=4&kic_teff=%3E10000">
+(try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/kepler/kepler_fov/search.php?action=Search&fuvnuv=!\null&kct_num_season_onccd=4&kic_teff=%3E10000
+</b>
+<br>
+<br>
+
+<li>
+Search the Kepler Objects of Interest table for confirmed planets. Return all (139) columns 
+(i.e., not just defaults) with coordinates in decimal degrees and output in pipe-separated format 
+(note some columns contains commas, so don't use CSV format):
+<a href="/kepler/koi/search.php?action=Search&koi_disposition=confirmed&verb=3&coordformat=dec&outputformat=PSV">
+(try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/kepler/koi/search.php?action=Search&koi_disposition=confirmed&verb=3&coordformat=dec&outputformat=PSV">
+</b>
+<br>
+<br>
+
+<li>
+Search the EPIC table for the top 100 extended sources (by EPIC id)
+and remove any null columns. 
+<a href="/k2/epic/search.php?action=Search&objtype=extended&max_records=100&remnull=on&verb=3">
+(try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/k2/epic/search.php?action=Search&objtype=extended&max_records=100&remnull=on&verb=3
+</b>
+<br>
+<br>
+
+<li>
+Search the HST archive for pep_id 9293, allow a maximum of 1000 records, and output results
+as comma-separated values:
+<a href="/hst/search.php?sci_pep_id=9293&amp;max_records=1000&amp;outputformat=CSV&amp;action=Search"> (Try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/hst/search.php?sci_pep_id=9293
+&amp;max_records=1000&amp;outputformat=CSV&amp;action=Search
+</b>
+<br>
+<br>
+
+<li>
+Search HST as above, but return results in VOTable format
+<a href="/hst/search.php?sci_pep_id=9293&amp;max_records=1000&amp;outputformat=VOTable&amp;action=Search"> (Try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/hst/search.php?sci_pep_id=9293
+&amp;max_records=1000&amp;outputformat=VOTable&amp;action=Search
+</b>
+<br>
+<br>
+
+<li>
+Search the HSC summary table for matchid < 20, return all non-null columns in VOTable format
+<a href="/hst/hsc_sum/search.php?matchid=%3C20&action=Search&mag_type=xcat.SumMagAper2CatView&remnull=on&amp;outputformat=VOTable&action=Search"> (Try it) </a>
+<br>
+<b>
+https://archive.stsci.edu/hst/hsc_sum/search.php?matchid=%3C20
+&amp;action=Search&amp;mag_type=xcat.SumMagAper2CatView
+&amp;remnull=on&amp;outputformat=VOTable&amp;action=Search
+</b>
+<br>
+<br>
+
+<li>
+Search HUT database for observations of M81 and M31, and return only columns for target name and data id:
+<a href="/hut/search.php?action=Search&amp;target=m+81,m+31&amp;selectedColumnsCsv=hut_target_name,hut_data_id"> (Try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/hut/search.php?action=Search&amp;target=m+81,m+31
+&amp;selectedColumnsCsv=hut_target_name,hut_data_id
+</b>
+<br>
+<br>
+
+<li>
+Search for HST ACS data taken with the F814W filter and within the specified search area. 
+Return up to 5000 records containing data set name, RA and Dec in CSV format.  
+<a href="/hst/search.php?RA=36.821&amp;DEC=-40.933&amp;radius=30&amp;sci_spec_1234=*F814*&amp;sci_instrume=ACS&amp;max_records=5000&amp;selectedColumnsCsv=sci_data_set_name,sci_ra,sci_dec&amp;outputformat=CSV&amp;action=Search"> (Try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/hst/search.php?RA=36.821&DEC=-40.933&radius=30
+&sci_spec_1234=*F814*&sci_instrume=ACS&max_records=5000
+&selectedColumnsCsv=sci_data_set_name,sci_ra,sci_dec&outputformat=CSV
+&action=Search
+</b>
+<br>
+<br>
+
+<li>
+Search the ACS Pointings table for the target "M 81" with output format = "CSV",
+and greater than 2 exposures in the U band:
+<a href="/pointings/search.php?pnt_ucount=%3E2&amp;target=m+81&amp;primary=ACS&amp;outputformat=CSV&amp;action=Search+Pointings"> (Try it)</a>
+<br>
+<b>
+https://archive.stsci.edu/pointings/search.php?pnt_ucount=%3E2&amp;target=m+81
+&amp;primary=ACS&amp;outputformat=CSV&amp;action=Search+Pointings
+</b>
+
+</ul>
+Notes:
+<ol>
+<li>
+  Be sure to include "action=Search" (with capital S) in the mission searches,
+but not for SCS or SIAP requests.
+<li>
+  Parameter order is not important.
+<li> For HST searches, sci_aec is set to "S" by default.
+This will return Science (S) but not Calibration (C) data.
+If both are desired, add the param sci_aec=%.
+<li>
+  Use a comma separated list for selected columns with the
+selectedColumnsCsv parameter, and specify all column names in lower case.
+Don't use selectedColumnsList as seen from the search form.
+<li>
+  Parameters such as resolver=don'tresolve should probably
+be encoded to be resolve=don%27tresolve. It seems to work without it
+though. (See PHP command called urlencode).
+<li> There is currently a <b>300 second execution time limit </b>on archive.stsci.edu
+which can cause large search requests to abort. Contact MAST if you run 
+into this problem.
+<li>Specifying an output format to download results as a file (e.g., outputformat=CSV_File)
+may avoid browser memory limitations that could cause a large request to fail.
+This however may require user-interaction.
+
+</ol>
+<br>
+
+<h3>
+<a name="SCS"> Simple Cone Search (SCS)</a>
+</h3>
+MAST missions can also be searched using the 
+<a href="http://www.ivoa.net/documents/latest/ConeSearch.html">
+Simple Cone Search protocol (SCS)</a>.
+The base url is the same as for MAST mission searches 
+(i.e., https://archive.stsci.edu/[data_set]/search.php)
+without the "action=Search" parameter. 
+The search radius parameter "SR" must be included in the URL 
+for the cgi script to recognize a simple cone search is being requested.
+Besides the search radius in decimal degrees,  RA and DEC parameters are also
+required to perform a cone search. The results are returned in VOTable format. 
+The SCS protocol can be used with any MAST mission and the <a href="general_params.html">
+general MAST parameters</a> can be included as well. 
+
+Examples:
+<ul>
+<li>
+Find archived Kepler observations at RA,Dec = 290.985,43.388 and a search radius = 0.02 degrees
+<a href="/kepler/data_search/search.php?RA=290.985&amp;DEC=43.388&amp;SR=0.02">(try it)</a>
+(Note not all listed data sets may be public, see release date field.) 
+<br><b>
+https://archive.stsci.edu/kepler/data_search/search.php?RA=290.985&amp;DEC=43.388&amp;SR=0.02 
+</b>
+<br>
+<br>
+<li>
+To search the Hubble Source Catalog (HSC) Summary table at RA,Dec = 53.084,-27.873 
+with a search radius = 0.01 degrees (returns about 200 entries) 
+<a href="/hst/hsc_sum/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.01">(try it)</a>
+<br><b>
+https://archive.stsci.edu/hst/hsc_sum/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.01 
+</b><br>
+To do the same search on the HSC Detailed Search, use:
+<a href="/hst/hsc/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.01">(try it)</a>
+<br><b>
+https://archive.stsci.edu/hst/hsc/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.01 
+</b>
+
+<br>
+<br>
+<li>
+This example will return about 50 HST observations (in VOTable format) at RA,Dec = 53.084,-27.873 
+and a search radius = 0.01 degrees
+<a href="/hst/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.01">(try it)</a>
+<br><b>
+https://archive.stsci.edu/hst/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.01 
+</b>
+<br>
+<br>
+<li>
+Same as above except use a larger search radius (0.02) but only allow a maximum of 
+100 records to be returned
+<a href="/hst/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.02&amp;max_records=100">(try it)</a>
+<br><b>
+https://archive.stsci.edu/hst/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.02&amp;max_records=100
+</b>
+<br>
+<br>
+<li>
+To find all high level science products at the same coordinates:
+<a href="/hlsp/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.01">(try it)</a>
+<br><b>
+https://archive.stsci.edu/hlsp/search.php?RA=53.084&amp;DEC=-27.873&amp;SR=0.01 
+</b>
+</ul>
+<br>
+
+<h3>
+<a name="SIAP"> Simple Image Access Protocol (SIAP)</a>
+</h3>
+Many MAST missions and High Level Science Products (HLSPs)
+can also be searched using the 
+<a href="http://www.ivoa.net/internal/IVOA/IvoaDAL/ACF8DE.pdf">
+Simple Image Access protocol (SIAP)</a>.
+The base URL is <br><b> https://archive.stsci.edu/siap/search.php </b>
+<br>
+followed by the SIAP parameters.
+There are two exceptions. Tthe HST Press Release images SIAP service
+which has a base url:
+<br>
+<b>
+https://archive.stsci.edu/stpr/vo_search.php
+</b>
+<br>
+and the GOODS cutout service which has the base url:
+<br>
+<b>
+https://archive.stsci.edu/eidol.php
+</b>
+<br>
+By default, up to 2000 entries will
+be returned but specifying max_records=nnn can override the default. 
+Adding the parameter "representative=y" will return only "representative"
+images as defined for the MAST scrapbook tool.
+Note some missions and particularly HLSPs, cover small areas of the sky.
+Currently the list of instruments, and 
+High Level Science Products (HLSPs) that can be queried using the SIAP 
+include:
+ 
+<ul>
+<li><b>WFPC</b> - HST Wide Field Planetary Camera
+<li><b>WFPC2</b> - HST Wide Field Planetary Camera 2
+<li><b>NICMOS</b> - HST Near Infrared Camera and Multi Object Spectrometer 
+<li><b>STIS</b> - Space Telescope Imaging Spectrograph
+<li><b>FOC</b> - HST Faint Object Camera
+<li><b>ACS</b> - HST Advance Camera Survey
+<li><b>UIT</b> - Ultraviolet Imageing Telescope 
+<li><b>VLA-FIRST</b> - VLA Faint Images of the Radio Sky at 20 cm
+<li><b>AL218</b> - VLA Array AL218 Texas Survey Source Snapshots
+<li><b>UDF</b> - HLSP Ultra Deep Field
+<li><b>UDFUV</b> - HLSP Ultraviolet Images of Ultra Deep Field
+<li><b>HDF</b> - HLSP Hubble Deep Field
+<li><b>HDF_SOUTH</b> - HLSP Hubble Deep Field South
+<li><b>GOODS</b> - HLSP The Great Observatories Origins Deep Survey 
+<li><b>TNO</b> - HLSP trans-Neptunian objects
+<li><b>HELIX</b> - HLSP HST Helix Observations
+<li><b>MAOZ_ATLAS</b> - HLSP HST Atlas of Ultraviolet Images of Nearby Galaxies
+<li><b>CANDELS</b> - Cosmic Assembly Near-IR Deep Extragalactic Legacy Survey
+<li><b>STPR</b> -  HST Press Release Images 2008 - 2010 (see note above)
+<li><b>ANGRRR</b> -  Archive of Nearby Galaxies: Reduce, Reuse, Recycle (ANGRRR)
+<li><b>ACSGGCT</b> -  ACS Galactic Globular Cluster Survey (ACSGGCT)
+<li><b>ANDROMEDA</b> - Deep Optical Photometry of Six Fields in the Andromeda Galaxy
+<li><b>HIPPIES</b> - Hubble Infrared Pure Parallel Imaging Extragalactic Survey (HIPPIES) 
+<li><b>CLASH</b> - Cluster Lensing And Supernova survey with Hubble (CLASH)
+<li><b>COMA</b> - HST ACS Coma Cluster Treasury Survey
+<li><b>APPP</b> - HST Archive Pure Parallels
+<li><b>3CR</b> - The revised 3C catalogue (3CR, Bennett 1962) 
+<li><b>ANGST</b> - HST ACS Nearby Galaxy Survey (ANGST) 
+<li><b>SGAL</b> - HST WFPC2 Spiral Galaxies
+<li><b>M51</b> - HST ACS mosaic images of M51
+<li><b>M82</b> - HST multicolor ACS mosaic images of M82
+<li><b>GALEX_ATLAS</b> - GALEX atlas of Nearby Galaxies  
+<li><b>HERITAGE</b> - HST Heritage Press Release Images
+<li><b>COSMOS</b> - HST Cosmic Evolution Survey
+<li><b>GEMS</b> - HST Galaxy Evolution from Morphology and SEDs
+<li><b>PHAT</b> - Panchromatic Hubble Andromeda Treasury (PHAT)
+<li><b>HUDF09</b> - Hubble Ultra Deep Field 2009 (HUDF09)
+</ul> 
+
+SIAP Examples:
+<ul>
+<li> Search for HST press release images at RA=149.0, Dec=69.0 within a<br>
+5 degree search area: 
+<a href="/stpr/vo_search.php?pos=149.0,69.0&size=5.0">
+(Try it)</a>
+<br>
+<b> https://archive.stsci.edu/stpr/vo_search.php?pos=149.0,69.0&size=5.0</b>
+<br>
+<br>
+<li>
+Search for MAST images (other than HST PR images) at RA+151.0, Dec=+69.0 and a search area of 0.5 degrees:
+<a href="/siap/search.php?pos=151.09,69.0&amp;size=0.5"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/siap/search.php?POS=151.0,69.0&amp;SIZE=0.5
+</b>
+<br>
+<br>
+<li>
+Display supported SIAP parameters:
+<a href="/siap/search.php?format=metadata"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/siap/search.php?format=metadata
+</b>
+<br>
+<br>
+<li>
+Find WFPC2 observations at RA,Dec = 53.084,-27.873, format = GIF, 
+and a rectangular search area 0,05 degrees wide:
+<a href="/siap/search.php?pos=53.08,-27.873&amp;size=0.05&amp;FORMAT=gif&amp;ID=wfpc2"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/siap/search.php?POS=53.08,-27.873
+&amp;SIZE=0.05&amp;FORMAT=gif&amp;ID=wfpc2
+</b>
+<br>
+<br>
+<li>
+Find "representative" WFPC2 observations as above:
+<a href="/siap/search.php?representative=y&amp;pos=53.08,-27.873&amp;size=0.05&amp;FORMAT=gif&amp;ID=wfpc2"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/siap/search.php?representative=y&amp;POS=53.08,-27.873
+&amp;SIZE=0.05&amp;FORMAT=gif&amp;ID=wfpc2
+</b>
+<br>
+<br>
+<li>
+Search for data from the HIPPIES HLSP:
+<a href="/siap/search.php?ID=HIPPIES&amp;pos=95.952,-64.665&amp;size=0.05">(Try it)</a>
+<br><b>
+https://archive.stsci.edu/siap/search.php?ID=HIPPIES&amp;pos=95.952,-64.665&amp;size=0.05
+</b>
+<br>
+<br>
+<li>
+Create cutouts from the GOODS HLSP images at ra,dec of 189.194,62.159 
+with a width of about 4":
+<a href="/eidol.php?POS=189.194,62.159&SIZE=0.001 ">(Try it)</a>
+<br><b>
+https://archive.stsci.edu/eidol.php?pos=189.194,62.159&amp;size=0.001
+</b>
+<br>
+<br>
+
+</ul>
+<br>
+<h3>
+<a name="SSAP"> Simple Spectral Access Protocol (SSAP)</a>
+</h3>
+MAST spectral missions can now be searched using the VO 
+Simple Spectral Access Protocol (SSAP). It is similiar to the 
+SIAP standard in that it returns a VOTable-format file with links to 
+(spectral) data sets. Note the MAST SSAP services, like the SIAP and cone search
+services, were written using VOTable version 1.0 and are now (hopefully) 
+updated to version 1.1. The latest VOTable standard however is version 1.3.  
+All the VO standards (e.g., VOTable, SSAP, SIAP, etc.) evolve independently.
+<p>
+
+The current list of missions with SSAP services include:
+<ul>
+<li><b>fos</b>
+<li><b>ghrs</b>
+<li><b>stis</b>
+<li><b>hst (to include all instruments)</b>
+<li><b>iue</b>
+<li><b>hut</b>
+<li><b>euve</b>
+<li><b>fuse</b>
+<li><b>wuppe</b>
+<li><b>befs</b>
+<li><b>tues</b>
+<li><b>hpol</b>
+</ul> 
+
+<p>
+The SSAP standard itself has evolved over the last several years,
+and the MAST services have not been updated for ahwhile.
+There were 2 main versions
+implemeted so far:
+<ul>
+<li>
+The original standard, known as version 0.4 in the VAO registry,
+was never officially approved
+but was adopted by several data centers before the official version
+was available. 
+We were supporting SSAP version 0.4 services up until last year for 
+<b>HUT, FUSE, EUVE, WUPPE, IUE, HPOL,</b> and<b> HST</b>.
+<li> The first officially-approved standard is now available and is known as 
+version 1.0 (actually the latest version is 1.1?). 
+Currently all MAST spectral missions support version 1.02.
+(see <a href="http://www.ivoa.net/Documents/latest/SSA.html"> SSAP paper</a>
+and <a href="http://www.ivoa.net/Documents/latest/SpectrumDM.html">Spectral Data
+Model</a> papers for description of protocol).
+</ul>
+<p> 
+The examples below
+describe version 1 services.
+<p>
+SSAP Examples:
+<ul>
+<li>
+Search for FUSE spectra at RA+151.0, Dec=+69.0 and a search area of 2.0 degrees:
+<a href="/ssap/search2.php?id=FUSE&amp;pos=151.0,69.0&amp;size=2.0"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/ssap/search2.php?id=FUSE&POS=151.0,69.0&amp;SIZE=2.0
+</b>
+<br>
+<br>
+<li>
+Search all MAST spectral missions for spectra of the planet Mars:
+<a href="/ssap/search2.php?targetname=mars"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/ssap/search2.php?targetname=mars
+</b>
+<br>
+<br>
+<li>
+Display all spectra with an object name of gamma * and display the results
+as an HTML table:
+<a href="/ssap/search2.php?targetname=gamma*&outputformat=HTML_Table"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/ssap/search2.php?targetname=gamma*&outputformat=HTML_Table
+</b>
+<br>
+<br>
+<li>
+Search for all MAST spectra at RA+151.0, Dec=+69.0 and a search area of 0.5 degrees:
+<a href="/ssap/search2.php?pos=151.0,69.0&amp;size=0.5"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/ssap/search2.php?POS=151.0,69.0&amp;SIZE=0.5
+</b>
+<br>
+<br>
+<li>
+Display supported SSAP parameters:
+<a href="/ssap/search2.php?format=metadata"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/ssap/search2.php?format=metadata
+</b>
+<br>
+<br>
+<li>
+Search for FOS spectra at RA+151.0, Dec=+69.0 and a search area of 2.0 degrees:
+<a href="/ssap/search2.php?id=FOS&amp;pos=151.0,69.0&amp;size=2.0"> (Try it)</a>
+<br><b>
+https://archive.stsci.edu/ssap/search2.php?id=FOS&POS=151.0,69.0&amp;SIZE=2.0
+</b>
+</ul>
+
+<br>
+<a name="RSS"></a>
+<h2>RSS Services</h2>
+We currently have two RSS services: the RSS news service,
+and the HST Press Release images service.
+The first examples show how to list our most recent news 
+items in either HTML or RSS XML-format: 
+<ul>
+<li><b> https://archive.stsci.edu/mast_news.php?out=html&amp;desc=t&amp;last=10
+        </b><br>   shows last 10 entries (by date) in html with descriptions
+<a href="/mast_news.php?out=html&amp;desc=t&amp;last=10"> (Try it)</a>
+<li><b> https://archive.stsci.edu/mast_news.php?desc=t&amp;last=10
+        </b><br>   shows same in rss xml format
+<a href="/mast_news.php?desc=t&amp;last=10"> (Try it)</a>
+<li><b>https://archive.stsci.edu/mast_news.php?out=html&amp;last=10
+        </b><br>   summary in html of last 10 (no descriptions)
+<a href="/mast_news.php?out=html&amp;last=10"> (Try it)</a>
+<li><b> https://archive.stsci.edu/mast_news.php?out=html&amp;id=25
+        </b><br>   show entry 25 in html
+<a href="/mast_news.php?out=html&amp;id=25"> (Try it)</a>
+</ul>
+Here are examples using the HST press release RSS service:
+<ul>
+<li>
+<b>https://archive.stsci.edu/stpr/search.php?ra=149.0&dec=69.0&radius=300&action=Search&outputformat=RSS</b>
+<br> Find press release images within a 300 arcminute circle of RA,Dec 149.0,69.0
+<a href="/stpr/search.php?ra=149.0&dec=69.0&radius=300&action=Search&outputformat=RSS"> (Try it) </a>
+<p>
+<li>
+<b>https://archive.stsci.edu/stpr/search.php?action=Search&format=image/tiff&outputformat=RSS</b>
+<br> Find all press release images available in tiff format
+<a href="/stpr/search.php?action=Search&format=image/tiff&outputformat=RSS"> (Try it) </a>
+</ul>
+
+<br>
+<a name="OTHER"></a>
+<h2>Other Services</h2>
+There is currently a service to return footprints using the VO STC-S 
+convention. It returns a simple xml file.
+The service accepts 2 parameters, 'dsn' for specifying the MAST data set name, and 'table'
+for specifying the source of the footprint. Valid table values currently include 
+caom, obscore_images, and obscore.
+The CAOM is the most complete source. Note that CAOM footprints repeat the first vertice
+at the end of the list, so for example, a rectangular footprint will be described 
+with 5 vertices.
+<ul>
+<li>
+<b>https://archive.stsci.edu/footprint.php?dsn=z3ddb205t&table=caom</b>
+<br>To retrieve the GHRS footprint for z3ddb205t from the CAOM table
+<a href="/footprint.php?dsn=z3ddb205t&table=caom">(Try it)</a>
+</ul>
+
+
+<br>
+<h2><a name="SOAP">SOAP Services</a></h2>
+We have one SOAP-based web service which is accessed via the ADS.
+The web service allows users to enter a data set name and find where
+it is archived. The service can be accessed from the web form at:
+<br>
+<a href="http://ads.harvard.edu/ws/DataVerifier">
+<b>http://ads.harvard.edu/ws/DataVerifier</b></a>, 
+or, using the latest
+ADEC naming conventions: 
+<br>
+<a href="http://vo.ads.harvard.edu/dv/DataVerifier.cgi">
+<b>http://vo.ads.harvard.edu/dv/DataVerifier.cgi</b></a>
+<br><br>
+<br><br>
+
+<script type="text/javascript">
+<!--
+ var MSIE = navigator.appName == "Microsoft Internet Explorer";
+ if (MSIE) {
+   document.write("<hr class=\"hide\" width=\"400\">") 
+}
+// end hiding script for old browsers -->
+</script>
+<script type="text/javascript">
+<!--
+$(document).ready(function()
+    {
+        $.tablesorter.defaults.widgets = ['zebra']; 
+        $("#myTable").tablesorter();
+        $("#myTable2").tablesorter();
+
+        // Adds "over" class to rows on mouseover
+        $(".tablesorter tr").mouseover(function(){
+         $(this).addClass("over"); 
+        });   
+
+        // Removes "over" class from rows on mouseout 
+        $(".tablesorter tr").mouseout(function(){   
+         $(this).removeClass("over"); 
+        });
+    }
+);
+// end hiding script for old browsers -->
+</script>
+<noscript>hide scripts from old browsers</noscript>
+
+<br>
+</div> 
+</td> 
+
+</tr>  <tr>
+    <td colspan="2">
+        
+      <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr bgcolor="#000000">
+        <td><img alt="" src="/images/spacer.gif" width="1" height="1"></td>
+      </tr>
+      <tr class="tncolor">
+        <td><img alt="" src="/images/spacer.gif" width="1" height="3"></td>
+      </tr>
+      <tr class="rmcolor">
+        <td height="30">
+        <table width="760" border="0" cellspacing="0" cellpadding="0">
+        <tr> <td class="rmcolor">
+          <div id="footernav">
+          <ul>
+          <li><span class="style7">
+          <a href="mast_services.html#">Top of Page</a></span>
+          <li><span class="style7">
+          <a href="http://www.stsci.edu/institute/Copyright">Copyright</a></span>
+          <li><span class="style7">
+          <a  href="mailto:archive@stsci.edu">Email Questions or Suggestions</a></span>
+                    <li><span class="style7">
+          <a href="/contacts.html">Contacts</a></span>
+          <li><span class="style8">
+          Last Modified: Jun 29, 2017 15:59          </span>
+          </ul>
+          </div>
+        </td> </tr>
+        </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="sbcolor"><img alt="" src="/images/spacer.gif" width="1" height="3"></td>
+      </tr>
+      <tr>
+        <td bgcolor="#000000"><img alt="" src="/images/spacer.gif" width="1" height="1"></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

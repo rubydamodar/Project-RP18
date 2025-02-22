@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> Space Telescope Bibliographic Search</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="DCTERMS.title" content="MAST Papertrack Bibliography Search" />
+        <meta
+            name="description"
+            content="Space Telescope Bibliography Search allows you to search for papers that have used data archived at MAST including Hubble Space Telescope (HST) and James Webb Space Telescope (JWST) data."
+        />
+        <meta
+            name="DCTERMS.description"
+            content="Space Telescope Bibliography Search allows you to search for papers that have used data archived at MAST including Hubble Space Telescope (HST) and James Webb Space Telescope (JWST) data."
+        />
+        <meta name="keywords" content="Bibliography Search, Papertrack, scientific papers, astronomy, MAST, James Webb, Hubble Space Telescope, NASA, STScI" />
+        <meta
+            name="DCTERMS.subject"
+            content="Bibliography Search, Papertrack, scientific papers, astronomy, MAST, James Webb, Hubble Space Telescope, NASA, STScI"
+        />
+        <meta name="DCTERMS.language" content="en-us" />
+        <link rel="stylesheet" href="/papertrack/static/lib/bootstrap4/bootstrap.min.css" />
+        <link rel="stylesheet" href="/papertrack/static/lib/fontawesome.css" />
+        <link rel="stylesheet" href="/papertrack/static/css/jquery.dataTables.min.css" />
+        <link rel="stylesheet" href="/papertrack/static/css/asb.css" />
+        <link rel="stylesheet" href="/papertrack/static/css/application.css" />
+        <link rel="stylesheet" href="/papertrack/static/css/public-search.css" />
+    </head>
+
+    <body>
+        <nav class="navbar asb-nav navbar-fixed-top navbar-expand-sm asb">
+            <ul class="navbar-nav mr-auto pt-nav-link">
+                <li class="nav-item pt-api-link">
+                    <a class="nav-link pt-nav-first" href="https://archive.stsci.edu/">MAST Archive</a>
+                </li>
+                <li class="nav-item pt-api-link">
+                    <a target="_blank" class="nav-link" href="/papertrack/docs/public_search.html" title="Papertrack Public Search API"
+                        >Papertrack Public Search API</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <div class="site-header-bg">
+            <div class="container">
+                <h2 class="site-header-text">
+                    Space Telescope Bibliographic Search
+                </h2>
+            </div>
+        </div>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+        <script src="/papertrack/static/lib/jquery-3.4.1.min.js"></script>
+        <script src="/papertrack/static/lib/jquery.dataTables.min.js"></script>
+        <script src="/papertrack/static/lib/bootstrap4/popper.min.js"></script>
+        <script src="/papertrack/static/lib/bootstrap4/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.0.2/vue-router.js"></script>
+        <script type="module" src="/papertrack/static/vue/js/public-search.js"></script>
+    </body>
+</html>

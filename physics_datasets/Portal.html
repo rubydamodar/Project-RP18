@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+ 
+<html lang="en-us"> 
+<head>
+    <title>STScI | Mikulski Archive for Space Telescopes (MAST) Portal</title>
+    <meta charset="UTF-8">
+    <meta name="DCTERMS.title" content="Mikulski Archive for Space Telescopes (MAST) Portal " />
+    <meta name="description" content="The Mikulski Archive for Space Telescopes (MAST) Portal lets astronomers search space telescope data, spectra, images and publications. Missions include Hubble, Kepler, GALEX, IUE, FUSE and more with a focus on the optical, ultraviolet, and near-infrared parts of the spectrum." />
+    <meta name="DCTERMS.description" content="The Mikulski Archive for Space Telescopes (MAST) Portal lets astronomers search space telescope data, spectra, images and publications. Missions include Hubble, Kepler, GALEX, IUE, FUSE and more with a focus on the optical, ultraviolet, and near-infrared parts of the spectrum." />
+    <meta name="keywords" content="space telescope, astronomical data archive, MAST, NASA, STScI, Hubble, Kepler, IUE, HST, Copernicus, UIT, GSC, SDSS, EPOCH, EUVE, FUSE, ASTRO, HUT, WUPPE, HPOL, BEFS, TUES, IMAPS, ORFEUS, FIRST, ROSAT, DSS, VLAFIRST, XMMOM, GALEX, ultraviolet astronomy, infrared astronomy, spectra, publications">
+    <meta name="DCTERMS.subject" content="space telescope, astronomical data archive, MAST, NASA, STScI, Hubble, Kepler, IUE, HST, Copernicus, UIT, GSC, SDSS, EPOCH, EUVE, FUSE, ASTRO, HUT, WUPPE, HPOL, BEFS, TUES, IMAPS, ORFEUS, FIRST, ROSAT, DSS, VLAFIRST, XMMOM, GALEX, ultraviolet astronomy, infrared astronomy, spectra, publications">
+    <meta name="DCTERMS.language" content="en-us" />
+    <!-- Start timing this load. -->
+    <script>window.STSCI_startTime = new Date().getTime();</script>
+
+    <!-- Initialize ExtJS and our local libraries. -->
+    <script src="../Shared/InitializeJavaScript.js"></script>
+    <script class="include" src="../Shared/charts/jquery-3.3.1.min.js"></script>
+    <script class="include" src="../Shared/charts/jquery.jqplot.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Shared/charts/jquery.jqplot.min.css"></link>
+    <script class="include" src="../Shared/charts/jqplot.plugins.min.js"></script>
+    <!-- The JavaScript for the AstroView. -->
+    <link rel="stylesheet" type="text/css" href="../AstroView/jo/css/jo2.css">
+    <script src="../AstroView/jo/js/jo.js"></script>
+    <script src="../AstroView/Three/build/three.js"></script>
+    <script src="../AstroView/AstroView.js"></script>
+    <!-- Initialize this application. -->
+    <link rel="stylesheet" type="text/css" href="../Shared/css/customStyles.css" />
+    <link rel="shortcut icon" type="image/png" href="data/images/mastlogo_thumb.png" />
+    <link rel="icon" type="image/png" href="data/images/mastlogo_thumb.png" />
+
+    <!-- Start this application. -->
+    <script>
+        Ext.onReady(function () {
+            AppConfig.portalClientSettings = {};
+
+            $.ajax('../../portalconfig', {
+                method: 'GET',
+                async: false,
+                success: function (data, status, xhr) {
+                    AppConfig.portalClientSettings = data.portalClientSettings;
+                    if (AppConfig.portalClientSettings.APIConfig) {
+                    	AppConfig.apiConfig = AppConfig.portalClientSettings.APIConfig;
+                    }
+                    AppConfig.caomVersion = AppConfig.portalClientSettings.CaomVersion;
+                },
+                error: function () {
+                    console.log('Unable to retrieve client settings.');
+                }
+            });
+
+            Ext.create('Mast.Bootstrap', {
+                mainDiv: 'portalDiv'
+            });
+
+        }, this);
+    </script>
+</head>
+
+<body>
+  <div id="portalDiv"></div>
+</body>
+
+</html>

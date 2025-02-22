@@ -1,0 +1,264 @@
+
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>JupyterHub</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="/hub/static/css/style.min.css?v=0a0508e2523bfc72e8e56c635fbe1778b63eac079a8364da92a699f0ef51a6f817edf0ba3bf533fd8d8c5ab18ca25cd9bd9d3c546ef56d264724a95575a6fae8" type="text/css"/>
+    
+    
+    <link rel="icon" href="/hub/static/favicon.ico?v=fde5757cd3892b979919d3b1faa88a410f28829feb5ba22b6cf069f2c6c98675fceef90f932e49b510e74d65c681d5846b943e7f7cc1b41867422f0481085c1f" type="image/x-icon">
+    
+    
+    <script src="/hub/static/components/requirejs/require.js?v=1ff44af658602d913b22fca97c78f98945f47e76dacf9800f32f35350f05e9acda6dc710b8501579076f3980de02f02c97f5994ce1a9864c21865a42262d79ec" type="text/javascript" charset="utf-8"></script>
+    <script src="/hub/static/components/jquery/dist/jquery.min.js?v=bf6089ed4698cb8270a8b0c8ad9508ff886a7a842278e98064d5c1790ca3a36d5d69d9f047ef196882554fc104da2c88eb5395f1ee8cf0f3f6ff8869408350fe" type="text/javascript" charset="utf-8"></script>
+    <script src="/hub/static/components/bootstrap/dist/js/bootstrap.min.js?v=a014e9acc78d10a0a7a9fbaa29deac6ef17398542d9574b77b40bf446155d210fa43384757e3837da41b025998ebfab4b9b6f094033f9c226392b800df068bce" type="text/javascript" charset="utf-8"></script>
+    
+    <script>
+      require.config({
+          
+          urlArgs: "v=20250207204750",
+          
+          baseUrl: '/hub/static/js',
+          paths: {
+            components: '../components',
+            jquery: '../components/jquery/dist/jquery.min',
+            bootstrap: '../components/bootstrap/dist/js/bootstrap.min',
+            moment: "../components/moment/moment",
+          },
+          shim: {
+            bootstrap: {
+              deps: ["jquery"],
+              exports: "bootstrap"
+            },
+          }
+      });
+    </script>
+
+    <script type="text/javascript">
+      window.jhdata = {
+        base_url: "/hub/",
+        prefix: "/",
+        
+        
+        admin_access: false,
+        
+        
+        options_form: false,
+        
+        xsrf_token: "MnwxOjB8MTA6MTc0MDIzNDg3Mnw1Ol94c3JmfDY4OlRtOXVaVG8xYlVRMFkxOUVjVXBMVkVaUGQwSXpVelJXVnpKek0zZFZUREZVT1ZoS2EwRm1aMk5LYkZkeVYxbE5QUT09fDUxNWU4YmI1NmE0NTBiYzU0NTBiNGY3NmM5ZjgyNjc0OWY1ZWVkZDM5MjNhNDBjMzc0MDk1MTU3MzlhZGFmN2I",
+      }
+    </script>
+
+    
+    
+
+</head>
+
+<body>
+
+<noscript>
+  <div id='noscript'>
+    JupyterHub requires JavaScript.<br>
+    Please enable it to proceed.
+  </div>
+</noscript>
+
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        
+        <span id="jupyterhub-logo" class="pull-left">
+            <a href="/hub/"><img src='/hub/logo' alt='JupyterHub logo' class='jpy-logo' title='Home'/></a>
+        </span>
+        
+        
+      </div>
+
+      <div class="collapse navbar-collapse" id="thenavbar">
+        
+        <ul class="nav navbar-nav navbar-right">
+          
+            <li>
+              
+
+            </li>
+          
+        </ul>
+      </div>
+
+      
+      
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/hub/static/external/main.css" />
+<div class="main-view pb-12 mt-n5"> <!-- Jupyter navbar adds a mb-5 that we want to remove with mt-n4 -->
+  <div class="container">
+    <!-- Header -->
+    <div class="row">
+      <div class="col col-12 text-center">
+        <div class="v-responsive v-img pb-8" aria-label="MAST TIKE Logo" role="img">
+          <img class="v-img__img v-img__img--contain" src="/hub/static/external/tike-logo-white.png" alt="MAST TIKE Logo" />
+        </div>
+        <div class="d-inline text-h3">A free JupyterHub platform from <div class="v-responsive v-responsive--inline v-img" aria-label="STScI: Space Telescope Science Institute" role="img" style="width: 240px; vertical-align: middle;">
+          <img class="v-img__img v-img__img--contain" src="/hub/static/external/stsci-logo.svg" alt="STScI: Space Telescope Science Institute">
+        </div>
+      </div>
+    </div>
+
+<div class="row">
+  <div class="col col-12">
+
+
+  <!-- Believe this is the current login type being used in TIKE -->
+  <!-- Login -->
+  <div class="v-card py-12 my-16 card-login" align="center">
+    <a class="v-btn tike-primary-btn" href="/hub/oauth_login?next=%2Fhub%2F">Sign In</a>
+    <div class="text-h5 pt-4">
+      Don't have a MyST account? <a class="font-weight-black" href="https://proper.stsci.edu/proper/authentication/auth">Create account</a>.
+    </div>
+  </div>
+  
+
+  </div>
+</div>
+
+
+    <div class="row g-0">
+      <div class="col col-12">
+
+      <!-- Overview -->
+
+        <div class="v-card card-overview">
+          <p class="text-h4 font-weight-black">
+            Access and analyze data from <a class="light" href="https://archive.stsci.edu/">MAST</a> in the cloud.
+            <br>It's quick and easy!
+          </p>
+          <div class="text-h5">
+            <p>Fast access to MAST's AWS Public Datasets—no waiting for a slow download</p>
+            <p>Your science isn't limited by the amount of data that fits on your computer's harddrive. Huge data volumes from TESS and Roman are no problem.</p>
+            <p>No installation required. Common packages are ready to use: pandas, numpy, astroquery and lightcurve...</p>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+
+        <div class="v-card card-faq">
+          <div class="text-h4 font-weight-black"> FAQ </div>
+          <div>
+            <div class="text-h5 font-weight-black pt-8">How much does this cost?</div>
+            <p class="text-h5">TIKE is free to use! An Amazon Web Services (AWS) account is not required to use TIKE or to access <a href="https://registry.opendata.aws/collab/stsci/">STScI's Public Datasets in AWS</a>.</p>
+          </div>
+          <div>
+              <div class="text-h5 font-weight-black pt-8">How do I get started?</div>
+              <p class="text-h5">You need a MyST account to get started. To create an account, go to the <a href="https://proper.stsci.edu/proper/authentication/auth">MyST account page</a> and click on 'Create' to request an account. You will then be able to       <a href="/hub/oauth_login?next=%2Fhub%2F">Sign In</a>.</p>
+              <p class="text-h5">You can find documentation and notebook tutorials in your home directory. Use these references to enable your data analysis.</p>
+        </div>
+        <div>
+          <div class="text-h5 font-weight-black pt-8">How much compute power can I use?</div>
+          <p class="text-h5">Compute power is comparable to a modern laptop. Four cores are available to enable multi-processing.</p>
+        </div>
+        <div>
+          <div class="text-h5 font-weight-black pt-8">What data are available on TIKE?</div>
+          <p class="text-h5">Any data hosted in <a href="https://registry.opendata.aws/collab/stsci/">MAST's AWS Public Datasets</a> are available on TIKE. TIKE is designed for time series data analysis, particularly data from the TESS, Kepler, and K2 missions.</p>
+          <p class="text-h5">Data from JWST, Hubble, GALEX, and PanSTARRS are also available. We're working hard to make more missions available on the cloud, so stay tuned.</p>
+        </div>
+        <div>
+          <div class="text-h5 font-weight-black pt-8">Is my data secure?</div>
+          <p class="text-h5">Your data is private and will not be shared with other scientists. However, storage and compute usage are monitored. We will ban you if you use TIKE for nefarious purposes.</p>
+          <p class="text-h5">Data on TIKE is saved to AWS and backed up by STScI every two weeks. Even so, we recommend periodically backing up essential files.</p>
+        </div>
+        <div>
+          <div class="text-h5 font-weight-black pt-8">Why isn't TIKE working?</div>
+          <p class="text-h5">TIKE is continually maintained and updated, there may be regular changes and downtime.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- CHANGELOG -->
+
+    <div class="v-card card-changelog">
+      <div class="text-h4 font-weight-black"> Change Log </div>
+      <div class="pt-8">
+        <ul class="text-h5">
+          <li>Removed deprecated environment MAST Classes Summer 2024 Part 2. tike-0.13.1 (June 24, 2024)</li>
+          <li>Extended phaseout of environment General Update tike-0.12.3 (June 18, 2024) to March 1, 2025</li>
+          <li>Automatically updated repos now reside in the $HOME/references directory, see SYNC-INSTRUCTIONS.md for more information.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="modal fade" id="error-dialog" tabindex="-1" role="dialog" aria-labelledby="error-label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h1 class="modal-title" id="error-label">Error</h1>
+      </div>
+      <div class="modal-body">
+        
+  <div class="ajax-error">
+    The error
+  </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script>
+if (window.location.protocol === "http:") {
+  // unhide http warning
+  var warning = document.getElementById('insecure-login-warning');
+  warning.className = warning.className.replace(/\bhidden\b/, '');
+}
+// setup onSubmit feedback
+$('form').submit((e) => {
+  var form = $(e.target);
+  form.find('.feedback-container>input').attr('disabled', true);
+  form.find('.feedback-container>*').toggleClass('hidden');
+  form.find('.feedback-widget>*').toggleClass('fa-pulse');
+});
+</script>
+
+
+</body>
+
+</html>

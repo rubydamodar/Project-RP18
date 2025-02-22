@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SAO High Energy Astrophysics Division"/>
+  <meta name="author" content="">
+
+  <title>Chandra X-ray Center</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="incl/bootstrap-css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="incl/cxc_cycle20.css?v=1" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Sarpanch:400,700" rel="stylesheet"> 
+
+    <!-- Custom Fonts
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+
+<meta name="keywords" content="SI, Smithsonian, Smithsonian Institute" />
+<meta name="keywords" content="CfA, SAO, Harvard-Smithsonian, Center for Astrophysics" />
+<meta name="keywords" content="HEA, HEAD, High Energy Astrophysics Division" />
+<meta name="title" content="Chandra X-Ray Center"/>
+<meta name="creator" content="SAO-HEA"/>
+<meta http-equiv="content-language" content="en-US"/>
+<meta name="subject" content="SAO High Energy Astrophysics Division"/>
+<meta http-equiv="X-Frame-Options" content="Deny"/>
+    </head>
+
+    <body>
+
+
+      <!-- Navigation -->
+
+
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"
+style="background-image:
+linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),
+url('https://chandra.harvard.edu/photo/2009/galactic/galactic.jpg');background-position:center; background-size: cover;">
+
+
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="title">
+            <a href="index.html"><img src="./incl/chandra_header.png"></a>
+          </div>
+        </div>
+
+        <div id="arrow">
+          <a href="#arrow"><img src="./incl/arrow-down.png"></a>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse"
+        id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li class="header-link">
+            <span><a href="/proposer/">Proposer</a></span>
+          </li>
+          <li class="header-link">
+            <span><a href="/cda/">Archive</a></span>
+          </li>
+          <li class="header-link">
+            <span><a href="/ciao/">Data<br/>Analysis</a></span>
+          </li>
+          <li class="header-link long_title">
+            <span><a href="/cal/">Instruments<br class="rwd-break"> and<br/>Calibration</a></span>
+          </li> 
+          <li class="header-link">
+            <span><a href="http://chandra.harvard.edu/">For The<br/>Public</a></span>
+          </li>
+          
+        </ul>
+
+        <div class="second_row">
+          <ul class="navbar-second nav navbar-nav navbar-right">
+            <li class="header-link">
+              <span><a href="http://cda.harvard.edu/chaser">Get Chandra<br/>Data</a></span>
+            </li>
+            <li class="header-link">
+              <span><a href="http://cxc.cfa.harvard.edu/csc/">Chandra<br class="rwd-break"> Source<br/>Catalog</a></span>
+            </li>
+            <li class="header-link">
+              <span><a href="http://cxc.harvard.edu/help/">HelpDesk</a></span>
+            </li>
+            <li class="header-link">
+              <span><a href="/cdo/cxcstaff/cxcstaff.php">CXC<br/>Staff</a></span>
+            </li>
+            <li class="header-link">
+              <span><a href="/cdo/cxc_opportunities.html">CXC<br/>Opportunities</a></span>
+            </li>
+            <li class="header-link">
+              <span><a href="/cdo/code.html">CXC Code<br> of Conduct</a></span>
+            </li>
+
+            <li class="header-link long_title">
+              <span>
+                <a href="http://cxc.harvard.edu/announcements/">Announcements</a>
+              </span>
+            </li>
+            <li class="header-link">
+              <span>
+                <a href="#portal">Portal</a>
+              </span>
+            </li>
+            <li class="header-link">
+              <span>
+                <a href="/cdo/about_chandra/">About<br/>Chandra</a>
+              </span>
+            </li>
+          </ul>
+        </div>	
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  
+  <div id="announcements" class="container">
+<!--
+<div style='width: 80%;margin: auto;margin-bottom: 20px;text-align:center;padding:0.5em;color:white;border:1px solid green'>
+	<h2
+	style="font-weight:normal;font-family:Arial;font-size:1.5em;">
+Due to planned upgrades, some services (including DDT/TOO triggering) may  be unavailable on July 7, 3:00PM - 8:00PM (EDT).
+	</h2>
+
+</div>
+-->
+
+<!--
+<div id="launchday">
+
+<a href="/cdo/video_25/"><div class="celebratetxt" style="text-shadow: 2px 2px 5px black; font-size:4em;">25 Years Ago</div></a>
+
+</div>
+-->
+<!--
+<div id="import">
+	<h1 style="font-weight:bold; text-align:center;">Chandra's Exceptional Performance Amid Proposed Budget Reductions</h1>
+	<p>
+The Chandra X-ray Observatory is operating with exceptionally high efficiency and continues to revolutionize our understanding of the universe and our place in it, including capturing spectacular images of exploded stars, black hole eruptions and other exotic phenomena. While all spacecraft experience degradations, particularly after being in space for nearly 25 years like Chandra has, Chandra scientists and engineers have continued creating solutions to these challenges, an achievement that has been recognized by NASA and independent review panels. This has been done essentially without any increased costs to NASA. Chandra is the only current or planned telescope for many years that has the sharp X-ray vision needed to answer many fundamental questions in astrophysics. 
+</p>
+<p style="text-align: center;margin-top: 1em;">
+For more information, please read: <br><span class="importtxt"><a href="/cdo/announcement.html">A Letter to the Community</a></span>
+</p>
+
+</div>
+-->
+<div id="celebrate">
+
+<a href="/cdo/chandra25/"><div class="celebratetxt">Celebrating 25 Years of Chandra</div></a>
+
+</div>
+
+
+   <div id="news">
+
+
+<div class="col-md-4">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4>CUC Releases Report</h4>
+</div>
+<div class="panel-body">
+The Chandra Users’ Committee (CUC) held its Fall meeting Oct 8-9, 2024, and has released a report summarizing the presentations and outlining its recommendations.
+<br/>
+<br/>
+Current and previous CUC reports, along with the current list of CUC members, are always available at: <a href="https://cxc.harvard.edu/cdo/cuc">https://cxc.harvard.edu/cdo/cuc</a>.
+<p class="date">1/8/25</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="col-md-4">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4>Chandra Cycle 27 Call For Proposals</h4>
+</div>
+<div class="panel-body">
+The CXC is pleased to announce the release of the Chandra Cycle 27 Call for Proposals (CfP). The Call for Proposals, Proposers' Observatory Guide (POG), proposal planning software, and general information are posted on the <a href="/proposer/">"Proposer" web page</a>.
+<br><br>
+See the <a href="https://groups.google.com/a/cfa.harvard.edu/g/chandra-announce/c/C1zfTRA9bcg/m/yE91RWJ1BgAJ">full announcement</a> for more detail.
+<p class="date">12/19/24</p>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4>Chandra Source Catalog Release 2.1 — The 22-year Source Catalog</h4>
+</div>
+<div class="panel-body">
+Release 2.1 of the Chandra Source Catalog (CSC 2.1) is now available.  The catalog  covers roughly 730 square degrees of sky and contains 407,806 unique X-ray sources. 
+<br><br>
+See the <a href="https://groups.google.com/a/cfa.harvard.edu/g/chandra-announce/c/i-WOMwi9pc4/m/QzxfMy9oAAAJ">full announcement</a> for more detail.
+<p class="date">4/2/24</p>
+</div>
+</div>
+</div>
+
+
+
+
+  </div>
+</div>
+
+
+
+
+<div class="container">
+ <div id="events" class="row">
+
+
+  <div class="news">
+
+<!--BREAK BETWEEN EVENTS-->
+<div class="col-md-4">
+
+    <!--Event Link-->
+        <a href="/proposer/CfP">
+
+        <!--Background Image-->
+        <img class="img-responsive img-portfolio img-hover" src="./incl/CfP_cycle27_card.png" alt="Cycle 27 Call for Proposals">
+
+        <!--Event Text-->
+        <div class="image_text">
+           <span class="image_text_header"></span>
+           
+        </div>
+    </a>
+</div>
+
+
+
+<!--BREAK BETWEEN EVENTS-->
+<div class="col-md-4">
+
+    <!--Event Link-->
+        <a href="https://groups.google.com/a/cfa.harvard.edu/g/chandra-announce/c/xPKAj6kutOw">
+
+        <!--Background Image-->
+        <img class="img-responsive img-portfolio img-hover" src="./incl/DPR_TownHall_card.png" alt="Town Hall Meeting on Chandra’s Distributed Peer Review for Cycle 27">
+
+        <!--Event Text-->
+
+    </a>
+</div>
+
+
+
+<!--BREAK BETWEEN EVENTS-->
+<div class="col-md-4">
+
+    <!--Event Link-->
+        <a href="/target_lists/cycle26/ChandraCycle26_Brochure.pdf">
+
+        <!--Background Image-->
+        <img class="img-responsive img-portfolio img-hover" src="./incl/Cycle26card.png" alt="Chandra Science Program">
+
+        <!--Event Text-->
+
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+</div>
+
+
+<div  id="highlights" class="container"></div>
+
+<div id="myCarousel" class="carousel slide">
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+<li data-target="#myCarousel" data-slide-to="3"></li>
+<li data-target="#myCarousel" data-slide-to="4"></li>
+<li data-target="#myCarousel" data-slide-to="5"></li>
+<li data-target="#myCarousel" data-slide-to="6"></li>
+<li data-target="#myCarousel" data-slide-to="7"></li>
+<li data-target="#myCarousel" data-slide-to="8"></li>
+<li data-target="#myCarousel" data-slide-to="9"></li>
+</ol>
+<div class="carousel-inner">
+<div class="item active">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2025/30dor/30dor.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2025/30dor/"><h2>NASA Telescopes Deliver Stellar Bouquet in Time for Valentine's Day</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2025/filaments/filaments.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2025/filaments/"><h2>Black Holes Can Cook for Themselves, Chandra Study Shows</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2025/wolf359/wolf359.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2025/wolf359/"><h2>Exoplanets Need to be Prepared for Extreme Space Weather, Chandra Finds</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2025/cloud/cloud.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2025/cloud/"><h2>X-ray Echoes Reveal the 3D Structure of Molecular Clouds in our Galaxy's Center</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2024/ngc602/ngc602.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2024/ngc602/"><h2>NASA Missions Spot Cosmic 'Wreath' Displaying Stellar Circle of Life</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2024/cena/cena.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2024/cena/"><h2>NASA's Chandra Sees Black Hole Jet Stumble Into Something in the Dark</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2024/guitar/guitar.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2024/guitar/"><h2>NASA's Chandra, Hubble Tune Into 'Flame-Throwing' Guitar Nebula</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2024/lid568/lid568.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2024/lid568/"><h2>Astronomers Find Early Fast-Feeding Black Hole Using NASA Telescopes</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2024/cygob2/cygob2.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2024/cygob2/"><h2>Planets Beware: NASA Unburies Danger Zones of Star Cluster</h2></a>
+</div></div>
+<div class="item">
+<div class="fill" style="background-image:url(https://chandra.harvard.edu/photo/2024/tde/tde.jpg);"></div>
+<div class="carousel-caption">
+<a href="https://chandra.harvard.edu/photo/2024/tde/"><h2>Black Hole Destroys Star, Goes After Another, NASA Missions Find</h2></a>
+</div></div>
+</div>
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+<span class="icon-prev"></span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+<span class="icon-next"></span>
+</a>
+</div>
+
+
+
+<div  id="portal" class="container">
+ <div class="row links">
+   <div class="col-lg-12">
+    <h1 class="page-header">Chandra Portal</h1>
+  </div>
+
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4> Proposer</h4>
+      </div>
+      <div class="panel-body">
+
+       <p><a href="/proposer/">Main Proposer Page</a></p>
+       <p><a href="/proposer/CPS.html">Chandra Proposal
+       Software (CPS)</a></p>
+	      <p><a href="/proposer/faqs.html">Proposal FAQ</a></p>
+       <p><a href="/proposer/Chandra_RfO.html">DDT and TOO</a></p>
+       <p><a href="/obsvis/">ObsVis</a></p>
+       <p><a href="/soft/provis/">PRoVis</a></p>
+     </div>	 
+   </div>
+ </div>
+
+
+
+ <div class="col-md-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">	
+      <h4> Observations and Schedules</h4>
+    </div>
+    <div class="panel-body">
+      <p><a href="/target_lists/longsched.html">Long Term Schedule</a></p>
+      <p><a href="/target_lists/stscheds/index.html">Short Term Schedule</a></p>
+      <p><a href="/cdo/observation_scheduling.html">Observation Scheduling and Support</a></p>
+      <p><a href="/target_lists/index.html">Cycle Targets and
+		  Statistics</a></p>
+<p><a href="/cdo/special_calls.html">Special Calls for Proposals</a></p>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">	
+      <h4> Archive and Data Processing</h4>
+    </div>
+    <div class="panel-body">
+      <p><a href="http://cda.harvard.edu/chaser/">ChaSeR</a>: query Chandra observations</p>
+      <p><a href="/cda/">Chandra Data Archive</a></p>
+      <p><a href="https://cxcfps.cfa.harvard.edu/cda/footprint/cdaview.html">Footprint Service</a></p>
+      <p><a href="/cda/repro4.html">Reprocessing Information</a></p>
+      <p><a href="/csc/">Chandra Source Catalog</a></p>
+      <p><a href="http://tgcat.mit.edu">TGCAT: Grating Data Catalog and
+    Archive</a></p>
+    
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row links">
+
+ <div class="col-md-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">	
+      <h4> Data Analysis</h4>
+    </div>
+    <div class="panel-body">
+      <p><a href="/ciao/">CIAO Software Package</a></p>
+      <p><a href="/ciao/threads/">Data Analysis Threads</a></p>
+      <p><a href="/sherpa/">Sherpa Modeling and Fitting</a></p>
+      <p><a href="https://github.com/sherpa/sherpa">Sherpa on Github</a></p>
+      <p><a href="/ciao/download/contrib.html">Contributed/Related Software</a></p>
+      <p><a href="/caldb/">Calibration Database</a></p>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">	
+     <h4>User Community</h4>
+   </div>
+   <div class="panel-body">
+    <p><a href="/cdo/cuc/">Chandra Users' Committee (CUC)</a></p>
+    <p><a href="/fellows/">NASA Hubble Fellowship Program</a></p>
+    <p><a href="/announcements/">Announcements</a></p>
+    <p><a href="/cdo/RVP.html">Visit Collaborators at the CXC</a></p>
+<!--<p><a href="https://my.matterport.com/show/?m=vAQ1NfEbcV3&brand=0">Virtual Tour of the OCC</a></p>-->
+    <p><a href="/cdo/conf.html">Workshops and Symposia</a></p>
+    <p><a href="https://cxc.cfa.harvard.edu/rws/peer_review/index.php">Peer Review Website</a></p>
+    <p><a href="/cdo/tdwg.html">Time Domain Working Group</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">	
+     <h4>Publications</h4>
+   </div>
+   <div class="panel-body">
+     <p><a href="/newsletters/">Newsletters</a></p>
+   
+    <p><a href="http://cxc.cfa.harvard.edu/cgi-gen/cda/bibliography">Chandra Bibliography Search</a></p>
+    <p><a href="/cda/bibstats/bibstats.html">Chandra Bibliography
+    Statistics</a></p>
+     <p><a href="http://chandra.harvard.edu/press/">Press Releases</a></p>
+     <p><a href="http://chandra.harvard.edu/press/release_guidelines.html">Press Release Guidelines</a></p>
+     <p><a href="https://cxc.harvard.edu/cdo/hyperwalls.html">Hyperwall Talks</a></p>
+
+  </div>
+</div>
+</div>
+
+</div><! --/row -->
+</div><! --/container -->
+
+
+
+
+  <footer style="background-image:
+linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+url('https://chandra.harvard.edu/photo/2009/galactic/galactic.jpg');background-position:center;">
+           
+
+
+<div class="footer_left">
+  <a href="/index.html">	
+    <img id="CXC_icon" src="incl/cxcfooterCXCicon.png" alt="CXC icon">
+  </a>
+  <a href="https://www.cfa.harvard.edu/">
+    <img id="CfA_logo" src="incl/CfA_Logo.png" alt="Center for Astrophysics Harvard Smithsonian">
+  </a>
+</div>
+
+<div class="footer_text">
+
+  <span>
+    The Chandra X-Ray Center (CXC) is operated for NASA by the Smithsonian Astrophysical Observatory.<br/>60 Garden Street, Cambridge, MA 02138 USA.<br/><a href="http://cxc.harvard.edu/help/">HelpDesk</a>  or Email:  <a href="mailto:cxchelp@cfa.harvard.edu">cxchelp@cfa.harvard.edu</a><br/> Smithsonian Institution, Copyright © 1998-2025. All rights reserved.
+<br/><a href="https://icxc.cfa.harvard.edu/">For Employees</a>
+  </span>
+
+</div>
+
+<div class="socmedia">
+<a href="https://www.instagram.com/25yearsofchandra/"><img src="/incl/instagram.png" alt="Instagram"></a>
+  <a href="https://www.facebook.com/chandraCDO/"><img src="/incl/facebook.png" alt="facebook"></a>
+  <a href="https://twitter.com/chandraCDO"><img src="/incl/twitter.png" alt="twitter"></a>
+</div>
+</footer>
+
+
+<!-- Footer -->
+
+
+</div>
+<!-- /.container -->
+
+<!-- jQuery -->
+<script src="./incl/bootstrap-js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="./incl/bootstrap-js/bootstrap.min.js"></script>
+
+<!-- Script to Activate the Carousel -->
+<script>
+  $('.carousel').carousel({
+        interval: 8000 //changes the speed
+      })
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      var x=1;
+      document.onscroll = function() {
+
+        if (window.innerHeight + window.scrollY > (document.body.scrollHeight-100)) {
+          document.getElementById('arrow').style.display='none';
+        } else if (window.pageYOffset==0){
+          document.getElementById('arrow').style.display='block';
+        }
+      }
+
+
+      $(document).ready(function(){
+  // Add smooth scrolling to all links
+  var sections=["announcements","highlights","portal"];
+
+
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== ""){
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+      
+      if (this.hash=="#myCarousel"){
+      return;
+}
+
+      if (this.hash=="#arrow"){
+          //console.log(x);
+          //console.log(window.pageYOffset);
+          //console.log($(window).height());
+          $('html, body').animate({
+            scrollTop: window.pageYOffset + $(window).height() - 180
+          }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        //window.location.hash = hash;
+      });
+
+
+        } else {
+
+          if (document.documentElement.clientWidth<768){
+            var distance = 170;
+          } else {
+            var distance =170;
+          }
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - distance
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        //window.location.hash = hash;
+      });
+    }
+    } // End if
+  });
+  
+
+
+});
+</script>
+</body>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-59152269-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-59152269-1'></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-59152269-1');
+</script>
+</html>

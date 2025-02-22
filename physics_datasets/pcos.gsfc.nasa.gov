@@ -1,0 +1,445 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<title>Physics of the Cosmos (PhysCOS)</title>
+<!-- Meta -->
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="name" content="Physics of the Cosmos (PhysCOS)">
+    <meta name="description" content="Web site for the NASA Physics of the Cosmos Program">
+    <meta name="keywords" content="Physics Astrophysics Cosmos NASA High-Energy X-ray Gamma-Ray Gamma Cosmic Gravity Gravitational Wave IPSAG IPSIG GRSAG GRSIG GWSAG SWSIG CRSAG CRSIG XRSAG XRSIG COSSIG PhysPAG Blackhole Neutron Star Pulsar Beyond Einstein BeyondEinstein">
+	<meta name="robots" content="noodp">
+    <meta name="doc-class" content="Living Document" />
+
+<!-- NASA Required Meta -->
+    <meta name="orgcode" content="660">
+    <meta name="rno" content="Brian Humensky">
+    <meta name="content-owner" content="Brian Humensky">
+    <meta name="webmaster" content="Stephan.F.Fantasia.1">
+
+<!-- Mobile Specific Meta --><!-- Pat Added second two lines -->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+
+<!-- Favicon -->
+    <link rel="shortcut icon" href="/modern/inc/img/favicon.ico">
+
+<!-- CSS -->
+   <link rel="stylesheet" href="/modern/inc/css/news-scroll.css">
+    <link rel="stylesheet" href="/modern/inc/css/details.css">
+	<link rel="stylesheet" href="/modern/inc/css/cosmic.css">
+	<link rel="stylesheet" href="/modern/inc/css/default2.css">
+    <link rel="stylesheet" href="/modern/inc/css/probes-cards.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC" id="_fed_an_ua_tag">
+</script>
+
+
+
+
+<!-- Javascript -->
+	<!-- Load html5shiv for old IE browsers -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- Google Analytics -->
+	<!--#include virtual="/jdm_modern/inc/html/analytics.html"-->
+
+</head>
+
+
+<body>
+<div id="skip"><a href="#content">Skip navigation and go straight to page content.</a></div> <!-- Skip To Content -->
+
+<header> <!-- Start NASA Header -->
+<div id="header-container"> <!-- Start Header Container -->
+<!-- NASA Logo -->
+	<div class="nasa-logo"><a href="https://www.nasa.gov"><img src="/modern/inc/img/NASA_logo.png" alt="NASA Logo"></a></div>
+<!-- Navigation (Hidden on Mobile/Tablet)-->
+	<div id="topnav">
+    <nav> <!-- Start PhysCOS Site Navigation -->
+<ul>
+	<li><a href="/">Home</a>
+	<ul>
+        <li><a href="/program/program-office.php">Program Office</a></li>
+		<li><a href="/science/science.php">Science</a></li>
+		<li><a href="/projects/current.php">Projects</a></li>
+		<li><a href="https://apd440.gsfc.nasa.gov/team.html" target="_blank">Project Office</a></li>
+	</ul>
+    </li>
+    
+	<li><a href="/physpag/physpag.php">PhysPAG</a>
+	<ul>
+		<li><a href="/physpag/ec/physpag-ec.php">Executive Committee</a></li>
+		<li><a href="/physpag/LISA/lisa-science-gaps.php">LISA Science Gaps</a></li>
+		<li><a href="/physpag/science-gaps/science-gaps.php">Science Gaps</a></li>
+		<li><a href="/physpag/program/cosmic-pathfinders.php">Cosmic Pathfinders</a></li>
+		<li><a href="/physpag/meetings.php">Meetings</a></li>
+		<li><a href="/physpag/events-calendar.php">Events Calendar</a></li>
+	</ul>
+    </li>
+    
+    <li><a href="/sigs/sigs.php">Science Interest Groups</a>
+    <ul>
+        <li><a href="/sigs/crnsig.php">Cosmic Ray &amp; Neutrino SIG</a></li>
+        <li><a href="/sigs/cossig.php">Cosmic Structure SIG</a></li>
+        <li><a href="/sigs/grsig.php">Gamma Ray SIG</a></li>
+        <li><a href="/sigs/gwsig.php">Gravitational Wave SIG</a></li>
+        <li><a href="/sigs/ipsig.php">Inflation Probe SIG</a></li>
+        <li><a href="/sigs/tdamm-sig.php">TDAMM SIG</a></li>
+        <li><a href="/sigs/xrsig.php">X-Ray SIG</a></li>
+
+    </ul>
+    </li>
+
+    <li><a href="/sags/sags.php">Science Analysis Groups</a>
+    <ul>
+        <li><a href="/sags/figsag.php">Future Innovations in Gamma Rays SAG</a></li>
+        <li><a href="/sags/ngo-sag.php">New Great Observatories SAG</a></li>
+        <li><a href="/sags/Completed-SAGs.php">Completed SAGs</a></li>
+    </ul>
+    </li>
+
+	<li><a href="/studies/studies.php">Mission Studies</a>
+    <ul>
+				<li><a href="/Fornax/Fornax.php">The Fornax Initiative</a></li>
+		<li><a href="/multimessenger/multimessenger.php">PhysCOS TDAMM Initiative</a></li>
+        <li><a href="/missions/HEASwF/HEASwF_Working_Group.php">HEASwF Working Group</a></li>
+		<li><a href="/studies/L3/L3-study.php">NASA L3 Study (2016 &#8211; 2018)</a></li>
+		<li><a href="/studies/large-missions/Large-Missions-2020.php">Large Missions for Decadal 2020 (2015)</a></li>
+		<li><a href="/studies/athena/athena.php">NASA-ESA Athena Study (2014 &#8211; 2017)</a></li>
+		<li><a href="/studies/xray-probe/x-ray-probe-2013-2014.php">X-ray Astronomy Probe Study (2013 &#8211; 2014) </a></li>
+		<li><a href="/studies/architecting/architecting-studies-2012.php">2012 Architecting Studies</a></li>
+			</ul>
+    </li>
+
+	<li><a href="">Resources</a>
+    <ul>
+	    <li><a href="https://apd440.gsfc.nasa.gov/technology.html" target="_blank">PhysCOS Technology</a></li>
+		<li><a href="https://heasarc.gsfc.nasa.gov/" target="_blank">HEASARC Data Archive</a></li>
+		<li><a href="https://nspires.nasaprs.com/external/" target="_blank">NSPIRES</a></li>
+		<li><a href="/resources/Research_Opportunities.php">Research Opportunities</a></li>
+        <li><a href="/resources/habitable-worlds/hwo-events.php">HWO Seminar Series</a></li>
+        <li><a href="/science/career.php">NASA Career Opportunities</a></li>
+        <li><a href="/docs/documents.php">Documents</a>
+	</ul>
+    </li>
+
+
+</ul>
+</nav> <!-- End Site Navigation -->
+	</div>
+<!-- Mobile/Tablet Menu Access (Hidden on Desktop)-->
+	<div id="mobile-nav-icon">
+		<label for="menu-toggle" class="label-toggle"><img src="/modern/inc/img/hamburger_menu_icon.png" alt="Menu"></label>
+		<input id="menu-toggle" type="checkbox">
+    <nav> <!-- Start PhysCOS Site Navigation -->
+<ul>
+	<li><a href="/">Home</a>
+	<ul>
+        <li><a href="/program/program-office.php">Program Office</a></li>
+		<li><a href="/science/science.php">Science</a></li>
+		<li><a href="/projects/current.php">Projects</a></li>
+		<li><a href="https://apd440.gsfc.nasa.gov/team.html" target="_blank">Project Office</a></li>
+	</ul>
+    </li>
+    
+	<li><a href="/physpag/physpag.php">PhysPAG</a>
+	<ul>
+		<li><a href="/physpag/ec/physpag-ec.php">Executive Committee</a></li>
+		<li><a href="/physpag/LISA/lisa-science-gaps.php">LISA Science Gaps</a></li>
+		<li><a href="/physpag/science-gaps/science-gaps.php">Science Gaps</a></li>
+		<li><a href="/physpag/program/cosmic-pathfinders.php">Cosmic Pathfinders</a></li>
+		<li><a href="/physpag/meetings.php">Meetings</a></li>
+		<li><a href="/physpag/events-calendar.php">Events Calendar</a></li>
+	</ul>
+    </li>
+    
+    <li><a href="/sigs/sigs.php">Science Interest Groups</a>
+    <ul>
+        <li><a href="/sigs/crnsig.php">Cosmic Ray &amp; Neutrino SIG</a></li>
+        <li><a href="/sigs/cossig.php">Cosmic Structure SIG</a></li>
+        <li><a href="/sigs/grsig.php">Gamma Ray SIG</a></li>
+        <li><a href="/sigs/gwsig.php">Gravitational Wave SIG</a></li>
+        <li><a href="/sigs/ipsig.php">Inflation Probe SIG</a></li>
+        <li><a href="/sigs/tdamm-sig.php">TDAMM SIG</a></li>
+        <li><a href="/sigs/xrsig.php">X-Ray SIG</a></li>
+
+    </ul>
+    </li>
+
+    <li><a href="/sags/sags.php">Science Analysis Groups</a>
+    <ul>
+        <li><a href="/sags/figsag.php">Future Innovations in Gamma Rays SAG</a></li>
+        <li><a href="/sags/ngo-sag.php">New Great Observatories SAG</a></li>
+        <li><a href="/sags/Completed-SAGs.php">Completed SAGs</a></li>
+    </ul>
+    </li>
+
+	<li><a href="/studies/studies.php">Mission Studies</a>
+    <ul>
+				<li><a href="/Fornax/Fornax.php">The Fornax Initiative</a></li>
+		<li><a href="/multimessenger/multimessenger.php">PhysCOS TDAMM Initiative</a></li>
+        <li><a href="/missions/HEASwF/HEASwF_Working_Group.php">HEASwF Working Group</a></li>
+		<li><a href="/studies/L3/L3-study.php">NASA L3 Study (2016 &#8211; 2018)</a></li>
+		<li><a href="/studies/large-missions/Large-Missions-2020.php">Large Missions for Decadal 2020 (2015)</a></li>
+		<li><a href="/studies/athena/athena.php">NASA-ESA Athena Study (2014 &#8211; 2017)</a></li>
+		<li><a href="/studies/xray-probe/x-ray-probe-2013-2014.php">X-ray Astronomy Probe Study (2013 &#8211; 2014) </a></li>
+		<li><a href="/studies/architecting/architecting-studies-2012.php">2012 Architecting Studies</a></li>
+			</ul>
+    </li>
+
+	<li><a href="">Resources</a>
+    <ul>
+	    <li><a href="https://apd440.gsfc.nasa.gov/technology.html" target="_blank">PhysCOS Technology</a></li>
+		<li><a href="https://heasarc.gsfc.nasa.gov/" target="_blank">HEASARC Data Archive</a></li>
+		<li><a href="https://nspires.nasaprs.com/external/" target="_blank">NSPIRES</a></li>
+		<li><a href="/resources/Research_Opportunities.php">Research Opportunities</a></li>
+        <li><a href="/resources/habitable-worlds/hwo-events.php">HWO Seminar Series</a></li>
+        <li><a href="/science/career.php">NASA Career Opportunities</a></li>
+        <li><a href="/docs/documents.php">Documents</a>
+	</ul>
+    </li>
+
+
+</ul>
+</nav> <!-- End Site Navigation -->
+	</div>
+
+</div> <!-- End Header Container -->
+</header> <!-- End NASA Header -->
+
+<div id="site-banner"> <!-- Start Site Banner -->
+	<div id="site-title">Physics of the Cosmos</div>
+	<div id="site-subtitle">Exploring fundamental questions regarding the physical forces of the universe</div>
+</div><!-- End Site Banner -->
+
+
+<div class="ticker-container">
+    <div class="ticker-wrapper">
+    <div class="ticker-transition">
+
+        <div class="ticker-item"><a class="link" style="color: aliceblue; text-decoration: none;" href="/news/2025/28_Release_of_ROSES-2025.php">Release of ROSES-2025</a></div>
+
+        <div class="ticker-item"><a class="link" style="color: aliceblue; text-decoration: none;" href="/news/2025/18_4th_TDAMM_Workshop.php" target="_blank">Save the Date: The 4th TDAMM Workshop October 27 &#8211; 30, 2025</a></div>
+
+        <div class="ticker-item"><a class="link" style="color: aliceblue; text-decoration: none;" href="/news/2025/24_ROSES-24_D.6_Fermi_GI.php" target="_blank">ROSES-24 D.6 FERMI GI: Removing INTEGRAL, Reminder on Page Limits</a></div>
+
+
+
+        <div class="ticker-item"><a class="link" style="color: aliceblue; text-decoration: none;" href="/news/2025/23_NPP_Applications_Due_Date.php" target="_blank">NPP Applications Due by 1 March 2025</a></div>
+
+
+
+
+        <div class="ticker-item"><a class="link" style="color: aliceblue; text-decoration: none;" href="/news/2025/27_XRISM_International_Conference_Kyoto.php" target="_blank">XRISM International Conference 2025 | 20 &#8211; 24 Oct 2025 in Kyoto</a></div>
+
+        <div class="ticker-item"><a class="link" style="color: aliceblue; text-decoration: none;" href="https://science.nasa.gov/directorates/smd/nasa-science-being-responsive-to-executive-orders/" target="_blank">Message from Associate Administrator of NASA's Science Mission Directorate</a></div>
+
+
+
+
+
+
+
+
+
+        <div class="ticker-item"><a class="link" style="color: aliceblue; text-decoration: none;" href="/news/news-archive.php">Physics of the Cosmos News . . .</a></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="site-container"> <!-- Start Site Container -->
+
+<div id="page-wrapper"> <!-- Start Page Wrapper -->
+
+
+
+<div id="left-column">
+<h1>About Physics of the Cosmos</h1>
+
+<p>The Physics of the Cosmos (PhysCOS) Program is one of three focused programs contained within NASA's <a href="https://science.nasa.gov/astrophysics" title="Astrophysics Division (APD)" target="_blank">Astrophysics Division (APD)</a>, together with <a href="https://cor.gsfc.nasa.gov/" title="Cosmic Origins (COR)" target="_blank">Cosmic Origins (COR)</a> and the <a href="https://exoplanets.nasa.gov/exep/" title="Exoplanet Exploration Program (ExEP)" target="_blank">Exoplanet Exploration Program (ExEP)</a>. PhysCOS lies at the intersection of physics and astronomy. Its purpose is to explore some of the most fundamental questions regarding the physical forces and laws of the universe: the validity of Einstein's General Theory of Relativity and the nature of spacetime, the behavior of matter and energy in extreme environments, the cosmological parameters governing inflation and the evolution of the universe, and the nature of dark matter and dark energy.</p>
+
+<p>Located at the Goddard Space Flight Center, the PhysCOS Program Office supports, tracks, and studies a suite of science missions and enabling technologies that focus on specific aspects of these topics. PhysCOS activities include:</p>
+
+<ul>
+    <li>Facilitating the <a href="/physpag/physpag.php" title="PhysCOS Program Analysis Group (PhysPAG)">PhysCOS Program Analysis Group (PhysPAG)</a>, which comprises standing Science Interest Groups (SIGs) engaged in particular branches of high-energy astrophysics, and shorter-term Science Analysis Groups (SAGs) convened to address related science and technology topics.</li>
+<br>
+    <li>Keeping its members informed of upcoming developments and funding opportunities, both within NASA and at other agencies engaged in science and technology activities.</li>
+<br>
+    <li>Soliciting, and prioritizing community-identified technology gaps that must be closed to enable or enhance future strategic Astrophysics missions with benefits to PhysCOS science. This technology gap prioritization informs APD’s strategic technology development solicitation, selection, and funding.</li>
+<br>
+<li>Managing funded technology projects with benefits to PhysCOS science.</li>
+</ul>
+
+<hr>
+
+<h2 class="spaced-bottom">Featured Videos</h2>
+
+<div class="flex-container">
+<div class="box">
+<div class="videoBox">
+<div class="video-container"><iframe width="100%" height="aut0" src="https://www.youtube.com/embed/WebVRTusuF4?si=dRqkfNgQ_XCYP6ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-caption">Watch this video to learn more about XRISM (X-ray Imaging and Spectroscopy Mission), a collaboration between JAXA (Japan Aerospace Exploration Agency) and NASA. <a href="https://www.nasa.gov/centers-and-facilities/goddard/xrism-spacecraft-will-open-new-window-on-the-x-ray-cosmos/" target="_blank"> &raquo;&nbsp; Read More About XRISM</a></div>
+</div>
+
+<div class="videoBox">
+<div class="video-container"><iframe width="100%" height="auto" src="https://www.youtube.com/embed/cHmXuo39qz4?si=7zdrtmLYxpZ-iv40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-caption"><strong>A Black Hole's Magnetic Reversal</strong>. A rare and enigmatic outburst from a galaxy 236 million light-years away may have been sparked by a magnetic reversal, a spontaneous flip of the magnetic field surrounding its central black hole. An international science team has linked these unusual observations to changes in the black hole’s environment that likely would be triggered by a magnetic switch. <a href="https://www.youtube.com/watch?v=cHmXuo39qz4&list=PL9900C9C6BBDA9551&index=13" target="_blank"> &raquo;&nbsp; Read More</a></div>
+</div>
+
+
+<div class="videoBox">
+<div class="video-container"><iframe width="100%" height="auto" src="https://www.youtube.com/embed/_4B5xZcTbf0?si=_JxoelFjQjhwFca_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-caption"><strong>Black Hole Snack Attack</strong> Using NASA’s Neil Gehrels Swift Observatory, which launched in 2004, scientists have discovered a black hole in a distant galaxy repeatedly nibbling on a Sun-like star. The object heralds a new era of Swift science made possible by a novel method for analyzing data from the satellite’s X-ray Telescope (XRT). 
+<a href="https://www.youtube.com/watch?v=_4B5xZcTbf0&list=PL9900C9C6BBDA9551&index=1" target="_blank"> &raquo;&nbsp; Read More</a> </div>
+</div>
+</div>
+</div>
+
+<hr>
+
+<div class="flex-container">
+<div class="box">
+<div class="videoBox">
+<div class="video-container"><iframe width="100%" height="auto" src="https://www.youtube.com/embed/TsgfnkSJdqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-caption"><strong>LISA Pathfinder’s Stunning Success</strong> LISA Pathfinder was launched on Dec. 3, 2015, and began orbiting a point called Earth-sun L1, roughly 930,000 miles (1.5 million kilometers) from Earth in the sun's direction, in late January 2016. LISA stands for Laser Interferometer Space Antenna, a space-based gravitational wave observatory concept that has been studied in great detail by both NASA and ESA. NASA Goddard astrophysicist Ira Thorpe, a member of the team, discusses the mission and its spectacular results so far. Credit: NASA's Goddard Space Flight Center/Scott Wiessinger.<a href="https://www.youtube.com/watch?v=TsgfnkSJdqs" target="_blank"> &raquo;&nbsp; Read More</a> </div>
+</div>
+
+<div class="videoBox">
+<div class="video-container"><iframe width="100%" height="auto" src="https://www.youtube.com/embed/C3ue7cEocvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-caption"><strong>NASA | Fermi Proves Supernova Remnants Produce Cosmic Rays</strong> A study using observations from NASA's Fermi Gamma-ray Space Telescope reveals the first clear-cut evidence that the expanding debris of exploded stars produces some of the fastest-moving matter in the universe. Two supernova remnants, known as IC 443 and W44, are expanding into cold, dense clouds of interstellar gas. Now, after analyzing four years of data, Fermi scientists see a gamma-ray feature from both remnants that, like a fingerprint, proves the culprits are protons.<a href="https://www.youtube.com/watch?v=C3ue7cEocvI" target="_blank"> &raquo;&nbsp; Read More</a> </div>
+</div>
+
+<div class="videoBox">
+<div class="video-container"><iframe width="100%" height="auto" src="https://www.youtube.com/embed/Vj5OV4YxTSk?si=3P_fiA-8crtyYM1_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-caption"><strong>Visualization of Merging Black Holes and Gravitational Waves</strong> This visualization shows gravitational waves emitted by two black holes of nearly equal mass as they spiral together and merge. Orange ripples represent distortions of space-time caused by the rapidly orbiting masses. These distortions spread out and weaken, ultimately becoming gravitational waves (purple). Black spheres represent the black hole event horizons, surfaces beyond which nothing can escape. The merger timescale depends on the masses of the black holes. <a href="https://www.youtube.com/watch?v=Vj5OV4YxTSk" target="_blank"> &raquo;&nbsp; Read More</a> </div>
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+
+<div id="right-column">
+
+
+<div class="panel">
+<div class="panel-title">NASA Reveals Prototype Telescope for Gravitational Wave Observatory</div>
+<div class="panel-content">
+
+<p style="font-size:10pt; line-height:11pt; margin-top: -0.75rem;"><a href="/images/highlights/gsfc-20240520-lisa-000536.webp" target="_blank"><img style="box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5)" src="/images/highlights/gsfc-20240520-lisa-000536.png" width="268"></a>
+
+<p style="hyphens: auto;">NASA has revealed the first look at a full-scale prototype for six telescopes that will enable, in the next decade, the space-based detection of gravitational waves &#8212; ripples in space-time caused by merging black holes and other cosmic sources. The LISA (Laser Interferometer Space Antenna) mission is led by ESA (European Space Agency) in partnership with NASA to detect gravitational waves by using lasers to measure precise distances &#8212; down to picometers, or trillionths of a meter &#8212; between a trio of spacecraft distributed in a vast configuration larger than the Sun. Each side of the triangular array will measure nearly 1.6 million miles, or 2.5 million kilometers. <a href="https://science.nasa.gov/missions/lisa/nasa-reveals-prototype-telescope-for-gravitational-wave-observatory/" target="_blank">Read more &raquo;&nbsp;</a></p>
+</div>
+</div>
+
+
+
+<div class="panel">
+	<div class="panel-title">News</div>
+	    <div class="panel-content">
+
+		<!-- Panel Item Entry -->
+		<div class="pi-date">21 February 2025</div>
+		<div class="pi-title">ROSES-24 D.6 FERMI GI: Removing INTEGRAL and Reminder on Page Limits</div>
+		<div class="pi-text"> &raquo;&nbsp; <a href="/news/2025/24_ROSES-24_D.6_Fermi_GI.php">Details</a></div>
+
+		<!-- Panel Item Entry -->
+				<div class="pi-title">XMM-Newton Virtual Data Analysis Workshop on 1 &#8211; 3 April 2025</div>
+		<div class="pi-text"> &raquo;&nbsp; <a href="/news/2025/25_XMM-Newton_Virtual_Workshop.php">Details</a></div>
+
+		<!-- Panel Item Entry -->
+				<div class="pi-title">2025 PI Launchpad: From Science Idea to NASA Mission In-Person Workshop. Applications Due 7 April 2025.</div>
+		<div class="pi-text"> &raquo;&nbsp; <a href="/news/2025/26_PI_Launchpad_Applications_Due_Date.php">Details</a></div>
+
+		<!-- Panel Item Entry -->
+				<div class="pi-title">XRISM International Conference 2025 on 20 &#8211; 24 October 2025 in Kyoto</div>
+		<div class="pi-text"> &raquo;&nbsp; <a href="/news/2025/27_XRISM_International_Conference_Kyoto.php">Details</a></div>
+
+		<!-- Panel Item Entry -->
+				<div class="pi-title">Release of Research Opportunities in Space and Earth Science (ROSES)-2025</div>
+		<div class="pi-text"> &raquo;&nbsp; <a href="/news/2025/28_Release_of_ROSES-2025.php">Details</a></div>
+
+		<!-- Panel Item Entry -->
+				<div class="pi-title">Message from the Associate Administrator of NASA's Science Mission Directorate</div>
+		<div class="pi-text"> &raquo;&nbsp; <a href="https://science.nasa.gov/directorates/smd/nasa-science-being-responsive-to-executive-orders/" target="_blank">Details</a></div>
+
+
+<div class="flexMenu">
+    <div class="MenuItem readRight"><a href="/news/news-archive.php">News Archive</a></div>
+</div>
+
+<hr>
+
+<div class="flexMenu">
+    <div class="MenuItem readRight"><a href="/physcos-news-email-list.php">Subscribe to PhysCOS News</a></div>
+</div>
+
+    </div></div>
+
+</div>
+
+
+</div> <!-- End Page Wrapper -->
+<hr>
+</div> <!-- End Site Container -->
+
+<!-- Start Footer -->
+<footer>
+<div id="footer-container"> <!-- Start Footer Container -->
+<!-- NASA Logo -->
+	<div class="nasa-logo">
+	<a href="https://www.nasa.gov"><img src="/modern/inc/img/NASA_logo.png" width="60" alt="NASA Logo"></a>
+	</div>
+<!-- Contacts -->
+	<div id="contacts">
+	<ul>
+		<li>Curator: <a href="&#109;&#097;&#105;&#108;&#116;&#111;:patricia.a.tyler@nasa.gov">Pat Tyler</a></li>
+		<li>NASA Official: <a href="mailto:thomas.b.humensky@nasa.gov">Brian Humensky</a></li>
+	</ul>
+	</div>
+<!-- Notices -->
+	<div id="notices">
+	<ul>
+				<li><a href="https://www.nasa.gov/privacy/">Privacy Policy and Important Notices</a></li>
+		<li><a href="https://www.nasa.gov/general/nasa-contact-page/">Contact NASA</a></li>
+<!--#config timefmt="%a, %b %d, %Y"--><!--#echo var="LAST_MODIFIED" -->	</ul>
+	</div>
+</div> <!-- End Footer Container -->
+</footer>
+<!-- End Footer -->
+
+</body>
+</html>

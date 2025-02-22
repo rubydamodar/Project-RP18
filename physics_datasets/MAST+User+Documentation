@@ -1,0 +1,2493 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		
+
+
+
+
+
+
+                    
+    
+                    
+    
+
+	    
+
+		
+	
+            <title>MAST User Documentation - MAST Docs - STScI Outerspace - MAST Docs - MAST</title>
+	
+        
+        
+
+                        
+    
+                        
+    
+
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+<meta charset="UTF-8">
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://outerspace.stsci.edu">
+
+    <meta id="atlassian-token" name="atlassian-token" content="e4a298dcb72f52ecc5426fe59c8ff9a9bf20256b">
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="MASTDOCS">
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1740234873490">
+        
+    
+        
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="$discoveredList">
+            <meta name="ajs-keyboardshortcut-hash" content="31f9e26d46ea83d911d929ddc519c817">
+            
+
+
+
+
+
+
+
+
+<meta id="sv-space-config" name="sv-space-config" content=" sv-sc-enablePermalinks sv-sc-enableSeo sv-sc-isTargetSpace sv-sc-any-isTargetSpace-enableVersionManagement-enableTranslation-enableVariants-enablePermalinks sv-sc-any-isTargetSpace-enableVersionManagement-enableTranslation-enableVariants sv-sc-any-enableVersionManagement-enableTranslation-enablePermalinks sv-sc-any-enableVersionManagement-enableTranslation-enableVariants-enablePermalinks sv-sc-any" class=" sv-sc-enablePermalinks sv-sc-enableSeo sv-sc-isTargetSpace sv-sc-any-isTargetSpace-enableVersionManagement-enableTranslation-enableVariants-enablePermalinks sv-sc-any-isTargetSpace-enableVersionManagement-enableTranslation-enableVariants sv-sc-any-enableVersionManagement-enableTranslation-enablePermalinks sv-sc-any-enableVersionManagement-enableTranslation-enableVariants-enablePermalinks sv-sc-any">
+<meta id="sv-scroll-page-context" name="sv-scroll-page-context" content="{&quot;editor&quot;:{&quot;useDraft&quot;:false},&quot;product&quot;:{&quot;pluginKey&quot;:&quot;com.k15t.scroll.scroll-platform&quot;,&quot;version&quot;:&quot;4.7.5&quot;},&quot;confluenceMarketplaceBuildNumber&quot;:20772,&quot;page&quot;:{&quot;isAvailable&quot;:true,&quot;isMasterPage&quot;:true,&quot;hasChildren&quot;:true,&quot;variants&quot;:{&quot;isAvailableInCurrentVariant&quot;:true,&quot;availableInVariants&quot;:[]},&quot;isFallbackChange&quot;:false,&quot;targetVersion&quot;:{&quot;id&quot;:&quot;current&quot;,&quot;name&quot;:&quot;Currently Published&quot;,&quot;archived&quot;:false,&quot;color&quot;:&quot;#999999&quot;,&quot;runtimeAccessible&quot;:true,&quot;versionId&quot;:&quot;current&quot;,&quot;releaseDateAsString&quot;:&quot;&quot;,&quot;isArchived&quot;:false,&quot;isEditableVersion&quot;:false},&quot;scrollPageTitle&quot;:&quot;MAST User Documentation&quot;,&quot;workflowStateId&quot;:&quot;&quot;,&quot;scrollPageKeyUrl&quot;:&quot;&quot;,&quot;isNonMatchingVersion&quot;:true,&quot;isHomePage&quot;:true,&quot;isUnresolvedChange&quot;:false,&quot;changeType&quot;:&quot;&quot;,&quot;isKeepUnversioned&quot;:false,&quot;scrollBreadcrumbs&quot;:[],&quot;pageId&quot;:94962815,&quot;scrollPageKey&quot;:&quot;&quot;,&quot;translationStatus&quot;:&quot;&quot;,&quot;isUnversionedPage&quot;:true,&quot;isLastVersion&quot;:false,&quot;isAddedInCurrentVersion&quot;:true,&quot;workflowState&quot;:&quot;&quot;,&quot;permalink&quot;:&quot;MAST User Documentation&quot;,&quot;scrollPageId&quot;:&quot;0A801AE9017804247D8266B732D73EDC&quot;,&quot;isChange&quot;:false,&quot;masterPageId&quot;:94962815},&quot;user&quot;:{&quot;settings&quot;:{&quot;isShowTopLevelPages&quot;:false,&quot;isDisplayDefaultLanguageContent&quot;:false,&quot;isRememberTreeState&quot;:true,&quot;isHighlightIncludes&quot;:true,&quot;isDisplayPageInfoPanel&quot;:true,&quot;isReadOnlyView&quot;:false,&quot;isHighlightConditionalContent&quot;:true,&quot;isShowUnavailablePages&quot;:true,&quot;isShowArchivedVersions&quot;:false},&quot;currentVariant&quot;:{&quot;id&quot;:&quot;all&quot;,&quot;name&quot;:&quot;all&quot;,&quot;description&quot;:&quot;&quot;,&quot;isPublic&quot;:false,&quot;isDefault&quot;:false,&quot;conditions&quot;:[]},&quot;currentLanguage&quot;:{&quot;key&quot;:&quot;en&quot;,&quot;encodedKey&quot;:&quot;en&quot;,&quot;displayName&quot;:&quot;English&quot;,&quot;isOriginal&quot;:true},&quot;permissions&quot;:{&quot;AdministerSpace&quot;:false,&quot;ManageContent&quot;:false,&quot;Contribute&quot;:false,&quot;Review&quot;:false,&quot;AdministerSystem&quot;:false,&quot;View&quot;:true,&quot;Translate&quot;:false},&quot;hasEditRestrictionForVersion&quot;:true,&quot;workingVersion&quot;:{&quot;id&quot;:&quot;current&quot;,&quot;name&quot;:&quot;Currently Published&quot;,&quot;archived&quot;:false,&quot;color&quot;:&quot;#999999&quot;,&quot;runtimeAccessible&quot;:true,&quot;versionId&quot;:&quot;current&quot;,&quot;releaseDateAsString&quot;:&quot;&quot;,&quot;isArchived&quot;:false,&quot;isEditableVersion&quot;:true}},&quot;modules&quot;:{&quot;Publishing&quot;:{&quot;hasValidLicense&quot;:true,&quot;type&quot;:&quot;Publishing&quot;,&quot;isActive&quot;:true,&quot;licenseValidationMessageAsHtml&quot;:&quot;License for Scroll Versions is valid.&quot;,&quot;isEnabledInSpace&quot;:false},&quot;TranslationManagement&quot;:{&quot;hasValidLicense&quot;:false,&quot;type&quot;:&quot;TranslationManagement&quot;,&quot;isActive&quot;:false,&quot;licenseValidationMessageAsHtml&quot;:&quot;&lt;p&gt;Error in &lt;b&gt;TranslationManagement&lt;/b&gt; module of &lt;b&gt;Scroll Translations&lt;/b&gt;. Ask your Confluence administrator to make sure that the app is installed and working correctly. &lt;/p&gt; &lt;ul class=\&quot;aui-nav-actions-list\&quot;&gt;        &lt;li&gt;&lt;button class=\&quot;aui-button aui-button-link\&quot;&gt;&lt;a href=\&quot;/plugins/servlet/upm?fragment=manage/com.k15t.scroll.scroll-translations\&quot;&gt;Manage Apps&lt;/a&gt;&lt;/button&gt;&lt;/li&gt;        &lt;li&gt;&lt;button class=\&quot;aui-button aui-button-link\&quot;&gt;&lt;a href=\&quot;https://marketplace.atlassian.com/plugins/com.k15t.scroll.scroll-translations\&quot;&gt;Atlassian Marketplace&lt;/a&gt;&lt;/button&gt;&lt;/li&gt;    &lt;/ul&gt;&quot;,&quot;isEnabledInSpace&quot;:false},&quot;PermalinkSupport&quot;:{&quot;hasValidLicense&quot;:true,&quot;type&quot;:&quot;PermalinkSupport&quot;,&quot;isActive&quot;:true,&quot;licenseValidationMessageAsHtml&quot;:&quot;License for Scroll Versions is valid.&quot;,&quot;isEnabledInSpace&quot;:true},&quot;WorkflowManagement&quot;:{&quot;isComalaIntegrationPluginEnabled&quot;:true,&quot;isComalaPluginEnabled&quot;:true,&quot;hasValidLicense&quot;:true,&quot;type&quot;:&quot;WorkflowManagement&quot;,&quot;isActive&quot;:true,&quot;licenseValidationMessageAsHtml&quot;:&quot;License for Scroll Versions is valid.&quot;,&quot;isEnabledInSpace&quot;:false},&quot;TargetSpace&quot;:{&quot;hasValidLicense&quot;:true,&quot;type&quot;:&quot;TargetSpace&quot;,&quot;isActive&quot;:true,&quot;licenseValidationMessageAsHtml&quot;:&quot;&quot;,&quot;isEnabledInSpace&quot;:true},&quot;Seo&quot;:{&quot;hasValidLicense&quot;:true,&quot;type&quot;:&quot;Seo&quot;,&quot;isActive&quot;:true,&quot;licenseValidationMessageAsHtml&quot;:&quot;License for Scroll Versions is valid.&quot;,&quot;isEnabledInSpace&quot;:true},&quot;VariantManagement&quot;:{&quot;hasValidLicense&quot;:true,&quot;type&quot;:&quot;VariantManagement&quot;,&quot;isActive&quot;:true,&quot;licenseValidationMessageAsHtml&quot;:&quot;License for Scroll Versions is valid.&quot;,&quot;isEnabledInSpace&quot;:false},&quot;VersionManagement&quot;:{&quot;hasValidLicense&quot;:true,&quot;type&quot;:&quot;VersionManagement&quot;,&quot;isActive&quot;:true,&quot;licenseValidationMessageAsHtml&quot;:&quot;License for Scroll Versions is valid.&quot;,&quot;isEnabledInSpace&quot;:false}},&quot;space&quot;:{&quot;isUnrecommendedFeatureRestrictEditInReaderViewEnabled&quot;:false,&quot;allLanguages&quot;:[],&quot;isTargetSpace&quot;:true,&quot;isRestrictEditInReaderView&quot;:false,&quot;isScrollVersionsEnabled&quot;:false,&quot;allRemoteSystems&quot;:[],&quot;homePage&quot;:{&quot;scrollPageTitle&quot;:&quot;MAST User Documentation&quot;,&quot;pageId&quot;:94962815,&quot;scrollPageId&quot;:&quot;0A801AE9017804247D8266B732D73EDC&quot;},&quot;allVariants&quot;:[],&quot;isUnrecommendedFeaturePublishToSameEnabled&quot;:false,&quot;allVersions&quot;:[],&quot;isRemotePublishingToSameSystemAllowed&quot;:false,&quot;messages&quot;:[],&quot;theme&quot;:{&quot;selectedTheme&quot;:&quot;com.refinedwiki.confluence.plugins.theme.original:RefinedWikiTheme50&quot;,&quot;isDerived&quot;:false,&quot;isThemeCompatible&quot;:true,&quot;pageTitleSelector&quot;:&quot;body.rw_version_6 #title-text, .RefinedWikiTheme50 #title-text&quot;,&quot;pageKeySelector&quot;:&quot;body.rw_version_6 #rw_page_title, .RefinedWikiTheme50 #rw_page_title, #title-text&quot;,&quot;contentManagementToolbarSelector&quot;:&quot;body:not(.rw_version_6):not(.rw_version_5) #rw_menu_bar_wrapper, body.rw_version_5 .rw_content, body.rw_version_6 .rw_content&quot;,&quot;breadcrumbsSelector&quot;:&quot;.RefinedWikiTheme50 .rw_breadcrumbs_container ol:last-of-type, .RefinedWikiTheme50 #breadcrumb-section #breadcrumbs, .RefinedWikiTheme50 #rw_page_breadcrumbs, .RefinedWikiTheme50 .contenteditor #breadcrumbs, .RefinedWikiTheme50 #editor-precursor #breadcrumbs,body.rw_version_6 .rw_breadcrumbs_container ol:last-of-type,body.rw_version_6 #breadcrumb-section #breadcrumbs, body.rw_version_6 #rw_page_breadcrumbs, body.rw_version_6 .contenteditor #breadcrumbs, body.rw_version_6 #editor-precursor #breadcrumbs&quot;,&quot;breadcrumbsFilter&quot;:&quot;&gt; li:has(a[href*=\&quot;collector\&quot;]) ~ li, li.rw_more_breadcrumbs, li.rw_more_breadcrumbs ~ li, &gt; li:has(a[href*=\&quot;collector\&quot;]) ~ li&quot;,&quot;breadcrumbsTypeFilter&quot;:&quot;editor:space&quot;,&quot;pageTreeContainerSelector&quot;:&quot;.RefinedWikiTheme50 .rw_page_tree_container, body.rw_version_6 .rw_page_tree_container&quot;,&quot;pageTreeContainerTemplate&quot;:&quot;Scroll.Versions.Templates.ThemeIntegration.RefinedWiki.refinedWikiOriginalThemeIntegration&quot;,&quot;pageTreeChildrenTemplate&quot;:&quot;Scroll.Versions.ThemeIntegration.RefinedWiki.children&quot;,&quot;pageTreeChildrenContainerSelector&quot;:&quot;.sv-pt-children.rw_pagetree_list&quot;,&quot;pageTreeChildrenToggleClassesToToggle&quot;:&quot;rw_icon_minus rw_icon_plus&quot;,&quot;customJavaScript&quot;:&quot;Scroll.Versions.ThemeIntegration.RefinedWiki.postProcess&quot;,&quot;svContentFooterSelector&quot;:&quot;after: .comment-panels&quot;,&quot;svContentHeaderSelector&quot;:&quot;prepend: body:not(.rw_version_5):not(.rw_version_6) #rw_page_right, body.rw_version_5 .rw_content,body.rw_version_6 .rw_content&quot;,&quot;svNavigationSelector&quot;:&quot;prepend: #rw_left_column&quot;,&quot;svBylineSelector&quot;:&quot;append: .page-metadata&quot;,&quot;panelIndicator&quot;:&quot;layoutBoard&quot;},&quot;config&quot;:{&quot;enableVersionManagement&quot;:false,&quot;enableTranslation&quot;:false,&quot;enableVariants&quot;:false,&quot;isAllVariantVisibleInViewport&quot;:false,&quot;enablePermalinks&quot;:true,&quot;enableSeo&quot;:true,&quot;isTargetSpace&quot;:true,&quot;restrictEditInReaderView&quot;:false,&quot;workflowType&quot;:&quot;NONE&quot;,&quot;hasCorrectComalaSpaceSetup&quot;:false,&quot;enableSearch&quot;:false}},&quot;products&quot;:{&quot;com.k15t.scroll.scroll-platform&quot;:{&quot;pluginKey&quot;:&quot;com.k15t.scroll.scroll-platform&quot;,&quot;version&quot;:&quot;4.7.5&quot;},&quot;com.k15t.scroll.scroll-versions&quot;:{&quot;pluginKey&quot;:&quot;com.k15t.scroll.scroll-versions&quot;,&quot;version&quot;:&quot;4.7.5&quot;}}}">
+<script>
+    (function() {
+        'use strict';
+        var pageContext = document.getElementById('sv-scroll-page-context').getAttribute("content");
+        if (pageContext) {
+            var scrollContext = JSON.parse(pageContext);
+            if (window.Scroll) {
+                if (window.Scroll.Versions) {
+                    window.Scroll.Versions.Context = scrollContext;
+                } else {
+                    window.Scroll.Versions = { Context: scrollContext };
+                }
+            } else {
+                window.Scroll = { Versions: { Context: scrollContext } };
+            }
+        }
+    })();
+</script>
+
+            <meta id="team-calendars-has-jira-link" content="true">
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat12">
+            <meta id="team-calendars-display-week-number" content="false">
+            <meta id="team-calendars-user-timezone" content="America/New_York">
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="July"><input type="hidden" name="calendar3.day.short.wednesday" value="Wed"><input type="hidden" name="calendar3.day.short.thursday" value="Thu"><input type="hidden" name="calendar3.month.short.march" value="Mar"><input type="hidden" name="calendar3.month.long.april" value="April"><input type="hidden" name="calendar3.month.long.october" value="October"><input type="hidden" name="calendar3.month.long.august" value="August"><input type="hidden" name="calendar3.month.short.july" value="Jul"><input type="hidden" name="calendar3.month.short.may" value="May"><input type="hidden" name="calendar3.month.short.november" value="Nov"><input type="hidden" name="calendar3.day.long.friday" value="Friday"><input type="hidden" name="calendar3.day.long.sunday" value="Sunday"><input type="hidden" name="calendar3.day.long.saturday" value="Saturday"><input type="hidden" name="calendar3.month.short.april" value="Apr"><input type="hidden" name="calendar3.day.long.wednesday" value="Wednesday"><input type="hidden" name="calendar3.month.long.december" value="December"><input type="hidden" name="calendar3.month.short.october" value="Oct"><input type="hidden" name="calendar3.day.long.monday" value="Monday"><input type="hidden" name="calendar3.month.short.june" value="Jun"><input type="hidden" name="calendar3.day.short.monday" value="Mon"><input type="hidden" name="calendar3.day.short.tuesday" value="Tue"><input type="hidden" name="calendar3.day.short.saturday" value="Sat"><input type="hidden" name="calendar3.month.long.march" value="March"><input type="hidden" name="calendar3.month.long.june" value="June"><input type="hidden" name="calendar3.month.short.february" value="Feb"><input type="hidden" name="calendar3.month.short.august" value="Aug"><input type="hidden" name="calendar3.month.short.december" value="Dec"><input type="hidden" name="calendar3.day.short.sunday" value="Sun"><input type="hidden" name="calendar3.month.long.february" value="February"><input type="hidden" name="calendar3.day.long.tuesday" value="Tuesday"><input type="hidden" name="calendar3.month.long.may" value="May"><input type="hidden" name="calendar3.month.long.september" value="September"><input type="hidden" name="calendar3.month.long.november" value="November"><input type="hidden" name="calendar3.month.short.january" value="Jan"><input type="hidden" name="calendar3.month.short.september" value="Sept"><input type="hidden" name="calendar3.day.long.thursday" value="Thursday"><input type="hidden" name="calendar3.month.long.january" value="January"><input type="hidden" name="calendar3.day.short.friday" value="Fri"></fieldset></script>
+            <meta name="ajs-emojis-allow-current-user-upload-emojis" content="true">
+<meta name="ajs-emojis-max-upload-file-size" content="1">
+
+            
+
+<script type="application/javascript">
+	window.Bitvoodoo = window.Bitvoodoo || {};
+	window.Bitvoodoo.Viewtracker = window.Bitvoodoo.Viewtracker || {};
+
+	window.Bitvoodoo.Viewtracker.Info = window.Bitvoodoo.Viewtracker.Info || {};
+	window.Bitvoodoo.Viewtracker.Info.version = "8.4.7";
+	window.Bitvoodoo.Viewtracker.Info.commitId = "ba75af9";
+
+	window.Bitvoodoo.Viewtracker.Configuration = window.Bitvoodoo.Viewtracker.Configuration || {};
+	window.Bitvoodoo.Viewtracker.Configuration.desktopTrackingEnabled = true;
+	window.Bitvoodoo.Viewtracker.Configuration.mobileWebTrackingEnabled = true;
+	window.Bitvoodoo.Viewtracker.Configuration.mobileNativeTrackingEnabled = true;
+	window.Bitvoodoo.Viewtracker.Configuration.linchpinPluginEnabled = false;
+	window.Bitvoodoo.Viewtracker.Configuration.scrollViewportPluginEnabled = false;
+	window.Bitvoodoo.Viewtracker.Configuration.privacyMode = false;
+	window.Bitvoodoo.Viewtracker.Configuration.hiddenUserStatistic = false;
+	window.Bitvoodoo.Viewtracker.Configuration.isDataSecurityInfoBoxFeatureEnabled = false;
+	window.Bitvoodoo.Viewtracker.Configuration.isDataSecurityLinkFeatureEnabled = false;
+	window.Bitvoodoo.Viewtracker.Configuration.isPrivacyModeShowUsersReportFeatureEnabled = false;
+	window.Bitvoodoo.Viewtracker.Configuration.isViewsCounterEnabled = true;
+	window.Bitvoodoo.Viewtracker.Configuration.isStatisticCacheEnabled = false;
+	window.Bitvoodoo.Viewtracker.Configuration.isAnonymizeViewersEnabled = false;
+	window.Bitvoodoo.Viewtracker.Configuration.isSpaceExcludedFromTracking = false;
+	window.Bitvoodoo.Viewtracker.Configuration.viewTrackerInstallationDate = 1490892507394;
+    window.Bitvoodoo.Viewtracker.Configuration.debug = false;
+        window.Bitvoodoo.Viewtracker.Configuration.serverTimezone = "America/New_York";
+	window.Bitvoodoo.Viewtracker.Configuration.isUserHasUserDataAccess = true;
+
+	
+	window.Bitvoodoo.Viewtracker.Configuration.trackedUrls = [
+			];
+</script>
+
+            <script type="text/x-template" title="gliffy-webpanel-footer">
+        <div class="gliffy-webpanel-footer"><span>This Confluence installation runs a Free Gliffy License - Evaluate the <a href="http://www.gliffy.com/products/confluence-plugin/">Gliffy Confluence Plugin</a> for your Wiki!</span></div>
+</script>
+
+
+            <meta name="Description" content="This is the home for MAST User reference documentation. This collection of documents includes new user guides as well as updated and reorgan" />
+            
+    
+    
+            <meta name="ajs-page-title" content="MAST User Documentation">
+            <meta name="ajs-latest-published-page-title" content="MAST User Documentation">
+            <meta name="ajs-space-name" content="MAST Docs">
+            <meta name="ajs-page-id" content="94962815">
+            <meta name="ajs-latest-page-id" content="94962815">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-parent-page-id" content="">
+            <meta name="ajs-space-key" content="MASTDOCS">
+            <meta name="ajs-max-number-editors" content="12">
+            <meta name="ajs-macro-placeholder-timeout" content="5000">
+            <meta name="ajs-jira-metadata-count" content="0">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="false">
+            <meta name="ajs-can-remove-page-hierarchy" content="false">
+            <meta name="ajs-browse-page-tree-mode" content="view">
+            <meta name="ajs-shared-drafts" content="">
+            <meta name="ajs-site-key" content="mast">
+            <meta name="ajs-context-path" content="">
+            <meta name="ajs-base-url" content="https://outerspace.stsci.edu">
+            <meta name="ajs-version-number" content="8.9.8">
+            <meta name="ajs-build-number" content="9104">
+            <meta name="ajs-remote-user" content="">
+            <meta name="ajs-remote-user-key" content="">
+            <meta name="ajs-remote-user-has-licensed-access" content="false">
+            <meta name="ajs-remote-user-has-browse-users-permission" content="false">
+            <meta name="ajs-current-user-fullname" content="">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/images/icons/profilepics/anonymous.svg">
+            <meta name="ajs-static-resource-url-prefix" content="">
+            <meta name="ajs-global-settings-attachment-max-size" content="104857600">
+            <meta name="ajs-global-settings-quick-search-enabled" content="true">
+            <meta name="ajs-user-locale" content="en_GB">
+            <meta name="ajs-user-timezone-offset" content="-18000000">
+            <meta name="ajs-enabled-dark-features" content="site-wide.shared-drafts,site-wide.synchrony,confluence.view.edit.transition,confluence.attachments.bulk.delete,confluence-inline-comments-resolved,http.session.registrar,atlassian.cdn.static.assets,confluence.efi.onboarding.rich.space.content,file-annotations,crowd.sync.nested.groups.group.membership.changes.batching.enabled,lucene.caching.filter,confluence.table.resizable,notification.batch,confluence-inline-comments-rich-editor,site-wide.synchrony.opt-in,atlassian.webresource.twophase.js.i18n.disabled,gatekeeper-ui-v2,confluence.search.improvements.ranking,crowd.event.transformer.directory.manager.cache,mobile.supported.version,crowd.sync.delete.user.memberships.batching.enabled,quick-reload-inline-comments-flags,cql.search.screen,clc.quick.create,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,pdf-preview,index.mapping.deconflict,previews.sharing,previews.versions,collaborative-audit-log,confluence.reindex.improvements,previews.conversion-service,editor.ajax.save,read.only.mode,graphql,previews.trigger-all-file-types,AsyncReplicationCache,attachment.extracted.text.extractor,previews.sharing.pushstate,tc.tacca.dacca,topicEventPublisher,confluence.reindex.audit,confluence.denormalisedpermissions,file-annotations.likes,v2.content.name.searcher,confluence.reindex.spaces,confluence.fast-xml-backup-restore,pulp,confluence-inline-comments,confluence-inline-comments-dangling-comment,confluence.retention.rules">
+            <meta name="ajs-atl-token" content="e4a298dcb72f52ecc5426fe59c8ff9a9bf20256b">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="dd MMM yyyy">
+            <meta name="ajs-access-mode" content="READ_WRITE">
+            <meta name="ajs-render-mode" content="READ_WRITE">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="/s/5skgle/9104/2xf956/23/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/s/5skgle/9104/2xf956/23/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch/osd.action" title="STScI Outerspace"/>
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022Charlie\u0022,\u0022fecru.project\u0022:\u0022Crucible Project\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repository\u0022,\u0022stash.project\u0022:\u0022Stash Project\u0022,\u0022generic.entity\u0022:\u0022Generic Project\u0022,\u0022confluence.space\u0022:\u0022Confluence Space\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Project\u0022,\u0022jira.project\u0022:\u0022Jira Project\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022Charlies\u0022,\u0022fecru.project\u0022:\u0022Crucible Projects\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repositories\u0022,\u0022stash.project\u0022:\u0022Stash Projects\u0022,\u0022generic.entity\u0022:\u0022Generic Projects\u0022,\u0022confluence.space\u0022:\u0022Confluence Spaces\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Projects\u0022,\u0022jira.project\u0022:\u0022Jira Projects\u0022}}";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesUrl\u0022:null}";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022\u0022";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022Basic Access\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022Trusted Applications\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022CORS\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022OAuth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-search-ui-plugin:confluence-search-ui-plugin-resources.i18n-data"]="{\u0022search.ui.recent.link.text\u0022:\u0022View more recently visited\u0022,\u0022search.ui.search.results.empty\u0022:\u0022We couldn\u0027\u0027t find anything matching \u005C\u0022{0}\u005C\u0022.\u0022,\u0022search.ui.filter.clear.selected\u0022:\u0022Clear selected items\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.button.text\u0022:\u0022Show more app results...\u0022,\u0022search.ui.filter.contributor.button.text\u0022:\u0022Contributor\u0022,\u0022search.ui.filter.space.current.label\u0022:\u0022CURRENT\u0022,\u0022search.ui.clear.input.button.text\u0022:\u0022Clear text\u0022,\u0022search.ui.search.results.clear.button\u0022:\u0022clear your filters.\u0022,\u0022help.search.ui.link.title\u0022:\u0022Search tips\u0022,\u0022search.ui.container.close.text\u0022:\u0022Close\u0022,\u0022search.ui.filter.date.month.text\u0022:\u0022The past month\u0022,\u0022search.ui.infinite.scroll.button.text\u0022:\u0022More results\u0022,\u0022search.ui.filter.date.button.text\u0022:\u0022Date\u0022,\u0022search.ui.filter.date.week.text\u0022:\u0022The past week\u0022,\u0022search.ui.result.subtitle.calendar\u0022:\u0022Team calendar\u0022,\u0022search.ui.filter.date.heading\u0022:\u0022Last modified within\u0022,\u0022search.ui.filter.space.input.label\u0022:\u0022Find spaces...\u0022,\u0022search.ui.generic.error\u0022:\u0022Something went wrong. Refresh the page, or contact your admin if this keeps happening.\u0022,\u0022search.ui.recent.spaces\u0022:\u0022Recent Spaces\u0022,\u0022search.ui.result.subtitle.space\u0022:\u0022Space\u0022,\u0022search.ui.filter.space.category.input.label\u0022:\u0022Find space categories...\u0022,\u0022search.ui.filter.space.archive.label\u0022:\u0022Search archived spaces\u0022,\u0022search.ui.filter.label\u0022:\u0022filter\u0022,\u0022search.ui.filter.date.all.text\u0022:\u0022Any time\u0022,\u0022search.ui.filter.date.hour.text\u0022:\u0022The past day\u0022,\u0022search.ui.filters.heading\u0022:\u0022Filter by\u0022,\u0022search.ui.filter.label.input.label\u0022:\u0022Find labels...\u0022,\u0022search.ui.recent.items.anonymous\u0022:\u0022Start exploring. Your search results will appear here.\u0022,\u0022search.ui.input.label\u0022:\u0022Search\u0022,\u0022search.ui.input.aria.label\u0022:\u0022Search, when you type, your results will be displayed below.\u0022,\u0022search.ui.search.result\u0022:\u0022{0,choice,1#{0} search result|1\u003c{0} search results}\u0022,\u0022search.ui.filter.label.button.text\u0022:\u0022Label\u0022,\u0022search.ui.container.clear.ariaLabel\u0022:\u0022Clear\u0022,\u0022search.ui.input.alert\u0022:\u0022Hit enter to search\u0022,\u0022search.ui.filter.no.result.text\u0022:\u0022We can\u0027\u0027t find anything matching your search\u0022,\u0022search.ui.result.subtitle.user\u0022:\u0022User profile\u0022,\u0022search.ui.filter.contributor.input.label\u0022:\u0022Find people...\u0022,\u0022search.ui.filter.content.type.button.text\u0022:\u0022Type\u0022,\u0022search.ui.filter.date.year.text\u0022:\u0022The past year\u0022,\u0022search.ui.advanced.search.link.text\u0022:\u0022Advanced search\u0022,\u0022search.ui.filter.space.button.text\u0022:\u0022Space\u0022,\u0022search.ui.search.results.clear.line2\u0022:\u0022Try a different search term or\u0022,\u0022search.ui.filter.space.category.button.text\u0022:\u0022Space category\u0022,\u0022search.ui.search.results.clear.line1\u0022:\u0022We couldn\u0027\u0027t find anything matching your search.\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.admin.button.text\u0022:\u0022Show more settings and app results...\u0022,\u0022search.ui.recent.pages\u0022:\u0022Recently visited\u0022,\u0022search.ui.search.result.anonymous\u0022:\u0022{0,choice,1#{0} search result|1\u003c{0} search results}. Have an account? {1}Log in{2} to expand your search.\u0022,\u0022search.ui.recent.items.empty\u0022:\u0022Start exploring. Pages and spaces you\u0027\u0027ve visited recently will appear here.\u0022,\u0022search.ui.filter.space.init.heading\u0022:\u0022recent spaces\u0022}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022Crowd\u0022,\u0022confluence\u0022:\u0022Confluence\u0022,\u0022fecru\u0022:\u0022FishEye / Crucible\u0022,\u0022stash\u0022:\u0022Stash\u0022,\u0022jira\u0022:\u0022Jira\u0022,\u0022refapp\u0022:\u0022Reference Application\u0022,\u0022bamboo\u0022:\u0022Bamboo\u0022,\u0022generic\u0022:\u0022Generic Application\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-092/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.adding.project.link\u0022:\u0022Configuring+Project+links+across+Applications\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link rel="stylesheet" href="/s/76cecd5d8887f0e06228e20e8b33dbe4-CDN/5skgle/9104/2xf956/f67165d94bbb598ac54f2e82d18783ad/_/download/contextbatch/css/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.css?plugins.jquery.migrate.logging=false" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/s/7d6bdcf31a18bed6c29857e865f068ff-CDN/5skgle/9104/2xf956/0d1ae86e4743b7b5f4ac2c912ae610d2/_/download/contextbatch/css/page,viewcontent,atl.general,refined.site,atl.comments,refined.main,main,-_super/batch.css?bvIsPrivacyModeEnabled=false&amp;bvShowOldContentReport=false&amp;cefp_collab_enabled=true&amp;cefp_ed_perm=false&amp;cefp_is_admin=false&amp;gatekeeper-ui-v2=true&amp;highlightactions=true&amp;hostenabled=true&amp;plugins.jquery.migrate.logging=false" data-wrm-key="page,viewcontent,atl.general,refined.site,atl.comments,refined.main,main,-_super" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/5skgle/9104/2xf956/042fdec44be08f52d670703859e52e89/_/download/contextbatch/css/refined.aui-design-tokens,-_super/batch.css?plugins.jquery.migrate.logging=false" data-wrm-key="refined.aui-design-tokens,-_super" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/s/64b714ffa3e5b11171ecbd5b521eeb17-CDN/5skgle/9104/2xf956/18.9.37/_/download/batch/confluence.extra.livesearch:livesearch-macro-web-resources/confluence.extra.livesearch:livesearch-macro-web-resources.css" data-wrm-key="confluence.extra.livesearch:livesearch-macro-web-resources" data-wrm-batch-type="resource" media="all">
+<link rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/5skgle/9104/2xf956/7.7.4/_/download/batch/com.refinedwiki.confluence.plugins.theme.original:print-style/com.refinedwiki.confluence.plugins.theme.original:print-style.css?content-type=text%2Fcss&amp;media=print" media="print" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:print-style" data-wrm-batch-type="resource">
+<link rel="stylesheet" href="/s/5skgle/9104/2xf956/7.7.4/_/download/resources/com.refinedwiki.confluence.plugins.theme.original:RefinedWikiTheme50/default-theme.css" media="all">
+<link rel="stylesheet" href="/s/5skgle/9104/2xf956/7.7.4/_/download/resources/com.refinedwiki.confluence.plugins.theme.original:RefinedWikiTheme50/atlassian-editor.css" media="all">
+<link rel="stylesheet" href="/s/5skgle/9104/2xf956/17/_/styles/custom.css?spaceKey=MASTDOCS" media="all">
+<script data-wrm-key="com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="resource" data-initially-rendered>
+!function(){"use strict";if("PerformanceObserver"in window){const r=[];window.__observedResources=r;const i=e=>"script"===e?"script":"css";new PerformanceObserver((n=>{n.getEntries().filter((({initiatorType:r,name:i})=>{const n="script"===r||e(r,i),s=new URL(location.href).origin===new URL(i).origin;return n&&s})).forEach((({name:e,transferSize:n,encodedBodySize:s,initiatorType:o})=>{r.push([n,s,e,i(o)])}))})).observe({type:"resource"})}const e=(e,r)=>"link"===e&&"css"===r.split(".").pop()}();
+
+</script>
+<script src="/s/38971c9c8771680ecd4ef8514524d3fd-CDN/5skgle/9104/2xf956/f67165d94bbb598ac54f2e82d18783ad/_/download/contextbatch/js/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.js?locale=en-GB&amp;plugins.jquery.migrate.logging=false" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" data-initially-rendered></script>
+<script src="/s/3ac67eacb756cc095f5d206fd252517e-CDN/5skgle/9104/2xf956/0d1ae86e4743b7b5f4ac2c912ae610d2/_/download/contextbatch/js/page,viewcontent,atl.general,refined.site,atl.comments,refined.main,main,-_super/batch.js?bvIsPrivacyModeEnabled=false&amp;bvShowOldContentReport=false&amp;cefp_collab_enabled=true&amp;cefp_ed_perm=false&amp;cefp_is_admin=false&amp;gatekeeper-ui-v2=true&amp;highlightactions=true&amp;hostenabled=true&amp;locale=en-GB&amp;plugins.jquery.migrate.logging=false" data-wrm-key="page,viewcontent,atl.general,refined.site,atl.comments,refined.main,main,-_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/5skgle/9104/2xf956/163/_/download/resources/com.bilith.lref.confluence-box:lref-resources/descriptor.js?batch=false" data-wrm-key="com.bilith.lref.confluence-box:lref-resources" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/5skgle/9104/2xf956/163/_/download/resources/com.bilith.lref.confluence-box:lref-resources/lref-host.js?batch=false" data-wrm-key="com.bilith.lref.confluence-box:lref-resources" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script src="/s/f10111420fee093361f97a2053b7980c-CDN/5skgle/9104/2xf956/042fdec44be08f52d670703859e52e89/_/download/contextbatch/js/refined.aui-design-tokens,-_super/batch.js?locale=en-GB&amp;plugins.jquery.migrate.logging=false" data-wrm-key="refined.aui-design-tokens,-_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script src="/s/01192b15f2394dd0849e04c4925708ed-CDN/5skgle/9104/2xf956/18.9.37/_/download/batch/confluence.extra.livesearch:livesearch-macro-web-resources/confluence.extra.livesearch:livesearch-macro-web-resources.js?locale=en-GB" data-wrm-key="confluence.extra.livesearch:livesearch-macro-web-resources" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/5skgle/9104/2xf956/8.4.7/_/download/batch/ch.bitvoodoo.confluence.plugins.viewtracker:viewtracker-url-tracking-resource/ch.bitvoodoo.confluence.plugins.viewtracker:viewtracker-url-tracking-resource.js" data-wrm-key="ch.bitvoodoo.confluence.plugins.viewtracker:viewtracker-url-tracking-resource" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="module">WRM.requireLazily(["wr!com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-async"])</script>
+    
+
+        
+    
+
+        
+        <meta name="ajs-site-title" content="STScI Outerspace" />
+            
+
+		
+
+
+
+
+	
+	
+	<script>
+						if (typeof RW === 'undefined') {
+			var RW = {};
+		}
+
+		if (typeof RWJS === 'undefined') {
+		  var RWJS = {};
+		}
+						RWJS.showLoader = function(){
+		  console.warn("RWJS.showLoader access from velocity deprecated");
+		}
+        RWJS.hideLoader = function(){
+          console.warn("RWJS.hideLoader access from velocity deprecated");
+		}
+
+
+		        RW._versionChecker = {
+            comparedTo66: 1,
+            comparedTo614: 1,
+            comparedTo70: 1,
+            comparedTo74: 1,
+            comparedTo710: 1,
+            comparedTo712: 1
+        };
+
+                        
+                    RW._isConfluenceAdministrator = false;
+                    RW._isConfluenceOrRefinedAdmin = false;
+
+                    RW._defaultApplinks = 'https://jira.stsci.edu';
+
+		                RW._isSiteAdministrator = false;
+
+					RW._blogPortalEnabled = false;
+		
+                RW._isHtmlModuleDisabled = false;
+				RW._userDashboardsEnabled = false;
+
+        RW._canViewProfiles = false;
+				
+				RW._cacheSettings = {};
+        RW._cacheSettings.params = {};
+        RW._cacheSettings.lastChange = {};
+
+            
+                        RW._cacheSettings.params['footer'] = true;
+                                        RW._cacheSettings.params['userdetails'] = true;
+                                        RW._cacheSettings.params['globalmenu'] = true;
+                                        RW._cacheSettings.params['usercategory'] = true;
+                                        RW._cacheSettings.params['category'] = true;
+                                        RW._cacheSettings.params['docache'] = false;
+                                                                    RW._cacheSettings.lastChange['footer'] = 1740233542643;
+                                        RW._cacheSettings.lastChange['userdetails'] = 1740231570426;
+                                        RW._cacheSettings.lastChange['globalmenu'] = 1740233542643;
+                                        RW._cacheSettings.lastChange['usercategory'] = 1740231570426;
+                                        RW._cacheSettings.lastChange['category'] = 1740175997229;
+            
+                                    RW._siteId = 3;
+            RW._siteName = 'MAST';
+            RW._siteType = 'full';
+                    RW._clusterNodeId = '';
+        RW._rootCategoryKey = 'prot'; // The active root category
+        RW._categoryKey = '';
+        RW._categoryName = '';
+        RW._spaceName = 'MAST Docs';
+        RW._spaceKey = 'MASTDOCS';
+        RW._pageId = '94962815';
+
+        // Keyboard shortcuts add-on status
+        RW.shortcutsEnabled = function() {
+            return Confluence && Confluence.KeyboardShortcuts && Confluence.KeyboardShortcuts.enabled;
+        };
+
+        // Different Home Context
+                    
+        // Layout preview draft status
+        RW._isDraftPreview = function() {
+          return window.location.href.indexOf('draft=true') >= 0;
+        }
+
+        // Check if layouteditor can be executed
+        RW._isLayoutEditorAvailable = function() {
+          // Layout Preview mode is off
+          if (!RW._isDraftPreview()) {
+            // Layouteditor is invisible
+            if (document.querySelector('#rw_layouteditor').style.display === 'none') {
+              return true;
+            }
+		  }
+		  return null;
+        };
+	</script>
+
+
+
+
+			
+	
+
+<!--[if !IE]><!-->
+ 	<style type="text/css">
+		.rw_toolbar_menu li .rw_toolbar_dropdown li a:hover
+		{
+			color: #172B4D;
+			background: #EBECF0;
+		}
+
+		/* Scroll office fix */
+		#com-k15t-confluence-scroll-pdf-launcher:hover
+		{
+			color: #172B4D;
+			background: #EBECF0;
+		}
+	</style>
+<!--<![endif]-->
+
+
+
+
+
+
+
+			
+	    <script>
+        window.RW._theme = {"id":11,"name":"Refined (copy)","version":82,"date":null,"niceDate":null,"author":null,"comment":null,"systemType":"user-created","hidden":false,"type":"content","attributes":{"previewColor":"#1D283B","header_variant":"1row","keyNavColour_colour":"#fd9602","contentShadow_selected":"effects_popup_shadow","contentHeaderTheme_selected":"menu_transparent","navMenuActiveTextColour_colour":"rgba(255, 255, 255, 0.98)","sidebarBackground_colour":"#444444","bodyBackground_image":{"id":"outerspace-large.png","name":null,"url":"https://outerspace.stsci.edu/plugins/servlet/rw-resources/themes/11/images/outerspace-large.png","type":"local"},"bodyBackground_active":"image","navMenuHoverBackground_active":"colour","navmenu_variant":"traditional","navMenuTextSize_selected":"regular","navMenuActiveBackground_colour":"rgba(22,57,122,0.65)","bodyBackgroundImageProperties_active":"full","siteHomeTheme_selected":"dashboards_gray1","contentWidth_size":"92%","searchTheme_selected":"light","sidebarFontColour_colour":"#999999","appearance_variant":"partial","navMenuActiveBackground_active":"colour","navMenuTextColour_colour":"rgba(255,255,255,1.00)","headerHeight_selected":"space","createButtonColour_colour":"#3572b0","navMenuCorners_boolean":true,"sidebarHoverFontColour_colour":"#FFFFFF","bodyBackgroundImageUnderlying_colour":"rgba(255, 255, 255, 0)","navMenuHoverBackground_colour":"rgba(22,45,122,0.90)","headerWidth_size":"92%","spaceTheme_selected":"spaces_gray3","logoSize_selected":"medium","navMenuHoverTextColour_colour":"rgba(255, 255, 255, 1)","popupTheme_selected":"dark","bodyBackgroundImagePosition_percent":65.0,"sidebarHoverBackground_colour":"#555555","navMenuDropDownTheme_selected":"dark","footerTheme_selected":"dark"},"active":null,"canEdit":false,"icon":null,"features":[{"id":"background","options":[{"id":"partial","icon":null,"enabled":true,"sections":[{"id":"general","selector":null,"hash":null,"tnts":[{"id":"corners","type":"tweak-boolean","value":{"checked":false},"treats":null,"enabled":null},{"id":"effect","type":"tweak-icon","value":{"selected":"effects_popup_shadow"},"treats":[],"enabled":null}]},{"id":"background1","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-background","value":{"variant":"image","colour":"rgba(15, 143, 186, 1)","gradient":{"top":"rgba(40,168,219,1.00)","bottom":"rgba(19,96,158,1.00)"},"image":{"url":"https://outerspace.stsci.edu/plugins/servlet/rw-resources/themes/11/images/outerspace-large.png","repeat":"cover","fixed":false,"position":{"y":65},"colour":"rgba(255, 255, 255, 0)","filters":{},"imageName":"outerspace-large.png"},"secondaryColour":"rgba(40,168,219,1.00)"},"treats":null,"enabled":null}]}]}]},{"id":"header","options":[{"id":"1row","icon":null,"enabled":true,"sections":[{"id":"general","selector":null,"hash":null,"tnts":[{"id":"height","type":"tweak-dropdown","value":{"selected":"space"},"treats":null,"enabled":null},{"id":"width","type":"tweak-width","value":{"width":"92%"},"treats":null,"enabled":null}]},{"id":"logo","selector":null,"hash":null,"tnts":[{"id":"size","type":"tweak-dropdown","value":{"selected":"medium"},"treats":null,"enabled":null}]},{"id":"search","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"light"},"treats":null,"enabled":null}]}]}]},{"id":"navmenu","options":[{"id":"traditional","icon":null,"enabled":true,"sections":[{"id":"general","selector":null,"hash":null,"tnts":[{"id":"corners","type":"tweak-boolean","value":{"checked":true},"treats":null,"enabled":null},{"id":"textsize","type":"tweak-dropdown","value":{"selected":"regular"},"treats":null,"enabled":null},{"id":"dividers","type":"tweak-boolean","value":{"checked":false},"treats":[],"enabled":null}]},{"id":"item","selector":null,"hash":null,"tnts":[{"id":"textcolour","type":"tweak-colour","value":{"colour":"rgba(255,255,255,1.00)"},"treats":null,"enabled":null}]},{"id":"active","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-background","value":{"variant":"colour","colour":"rgba(22,57,122,0.65)","gradient":{"top":"#fff","bottom":"#ddd"},"secondaryColour":"#cd2560"},"treats":null,"enabled":null},{"id":"textcolour","type":"tweak-colour","value":{"colour":"rgba(255, 255, 255, 0.98)"},"treats":null,"enabled":null}]},{"id":"hover","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-background","value":{"variant":"colour","colour":"rgba(22,45,122,0.90)","gradient":{"top":"#fff","bottom":"#ddd"},"secondaryColour":"#cd254c"},"treats":null,"enabled":null},{"id":"textcolour","type":"tweak-colour","value":{"colour":"rgba(255, 255, 255, 1)"},"treats":null,"enabled":null}]}]}]},{"id":"content","options":[{"id":"content","icon":null,"enabled":true,"sections":[{"id":"general","selector":null,"hash":null,"tnts":[{"id":"corners","type":"tweak-boolean","value":{"checked":false},"treats":null,"enabled":null},{"id":"width","type":"tweak-width","value":{"width":"92%"},"treats":null,"enabled":null},{"id":"createbuttoncolour","type":"tweak-colour","value":{"colour":"#3572b0"},"treats":null,"enabled":null}]},{"id":"menu","selector":null,"hash":null,"tnts":[{"id":"style","type":"tweak-icon","value":{"selected":"menu_transparent"},"treats":null,"enabled":null}]},{"id":"spaces","selector":null,"hash":null,"tnts":[{"id":"style","type":"tweak-icon","value":{"selected":"spaces_gray3"},"treats":null,"enabled":null}]},{"id":"dashboards","selector":null,"hash":null,"tnts":[{"id":"style","type":"tweak-icon","value":{"selected":"dashboards_gray1"},"treats":null,"enabled":null}]}]}]},{"id":"extras","options":[{"id":"extras","icon":null,"enabled":true,"sections":[{"id":"categorydropdown","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"dark"},"treats":null,"enabled":null}]},{"id":"popups","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"dark"},"treats":null,"enabled":null}]},{"id":"globalmenu","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"dark"},"treats":null,"enabled":null}]},{"id":"footer","selector":null,"hash":null,"tnts":[{"id":"background","type":"tweak-dropdown","value":{"selected":"dark"},"treats":null,"enabled":null}]},{"id":"keynav","selector":null,"hash":null,"tnts":[{"id":"textcolour","type":"tweak-colour","value":{"colour":"#fd9602"},"treats":null,"enabled":null}]}]}]}],"baseUrl":null,"logoUrl":null,"themeCssUri":"/plugins/servlet/rw-resources/themes/11/css/theme-11-82.css","global":false,"versionNumber":0};
+    </script>
+	
+
+	<link type="text/css" rel="stylesheet" href="/plugins/servlet/rw-resources/themes/11/css/theme-11-82.css" media="all">
+
+
+			<style type="text/css">
+  #rw_wrapper.rw_effects_popup_shadow .rw_shadow_top { width: calc(100% + 40px); }
+  #rw_wrapper.rw_effects_popup_shadow .rw_shadow_top:after { width: calc(100% - 40px); }
+  #rw_wrapper.rw_effects_popup_border .rw_shadow_top { width: calc(100% + 2px); }
+</style>
+
+
+
+                
+<style type="text/css">
+	/* Key navigation in popup */
+	.rw_key_nav li.rw_selected a {
+        background-color: #fd9602 !important;
+        border-color: #fd9602 !important;
+                box-shadow: none;
+    }
+    .rw_key_nav li.rw_selected * { color: #fff !important; }
+    .rw_key_nav li.rw_selected a span.rw_item_left { background: none !important; border-color:unset !important;}
+
+	/* Key navigation category menu */
+	#rw_category_menu ul li.rw_active.rw_selected a > span { border-color: #fd9602; }
+
+	/* Confluence questions  */
+	.rw_navigation_module_questions ul li.rw_selected { background: #fd9602; }
+	.rw_category_dd_theme_dark #rw_category_dropdown_wrapper .rw_navigation_module_questions ul li.rw_selected { background: #fd9602; }
+
+	/* Key navigation for page tree */
+	.rw_pagetree_list li.rw_selected > div.rw_icon_content { background: #fd9602 !important; border-color: #fd9602 !important; }
+	.rw_pagetree_list li.rw_selected > div.rw_icon_content a { color:#fff !important;}
+	.rw_pagetree_list li.rw_selected a {background: none !important; border-color: unset; color:#333 !important;}
+
+	/* Key navigation for activity popup */
+	li.rw_selected div.rw_no_link { background: #fd9602 !important; border-color: #fd9602 !important; }
+    .rw_popup_design_default .rw_popup .rw_activity_module .rw_selected,
+    .rw_popup_design_confluence .rw_popup .rw_activity_module .rw_selected {
+        background: #fd9602 !important;
+    }
+
+	/* Main Key Navigation */
+	.rw_keynavigation_row > div.rw_selected { background: #fd9602 !important; color:#fff !important;}
+	.rw_keynavigation_container > div.rw_keynavigation_empty_item { background: none;}
+
+    /* Key Navigation in search module */
+    .rw_search_module_results ul li.rw_selected a {
+        background: #fd9602 !important;
+        border-color: #fd9602 !important;
+        color: #fff;
+    }
+
+	/* Menu keynav exceptions */
+	#notifications-anchor.rw_selected {background: #fd9602 !important; color:#fff !important;}
+
+
+	
+
+	#rw_menu_bar #rw_create_button .aui-button,
+	#rw_inline_dialog_page_menu #rw_create_button .aui-button,
+    .rw_create_blogpost_button.aui-button
+	{
+	  background-image: -moz-linear-gradient(top, #0065FF, #0057dc);
+	  background-image: -ms-linear-gradient(top,  #0065FF, #0057dc);
+	  background-image: -webkit-linear-gradient(top,  #0065FF, #0057dc);
+	  background-image: -o-linear-gradient(top,  #0065FF, #0057dc);
+	  background-image: linear-gradient(top,  #0065FF, #0057dc);
+	  text-shadow: none;
+	  color: #ffffff;
+	}
+
+    #rw_menu_bar #rw_create_button .aui-button,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button,
+    .rw_create_blogpost_button.aui-button
+    {
+      border-color: #0065FF;
+    }
+    #rw_main #rw_create_button .aui-button:hover,
+    #rw_main #rw_create_button .aui-button:focus,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button:hover,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button:focus,
+    .rw_create_blogpost_button.aui-button:hover,
+    .rw_create_blogpost_button.aui-button:focus
+    {
+      background-image: -moz-linear-gradient(top, #2e81ff, #025be4);
+      background-image: -ms-linear-gradient(top, #2e81ff, #025be4);
+      background-image: -webkit-linear-gradient(top, #2e81ff, #025be4);
+      background-image: -o-linear-gradient(top, #2e81ff, #025be4);
+      background-image: linear-gradient(top, #2e81ff, #025be4);
+    }
+
+    .rw_create_blogpost_button.aui-button {
+	  border: 0;
+    }
+    .rw_create_blogpost_button.aui-button:hover {
+      color: #ffffff;
+	}
+
+
+		
+
+
+    	        #com-atlassian-confluence #inline-dialog-notifications-miniview
+        {
+            position:fixed;
+            top: 57px !important;
+            right: 80px !important;
+			margin: 0px !important;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:after,
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:before
+        {
+            border: medium solid transparent;
+            bottom: 100%;
+            content: " ";
+            height: 0;
+            pointer-events: none;
+            position: absolute;
+            width: 0;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:after
+        {
+
+            border-color: rgba(237, 237, 237, 0) rgba(237, 237, 237, 0) rgba(237, 237, 237, 0) #fff;
+            border-width: 8px;
+            top:22px;
+            right: -15px;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:before
+        {
+            border-color: rgba(221, 221, 221, 0) rgba(221, 221, 221, 0) rgba(221, 221, 221, 0) #ddd;
+            border-width: 10px;
+            top: 20px;
+            right: -19px;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview #arrow-notifications-miniview
+        {
+            display:none;
+        }
+	
+		        /**
+ * Menu Contrast enhancements
+ */
+.rw_category_dd_theme_light .rw_category_dropdown_visible span, .rw_category_dd_theme_light .rw_category_dropdown_visible span span {
+    color: #333!important;
+}
+
+.rw_category_dd_theme_light #rw_category_dropdown_wrapper #rw_category_dropdown_container .rw_dd_category>h2 a.rw_sub_category_link, .rw_category_dd_theme_light #rw_category_dropdown_wrapper #rw_category_dropdown_container .rw_dd_category>h3 a.rw_sub_category_link {
+    color: #333;
+}
+
+ul.rw_content_list li a span.rw_item_content {
+  color: #333; 
+}
+
+ul.rw_content_list li a span.rw_item_icon_right.rw_item_favourite {
+    color: #666;
+}
+
+ul.rw_content_list li a:hover span.rw_item_icon, ul.rw_content_list li a:hover span.rw_item_icon_right, ul.rw_content_list li a:active span.rw_item_icon, ul.rw_content_list li a:active span.rw_item_icon_right {
+    color: #666;
+}
+
+ul.rw_content_list li a span.rw_item_icon {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    text-align: center;
+    color: #666;
+    cursor: pointer;
+}
+#rw_side_menu.rw_theme_light #rw_side_menu_container > ul li a {
+  color: #666;
+}
+
+/**
+ * Content Contrast enhancements
+ */
+
+#com-atlassian-confluence .rw_content_menu_transparent #rw_menu_bar_wrapper #rw_menu_bar h1, #com-atlassian-confluence .rw_content_menu_transparent_dark #rw_menu_bar_wrapper #rw_menu_bar h1 {
+    color: rgba(255,255,255,0.9);
+}
+	
+</style>
+
+
+
+    
+
+    
+                <link rel="canonical" href="https://outerspace.stsci.edu/display/MASTDOCS/MAST+User+Documentation">
+        <link rel="shortlink" href="https://outerspace.stsci.edu/x/fwSpBQ">
+    <meta name="wikilink" content="[MASTDOCS:MAST User Documentation]">
+    <meta name="page-version" content="21">
+    <meta name="ajs-page-version" content="21">
+
+
+        
+
+    
+
+    <meta name=“google-site-verification” content=“eQakAYDZ4C6g205IQ0aUIJQ-9h7cnvhC_wV6VlutchI” />
+</head>
+
+
+<body      id="com-atlassian-confluence"
+         data-theme-id="11"    data-site-id="3"
+    class=" rw_version_6  aui-layout aui-theme-default
+        lighter-editor     rw_body_gray rw_popup_design_default rw_category_dd_theme_dark 
+               rw_new_icons          rw_has_side_menu     "
+     >
+
+    
+<script>
+  if (window.frameElement) {
+    if (AJS && AJS.Meta && AJS.Meta.set && window.frameElement.id !== 'scaffold-iframe') {
+      AJS.Meta.set('content-type', '');
+    }
+    $('#main-content').append('<style></style>')
+  }
+</script>
+
+
+        
+            <div id='stp-licenseStatus-banner'></div>
+            <script>
+    var spaceConfigElement = document.getElementById('sv-space-config');
+    if (spaceConfigElement) {
+        var cssClasses = spaceConfigElement.getAttribute('content');
+        document.body.className += ' ' + cssClasses;
+    }
+</script>
+            
+            <div id='workflow-page-status' style='display: none;'><fieldset class="hidden parameters">
+<input type="hidden" id="hoverDescription" value="null"/><input type="hidden" id="finalState" value="false"/><input type="hidden" id="hasFinalState" value="false"/><input type="hidden" id="publishedView" value="false"/><input type="hidden" id="taskable" value="false"/><input type="hidden" id="activeTasks" value="0"/><input type="hidden" id="pageAssignable" value="false"/><input type="hidden" id="workflowAdmin" value="false"/><input type="hidden" id="anonymous" value="true"/><input type="hidden" id="activityVisible" value="false"/><input type="hidden" id="approvalMinQuery" value="2"/><input type="hidden" id="showDocumentActivity" value="true"/><input type="hidden" id="alternateViewTitle" value="View published version of page"/></fieldset></div>
+<fieldset class="parameters hidden">
+<input type="hidden" id="isWorkflowsLiteApp" value="false"/>
+<input type="hidden" id="isWorkflowsApp" value="true"/>
+<input type="hidden" id="parametersLabel" value="Parameters"/>
+<input type="hidden" id="hasWorkflow" value="false"/>
+<input type="hidden" id="isPageReadAck" value="false"/>
+<input type="hidden" id="cwConfluenceLocale" value="en"/>
+<input type="hidden" id="pluginKey" value="com.comalatech.workflow"/>
+<input type="hidden" id="isDocActionsEnabled" value="true"/>
+<input type="hidden" id="cwConfluenceTimeFormat" value="h:mm a"/>
+<input type="hidden" id="isComalaAppLicensed" value="true"/>
+<input type="hidden" id="cwIsSpaceAdmin" value="false"/>
+<input type="hidden" id="cwIsConfluenceAdmin" value="false"/>
+<input type="hidden" id="hasReadAck" value="false"/>
+<input type="hidden" id="cwSpaceWorkflowAllowed" value="true"/>
+<input type="hidden" id="cwConfluenceDateTimeFormat" value="MMM dd, yyyy HH:mm"/>
+<input type="hidden" id="tasksLabel" value="Tasks"/>
+<input type="hidden" id="approvalsLabel" value="Approvals"/>
+<input type="hidden" id="cwConfluenceDateFormat" value="MMM dd, yyyy"/>
+<input type="hidden" id="statesLabel" value="State"/>
+<input type="hidden" id="workflowVersion" value="7.7.0"/>
+<input type="hidden" id="cwShowWorkflowTranslator" value="true"/>
+<input type="hidden" id="isApprovalsApp" value="false"/>
+</fieldset><script type="text/x-template" title="adhocworkflows-loading">
+    <div class="progress-messages-icon"></div>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-user">
+    <li class="preset"><img src="{pictureUrl}"><a name="{name}"><span>({name}) {shortName}</span></a></li>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-assignee">
+    <li class="assignee" name="{name}">
+        <div>
+            <img src="{pictureUrl}"/>{fullName}
+            <span class="remove-assignee"></span>
+        </div>
+    </li>
+</script>
+
+<script type="text/x-template" title="adhoc-action">
+    <span class="workflow-action {id}" name="{id}"></span>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-approvals">
+    <div class="progress-messages-icon"></div>
+    <div id="workflow-main">
+        <div class="approvals">
+        </div>
+        <form class="aui adhocworkflows">
+            <div class="button-panel dialog">
+                <a href="#" class="parameters">Parameters...</a>
+                <a href="#" class="cancel-dialog">Cancel</a>
+            </div>
+        </form>
+    </div>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-approval-action-default">
+    <span class="approval-name">{defaultAction.name}</span>
+    <a name="{defaultAction.id}" class="approve workflow-action" href="#"><span>{defaultAction.shortName}</span></a>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-approval-duedate">
+    <div class="task-duedate">due {friendlyDueDate}</div>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-approval">
+    <div id="{id}" class="approval {separator}">
+        <div class="approval-header clr">
+            <div class="name {mark}">
+            </div>
+            <div class="approval-duedate">
+            </div>
+            <div class="workflow-actions">
+            </div>
+        </div>
+        <div class="approval-edit">
+            <div class="adhoc-message">
+            </div>
+            <form class="aui approval {signatureType}">
+                <input type="hidden" name="name" value="{name}"/>
+                <fieldset>
+                    <div class="credential-username"><label for="username">User Name</label></div>
+                    <input class="credential-username" type="text" name="username" id="username" width="10" >
+                    <div class="credential-password"><label for="password">Password</label></div>
+                    <input class="credential-password" type="password" name="password" id="password" width="10">
+                                        <input  type="text"
+                            class="text assignee-user"
+                            name="assignee"
+                            placeholder="Assign to..."/>
+                                        <input  type="text"
+                            class="text autocomplete-filtered-user"
+                            users="{filterUsers}"
+                            groups="{filterGroups}"
+                            name="assignee"
+                            data-max="10"
+                            data-template="{username}"
+                            data-none-message="No matching user found"
+                            placeholder="Assign to..."/>
+                    <div class="usersdropdown aui-dd-parent">
+                        <a href="" class="aui-dd-trigger" style="display:none;"></a>
+                        <div class="aui-dropdown aui-dropdown-left hidden">
+                            <ol>
+                            </ol>
+                        </div>
+                    </div>
+                    <ol class="assignees select">
+                    </ol>
+                    <textarea class="textarea" placeholder="Add an optional note"/>
+                </fieldset>
+                <div class="button-panel">
+                    <input type="submit" name="approve" class="approve" value="Approve">
+                    <input type="submit" name="reject" class="reject" value="Reject">
+                    <input type="submit" name="assign" class="assign" disabled="disabled" value="Assign">
+                    <a href="#" class="cancel-approval">Cancel</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-assignee-option">
+    <option class="assigneename" value="{name}">
+        <img src="{pictureUrl}" title="{fullName}"/>{fullName}
+    </option>
+</script>
+
+
+<script type="text/x-template" title="adhocworkflows-approver">
+    <div id="{id}" class="approval approver">
+        <div class="approval-header clr">
+            <div class="name {mark}">
+                <img src="{user.pictureUrl}" title="{user.fullName}">
+            </div>
+            <div class="workflow-actions">
+            </div>
+        </div>
+        <div class="approval-edit">
+            <form class="aui approval {signatureType}">
+                <input type="hidden" name="name" value="{name}"/>
+                <fieldset>
+                    <div class="credential-username"><label for="username">User Name</label></div>
+                    <input class="credential-username" type="text" name="username" id="username" width="10" >
+                    <div class="credential-password"><label for="password">Password</label></div>
+                    <input class="credential-password" type="password" name="password" id="password" width="10">
+                    <ol class="assignees assignee">
+                    <li style="display:none" name="{user.name}"></li>
+                    </ol>
+                    <textarea class="textarea" placeholder="Add an optional note"/>
+                </fieldset>
+                <div class="button-panel">
+                    <input type="submit" name="approve" class="approve" value="Approve">
+                    <input type="submit" name="reject" class="reject" value="Reject">
+                    <input type="submit" name="assign" class="assign" value="Assign">
+                    <input type="submit" name="unassign" class="delete" value="Unassign">
+                    <a href="#" class="cancel-approval">Cancel</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</script>
+
+<script type="text/x-template" title="adhoctasks-tasks">
+    <div class="progress-messages-icon"></div>
+    <div id="tasks-main">
+        <div class="tasks">
+        </div>
+        <form class="aui adhocworkflows addtask">
+            <input type="hidden" name="id" value=""/>
+            <fieldset>
+                <span class="workflow-action assign-new-task" name="assign"></span>
+                <input  id="taskName0"
+                        name="taskName0"
+                        class="text taskName active"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName1"
+                        name="taskName1"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName2"
+                        name="taskName2"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName3"
+                        name="taskName3"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName4"
+                        name="taskName4"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName5"
+                        name="taskName5"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName6"
+                        name="taskName6"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName7"
+                        name="taskName7"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName8"
+                        name="taskName8"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="taskName9"
+                        name="taskName9"
+                        class="text taskName"
+                        type="text"
+                        placeholder="Task name..."/>
+                <input  id="newTaskAssignee"
+                        type="text"
+                        class="text autocomplete-user"
+                        name="assignee"
+                        data-max="10"
+                        data-template="{username}"
+                        data-none-message="No matching user found"
+                        placeholder="Assign to..."/>
+                <div class="usersdropdown aui-dd-parent">
+                    <a href="" class="aui-dd-trigger" style="display:none;"></a>
+                    <ul class="aui-dropdown aui-dropdown-left hidden">
+                    </ul>
+                </div>
+                <ol class="assignees select single">
+                </ol>
+                <textarea class="textarea" placeholder="Add an optional note"/>
+            </fieldset>
+            <div class="button-panel">
+                <a href="#" class="add-task">Add task...</a>
+                <input type="submit" name="create" class="create" value="Create">
+                <a href="#" class="cancel-addtask">Cancel</a>
+                <a href="#" class="cancel-dialog">Cancel</a>
+            </div>
+        </form>
+    </div>
+</script>
+
+<script type="text/x-template" title="adhoctasks-tasks-count">
+    {count} Tasks
+</script>
+
+<script type="text/x-template" title="adhoctasks-tasks-count0">
+    Tasks
+</script>
+
+<script type="text/x-template" title="adhoctasks-tasks-count1">
+    1 Task
+</script>
+
+<script type="text/x-template" title="adhoctasks-task-action-default">
+    <span class="task-name">{name}</span>
+        <a name="{action.id}" class="workflow-action" title="{hint}" href="#">{shortName}</a>
+</script>
+
+<script type="text/x-template" title="adhoctasks-task-name">
+    <span class="task-name">{name}</span>
+</script>
+
+<script type="text/x-template" title="adhoctasks-task-assignee">
+    <img src="{user.pictureUrl}" title="{user.fullName}"> {user.fullName}
+</script>
+
+<script type="text/x-template" title="adhoctasks-task-duedate">
+    <span class="task-duedate">due {friendlyDueDate}</span>
+</script>
+
+<script type="text/x-template" title="adhoctasks-task-completed">
+    <div>
+        {actor.fullName} {lastAction} {date}
+    </div>
+    <blockquote class="note">
+        {comment}
+    </blockquote>
+</script>
+
+<script type="text/x-template" title="adhoctasks-task">
+    <div id="task-{id}" class="task {toggle}">
+        <div class="task-header">
+            <div class="name {completed}">
+            </div>
+            <div class="workflow-actions">
+            </div>
+        </div>
+        <div class="task-edit">
+            <div class="task-caption">
+            </div>
+            <form class="aui">
+                <input type="hidden" name="id" value="{id}"/>
+                <fieldset>
+                    <input  type="text"
+                            class="text autocomplete-user"
+                            name="assignee"
+                            data-max="10"
+                            data-template="{username}"
+                            data-none-message="No matching user found"
+                            placeholder="Assign to..."/>
+                    <div class="usersdropdown aui-dd-parent">
+                        <a href="" class="aui-dd-trigger" style="display:none;"></a>
+                        <ul class="aui-dropdown aui-dropdown-left hidden">
+                        </ul>
+                    </div>
+                    <ol class="assignees select single">
+                    </ol>
+                    <textarea class="textarea" placeholder="Add an optional note"/>
+                </fieldset>
+                <div class="button-panel">
+                    <input type="submit" name="remove" class="remove" value="Delete">
+                    <input type="submit" name="complete" class="complete" value="Complete">
+                    <input type="submit" name="assign" class="assign" value="Assign">
+                    <a href="#" class="cancel-task">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</script>
+<script type="text/x-template" title="adhocworkflows-states">
+    <div class="progress-messages-icon"></div>
+    <div id="workflow-main">
+        <form class="aui state">
+            <fieldset>
+                <span class="workflow-action assign-page" name="assign"></span>
+                <select id="select-workflow-state" name="state">
+                </select>
+                <ol class="assignees assigned">
+                </ol>
+                <input type="text "
+                            class="text newstatename"
+                            placeholder="New State name"/>
+                <input type="text"
+                            class="text autocomplete-user"
+                            name="assignee"
+                            data-max="10"
+                            data-template="{username}"
+                            data-none-message="No matching user found"
+                            placeholder="Assign to..."
+                            placeholder2="Reassign to..."/>
+                <div class="usersdropdown aui-dd-parent">
+                    <a href="" class="aui-dd-trigger" style="display:none;"></a>
+                    <ul class="aui-dropdown aui-dropdown-left hidden">
+                    </ul>
+                </div>
+                <ol class="assignees select single">
+                </ol>
+                <textarea class="textarea" placeholder="Add an optional note"></textarea>
+            </fieldset>
+            <div class="button-panel">
+                <input type="submit" name="change" class="accept" value="Accept">
+                <input type="submit" name="unassign" class="unassign" value="Unassign">
+                <a href="#" class="parameters">Parameters...</a>
+                <a href="#" class="cancel-dialog">Cancel</a>
+            </div>
+        </form>
+    </div>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-state">
+    <option>{name}</option>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-state-adhoc">
+    <optgroup label="Ad hoc Workflow">
+        <option value="0">Create a new state...</option>
+    </optgroup>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-select">
+    <div class="progress-messages-icon"></div>
+    <form class="aui adhocworkflows">
+        <fieldset>
+            <label for="select-workflow-templates">Workflow</label>
+            <select id="select-workflow-templates" name="workflowTemplate" class="select">
+            </select>
+            <div class="adhoc-states">
+                <label for="adhoc-state-names">State names</label>
+                <input id="adhoc-state-names" type="text" class="state-names" value="In Progress, Approved"/>
+                <span class="description">
+                    This is just an initial list, you will be able to change later
+                </span>
+            </div>
+
+            <span class="description">
+                Learn more about
+                <a target="_blank" href="https://apps.appf.re/cdmdc/doc/featuretour/xcvbJg">
+                    working with workflows
+                </a>
+            </span>
+        </fieldset>
+        <div class="button-panel">
+            <input type="submit" name="confirm" value="Add">
+            <a href="#" class="close-dialog">Cancel</a>
+        </div>
+
+    </form>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-adhoc-template">
+    <optgroup label="Ad hoc Workflow">
+        <option value="0" title="Use this to define the workflow as you go: at each step allow participants to create tasks and to decide where next to route the document. All the states and tasks will be recorded and you will be able to reuse the workflow.">Start with a blank workflow</option>
+    </optgroup>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-select-template">
+    <option value="{id}" title="{description}">{name}</option>
+</script>
+
+
+<script type="text/x-template" title="adhocworkflows-form">
+    <div class="progress-messages-icon"></div>
+    <div id="workflow-form">
+        <form class="aui ahoc-form">
+            <fieldset>
+                <table>
+
+                </table>
+            </fieldset>
+            <div class="button-panel">
+                <input type="submit" name="accept" class="accept" value="Accept">
+                <a href="#" class="edit-form"><span class="value">Edit</span></a>
+                <a href="#" class="cancel-dialog">Cancel</a>
+            </div>
+        </form>
+    </div>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-inputfield">
+    <tr>
+        <td class="field-name">
+            {name}
+        </td>
+        <td id="{id}" class="value">
+        </td>
+    </tr>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-inputfield-text">
+    <span class="value">{value}</span>
+    <input name="{id}" type="text" class="text" value="{value}"/>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-inputfield-user">
+    <span class="user value" title="{value}">{value}</span>
+    <input  type="text"
+            class="text autocomplete-user"
+            name="{id}"
+            data-max="10"
+            data-template="{username}"
+            data-none-message="No matching user found"
+            placeholder="Assign to..."
+            value="{value}"/>
+    <div class="usersdropdown aui-dd-parent">
+        <a href="" class="aui-dd-trigger" style="display:none;"></a>
+        <ul class="aui-dropdown aui-dropdown-left">
+        </ul>
+    </div>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-inputfield-decorated-user">
+    <img src="{user.pictureUrl}" title="{user.fullName}">
+    <span>{user.fullName}</span>
+</script>
+
+
+<script type="text/x-template" title="adhocworkflows-inputfield-list">
+    <span class="value">
+        {value}
+    </span>
+    <select name="{id}">
+    </select>
+</script>
+
+<script type="text/x-template" title="adhocworkflows-inputfield-list-option">
+    <option {selected}>{option}</option>
+</script>
+
+            <fieldset class="parameters hidden">
+<input type="hidden" id="showPageOnboarding" value="false"/>
+</fieldset>
+    <ul id="assistive-skip-links" class="assistive">
+    <li><a href="#title-heading">Skip to main content</a></li>
+    <li><a href="#breadcrumbs">assistive.skiplink.to.breadcrumbs</a></li>
+    <li><a href="#rw_category_menu">assistive.skiplink.to.header.menu</a></li>
+    <li><a href="#navigation">assistive.skiplink.to.action.menu</a></li>
+    <li><a href="#rw_search_query">assistive.skiplink.to.quick.search</a></li>
+</ul>
+
+
+<div id="page">
+
+<div id="rw_layout_draft_preview"></div>
+
+<div id="full-height-container">
+
+      <div id="header" style="display:none;"></div>
+
+   <div id="header-precursor">
+        <div class="cell">
+            
+                        </div>
+    </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+    id="rw_side_menu"
+    class="
+		 rw_c711_tweak     rw_c712_tweak	"
+
+    data-mode="$themeSettingsBean.globalMenuSettings.mode"
+    >
+    <div id="rw_side_menu_handle" class="rw_handle"><span class="rw_external_icon_angle-double-left"></span></div>
+    <div id="rw_side_menu_container">
+        <ul>
+                                    				
+    
+        					
+		<li><a  id="login-link" href="/login.action?os_destination=%2Fdisplay%2FMASTDOCS%2FMAST%2BUser%2BDocumentation" class="  user-item login-link " 			 title="Login"  style="margin-top:10px;">
+							<span class="rw_item_icon rw_external_helper_icon_login" style="font-weight: bold"></span> 			  	<span class="rw_item_content">Log in</span>
+			        </a></li>
+                            			
+                                                
+	                
+	    <li><a id="help-menu-link" href="#" title="Help" class="rw_has_dd rw_tooltip" data-dd="help-menu-link-dd" data-tooltip="Help">
+      <span class="rw_item_icon aui-icon aui-icon-large aui-iconfont-new-help">Help / Tips</span>
+      <span class="rw_item_content">Help</span>
+    </a>
+      <nav id="help-menu-link-dd" class="rw_side_menu_dd" data-owner="help-menu-link">
+		              <div class="rw_section">
+              <ul  id="help-menu-link-leading" class="section-leading first">
+				                          
+    
+        					
+		<li><a  id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-89/" class="   " 			 title="Visit the Confluence documentation home"   target="_blank" >
+			                                Online Help
+                    </a></li>
+                                                
+    
+            					
+		<li><a  id="keyboard-shortcuts-link" href="#" class="   " 			 title="View available keyboard shortcuts"   >
+			                                Keyboard Shortcuts
+                    </a></li>
+                                                
+    
+        					
+		<li><a  id="feed-builder-link" href="/dashboard/configurerssfeed.action" class="   " 			 title="Create your custom RSS feed."   >
+			                                Feed Builder
+                    </a></li>
+                                                
+    
+        					
+		<li><a  id="whats-new-menu-link" href="https://confluence.atlassian.com/display/DOC/Confluence+8.9+Release+Notes" class="   " 			  >
+			                                What’s new
+                    </a></li>
+                                                
+    
+            					
+		<li><a  id="gadget-directory-link" href="#" class="  user-item administration-link " 			 title="Browse gadgets provided by Confluence"   >
+			                                Available Gadgets
+                    </a></li>
+                                                
+    
+        					
+		<li><a  id="confluence-about-link" href="/aboutconfluencepage.action" class="   " 			 title="Get more information about Confluence"   >
+			                                About Confluence
+                    </a></li>
+                                      </ul>
+            </div>
+		        </nav>
+    </li>
+	                                </ul>
+        <ul>
+            <li>
+                <a id="rw_search_popup_button" title="Search">
+                    <span class="rw_item_icon rw_iconfont_search"></span>
+                    <span class="rw_item_content">Search</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="rw_done_cover"></div>
+</div>
+		
+				
+
+
+
+    
+
+
+                <div id="rw_announcement_banners"></div>
+
+        <div id="rw_wrapper" class="rw_menu_layout_v2    rw_background_partial rw_effects_popup_shadow rw_header_theme_1row rw_header_height_space rw_category_menu_theme_traditional rw_content_spaces_gray3 rw_content_menu_transparent 
+		 ">
+
+			<div id="rw_main">
+
+				
+
+									    <div id="rw_theme_header" class="rw_corners_rounded rw_text_size_regular rw_logo_size_medium rw_search_theme_light ">
+        <div class="rw_header_background"></div>
+                                                <div class="rw_row_1 rw_header_row">
+
+                                                    <div class="rw_header_left rw_has_logo rw_has_app_switcher">
+                        
+	
+			<ul class="rw_inline_menu rw_header_menu rw_left">
+			<li>
+                <div id="rw_site_switcher" data-site-id="3"></div>
+			</li>
+		</ul>
+	                        	
+
+<div id="rw_logo_container" class="rw_has_app_switcher  ">
+
+  			
+			
+	
+	<a href="/site/mast">
+		<img src="/download/attachments/327682/atl.site.logo?version=1&amp;modificationDate=1499352523875&amp;api=v2" alt="MAST" />
+	</a>
+</div>
+                    </div>
+                
+
+                                <div class="rw_header_center">
+			
+										
+						
+				<div id="rw_category_menu"
+			 class=" rw_version_3 rw_theme_traditional rw_corners_rounded rw_text_size_regular rw_logo_size_medium   "
+			 			 data-click-and-hover="false"
+			 data-drop-down-content-size="medium"
+			 data-drop-down-disabled="false"
+			 data-drop-down-layout="dynamic_column"
+			 data-show-category-logo="false"
+			 data-show-space-logo="false"
+			 data-show-space-icon="true"
+			 data-active-category-key="prot"
+			 data-is-dashboard=""
+			 data-min-column-width="340"
+			 data-exclude-archived-spaces="true"
+			 data-is-using-manual-permissions="true"
+			 data-collapsed-sub-categories="false"
+			             data-version="3"
+			             data-dashboard-title=""
+		>
+						<div id="rw_category_menu_scroll_container">
+					  <ul class="rw_category_items">
+		  			  		  </ul>
+						</div><!-- # rw_category_menu_scroll_container -->
+					</div>
+			</div>
+
+                                <div class="rw_header_right ">
+                                           
+                    	<div id="rw_search_container">
+		<div id="rw_search" class="rw_search">
+			<form id="rw_search_form" class="rw_search_form" method="get" action="/dosearchsite.action">
+		   		<label for="rw_search_query" class="assistive">Quick Search</label>
+              	<div class="rw_search_icon rw_icon rw_iconfont_search"></div>
+
+						    <div id="search-ui">
+        <button id="quick-search-query-button" style="display:none;"></button>
+        <input id="quick-search-query" style="display: none;"/>
+		<div id="quick-search-alert" role="alert" style="display: none;">Hit enter to search</div>
+		<aui-spinner size="small" resolved="" style="display: none;">
+		            <svg></svg>
+            <circle></circle>
+      </aui-spinner>
+    </div>
+	
+			  	<input class="rw_search_query" style="width: 150px;" id="rw_search_query" placeholder="Search" type="search" accessKey="search-pages-action.accesskey" autocomplete="off" name="queryString" size="25" />
+
+		   		<div style="clear:both;"></div>
+		        <div id="rw_search_result_container" class="rw_search_result_container rw_corners" style="display:none;">
+
+		        </div>
+
+		        <fieldset class="hidden parameters">
+		            <input type="hidden" id="quickNavEnabled" value="true" />
+		            		        </fieldset>
+		    </form>
+	    </div>
+	</div>
+
+                                        
+
+	                </div>
+
+            </div>
+            </div>
+
+<div id="rw_theme_content">
+        <div class="rw_bg_shadow">
+    <div class="rw_shadow_container">
+        <div class="rw_shadow_left"></div>
+        <div class="rw_shadow_top"></div>
+        <div class="rw_shadow_right"></div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+
+		
+
+			<div style="clear:both;"></div>
+
+		    <div id="main" >
+
+																	
+
+
+										
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="rw_menu_bar_wrapper" class="rw_has_logo" >
+
+    		<div id="rw_menu_bar_icon" >
+
+			<div class="space-logo " data-key="MASTDOCS" data-name="MAST Docs" data-entity-type="confluence.space">
+            <a><img class="logo space custom" src="/download/attachments/91624089/MASTDOCS?version=1&amp;modificationDate=1615231121274&amp;api=v2" alt=""></a>
+        </div>
+		</div>
+		<div id="rw_menu_bar_content">
+	
+	<div id="rw_menu_bar" class="rw_corners" >
+        		
+    
+<div class="rw_create_experience">
+                          <a id="rw_create_placeholder"><div class="rw_icon rw_iconfont_add"></div></a>
+
+        
+                          <a href="" id="create-page-button" class="rw_create_item" rel="nofollow" aria-label="Create content">
+                  <div class="rw_icon rw_iconfont_add"></div>
+        <div class="rw_icon rw_iconfont_page rw_icon_hover"></div>
+        <div class="rw_description">Create content</div>
+      </a>
+                      <script>
+        AJS.$('.rw_create_experience').hover(
+            function() {
+              $('#create-page-button').css('top', "0px");
+            },
+            function() {
+              $('#create-page-button').css('top', "0");
+            });
+      </script>
+    
+
+        </div>
+
+				
+
+				
+
+								
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="rw_space_nav" class="rw_corners">
+
+    <div class="rw_item_content ">
+                <a
+                title="MAST Docs"
+                            href="/display/MASTDOCS"
+                                >
+                            MAST Docs
+                                                                            </a>
+    </div>
+
+    
+            <button
+                class="rw_item_actions"
+                id="rw_space_menu_button"
+                        >
+            <span class="rw_icon rw_iconfont_top_menu"></span>
+        </button>
+                    
+	
+	
+	<div id="browse-space-menu" style="display:none;" >
+                    <ul  id="browse-space-menu-leading">
+		  		<h3 class="rw_section_title">Content</h3>
+                                    
+
+    
+
+    
+    		    
+    
+<li class="acs-nav-item wiki aui-iconfont-page"><a  href="/collector/pages.action?key=MASTDOCS"  class="wiki aui-iconfont-page"   title="Pages">
+    
+        
+          <span class="rw_item_icon"><span class="icon"></span></span>
+      <span class="rw_item_content">Pages</span>
+</a></li>
+                                    
+
+    
+
+    
+    		    
+    
+<li class="acs-nav-item blog aui-iconfont-quote"><a  href="/pages/viewrecentblogposts.action?key=MASTDOCS"  class="blog aui-iconfont-quote"   title="Blog">
+    
+        
+          <span class="rw_item_icon"><span class="icon"></span></span>
+      <span class="rw_item_content">Blog</span>
+</a></li>
+                
+								            </ul>
+		
+  		<ul>
+			<h3 class="rw_section_title">Space Tools</h3>
+
+								<li>
+
+		
+				
+			
+					
+      <a title="Overview" href="/spaces/viewspacesummary.action?key=MASTDOCS">
+		              <span class="rw_item_icon rw_iconfont_text"></span>
+		  
+        <span class="rw_item_content">
+		  		  				  Settings
+					  		</span>
+      </a>
+
+				    </li>
+		<li>
+
+		
+				
+			
+					
+      <a title="Community Forums" href="/plugins/forums/config/space/spaceForumList.action?key=MASTDOCS">
+		              <span class="rw_item_icon rw_iconfont_dot"></span>
+		  
+        <span class="rw_item_content">
+		  		  				  Community Forums
+					  		</span>
+      </a>
+
+				    </li>
+		<li>
+
+		
+				
+			
+					
+      <a title="Content Tools" href="/pages/reorderpages.action?key=MASTDOCS">
+		              <span class="rw_item_icon rw_iconfont_tree"></span>
+		  
+        <span class="rw_item_content">
+		  		  				  Content Tools
+					  		</span>
+      </a>
+
+				    </li>
+		<li>
+
+		
+				
+			
+					
+      <a title="Apps" href="/spaces/excellentable/spaceSettings.action?key=MASTDOCS">
+		              <span class="rw_item_icon rw_iconfont_dot"></span>
+		  
+        <span class="rw_item_content">
+		  		  				  Apps
+					  		</span>
+      </a>
+
+				    </li>
+					      	</ul>
+
+ 			</div>
+            </div>
+
+		
+
+	</div> <!-- #rw_menu_bar -->
+	</div>
+</div> <!-- #rw_menu_bar_wrapper -->
+				
+
+												
+
+		        
+
+								
+					
+											
+
+    <div class="rw_content_section page view">
+
+
+              <div id="rw_splitter"><div id="rw_splitter_handle" class="rw_hidden"></div></div>
+    
+            <div id="rw_left_column" class="rw_custom_section rw_corners wiki-content rw_visibility_hidden">
+            
+
+						<p><div class="rw_page_tree_wrapper conf-macro output-block" data-hasbody="false" data-macro-name="rw-pagetree">
+    	<div class="rw_param_start_page_id" style="display:none;" data-value="@home"></div>
+    <div class="rw_param_theme" style="display:none;" data-value=""></div>
+	<div class="rw_param_search" style="display:none;" data-value=""></div>
+	<div class="rw_param_expand_collapse" style="display:none;" data-value="false"></div>
+	<div class="rw_param_page_id" style="display:none;" data-value="94962815"></div>
+	<div class="rw_param_space_key" style="display:none;" data-value="MASTDOCS"></div>
+	<div class="rw_param_space_admin" style="display:none;" data-value="false"></div> 	<div class="rw_param_space_shortcuts" style="display:none;" data-value="true"></div>
+  	<div class="rw_param_expand_depth" style="display:none;" data-value="2"></div>
+	<div class="rw_param_space_root" style="display:none;" data-value="94962815"></div>
+		<fieldset class="hidden rw_param_ancestors">
+					<input type="hidden" name="ancestorId" value="94962815"/>
+			</fieldset>
+
+		
+  	<div style="display:none;" class="rw_pagetree rw_corners
+	  		  		  		rw_theme_default
+	  		  	">
+
+	    
+	  		  				<div class="rw_quick_links_container" style="display:none;"></div>
+ 		
+		 		
+	  	        <div class="rw_page_tree_container"></div>
+
+  	</div>
+
+	<div id="rw_sidebar_icon_quicklinks" class="rw_sidebar_icon rw_hidden" data-tooltip="Space shortcuts"><span class="rw_icon rw_iconfont_pages"></span></div>
+	<div id="rw_sidebar_icon_pagetree" class="rw_sidebar_icon rw_hidden" data-tooltip="Pagetree"><span class="rw_icon rw_iconfont_tree"></span></div>
+
+</div></p>
+		
+        </div>
+        <script>
+          // We check for left column width already here to avoid flickering by changeing the width after render.
+          var width = localStorage['rwot.leftcolumn.width'];
+          if(!true || !width) {
+            width = 250;
+          }
+          if (typeof RW === "undefined") {
+            RW = {};
+          }
+          RW._tmpLeftColumnWidth = width;
+          $('#rw_left_column').width(width);
+        </script>
+    
+    <div id="rw_main_column" class="rw_has_left_column">
+      <script>
+        // We check for left column width already here to avoid flickering by changeing the width after render.
+        if (RW && RW._tmpLeftColumnWidth) {
+          $('#rw_main_column').attr('style', 'margin-left: ' + RW._tmpLeftColumnWidth + 'px');
+          // Cleanup our tmp variable
+          RW._tmpLeftColumnWidth = undefined;
+        }
+      </script>
+        <div class="rw_content">
+            
+                            
+
+
+            <div id="main-header" >
+
+                <div class="rw_page_buttons">
+    <a id="rw_open_fullscreen" title="Open page in fullscreen ( Type 'F', shift + f )" class="aui-button aui-button-subtle" href="#">
+        <span>
+			<span class="rw_icon rw_iconfont_fullscreen"></span>
+		</span>
+    </a>
+    <a id="rw_close_fullscreen" style="display:none;" class="aui-button aui-button-subtle" title="Exit fullscreen mode ( Type 'esc' )">
+        <span>
+            <span class="rw_icon rw_iconfont_minimize"></span>
+        </span>
+    </a>
+</div>
+
+                
+
+                
+    <div id="navigation" class="content-navigation view" role="region" aria-label="Page tools">
+                    <ul class="ajs-menu-bar">
+                                            
+        <li class="normal ajs-menu-item">
+        <a id="action-menu-link" class="action aui-dropdown2-trigger-arrowless aui-button aui-button-subtle ajs-menu-title aui-dropdown2-trigger" href="#" aria-haspopup="true" aria-label="More options" aria-owns="action-menu" data-container="#navigation">
+            <span>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-more" aria-label="More options" role="button"></span>
+                                
+            </span>
+        </a>         <div id="action-menu" class="aui-dropdown2 aui-style-default confluence-dropdown2-scrollable"  role="menu" aria-labelledby="action-menu-link" >
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-workflowToolsActions"                          class="section-workflowToolsActions first"                         role="presentation" >
+                                                    <li
+                    role="presentation"
+            >
+
+    
+            
+    
+                                                                        
+    
+    
+            <a  id="removePageReadConfirmation"                href="#"
+                rel="nofollow"
+                class=""
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Remove Read Confirmation
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-primary"                          class="section-primary"                         role="presentation" >
+                                                    <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="view-attachments-link"                href="/pages/viewpageattachments.action?pageId=94962815"
+                rel="nofollow"
+                class="action-view-attachments"
+                 accessKey="t"                 title="View Attachments"                                                 role="menuitem"                >
+
+                        <span>
+                                A<u>t</u>tachments (9)
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-view-history-link"                href="/pages/viewpreviousversions.action?pageId=94962815"
+                rel="nofollow"
+                class="action-view-history"
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Page History
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-secondary"                          class="section-secondary"                         role="presentation" >
+                                                    <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="view-page-info-link"                href="/pages/viewinfo.action?pageId=94962815"
+                rel="nofollow"
+                class="action-view-info"
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Page Information
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+            
+    
+                                                                        
+    
+    
+            <a  id="view-resolved-comments"                href="#"
+                rel="nofollow"
+                class=""
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Resolved comments
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="view-in-hierarchy-link"                href="/pages/listpages-dirview.action?key=MASTDOCS&amp;openId=94962815#selectedPageInHierarchy"
+                rel="nofollow"
+                class=""
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                View in Hierarchy
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-view-source-link"                href="/plugins/viewsource/viewpagesrc.action?pageId=94962815"
+                rel="nofollow"
+                class="action-view-source popup-link"
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                View Source
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-export-pdf-link"                href="/spaces/flyingpdf/pdfpageexport.action?pageId=94962815&amp;atl_token=e4a298dcb72f52ecc5426fe59c8ff9a9bf20256b"
+                rel="nofollow"
+                class=""
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Export to PDF
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-export-word-link"                href="/exportword?pageId=94962815"
+                rel="nofollow"
+                class="action-export-word"
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Export to Word
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-label-tool"                          class="section-label-tool"                         role="presentation" >
+                                                    <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-page-bulk-label-operations"                href="/plugins/userlabeltool/pagebulklabeloperations.action?pageId=94962815"
+                rel="nofollow"
+                class=""
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Page Labels
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-attachment-bulk-label-operations"                href="/plugins/userlabeltool/pagebulkattachmentoperations.action?pageId=94962815"
+                rel="nofollow"
+                class=""
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Attachment Labels
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-modify"                          class="section-modify"                         role="presentation" >
+                                                    <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="displayed-status-inline-comments"                href="/pages/viewpage.action?pageId=94962815"
+                rel="nofollow"
+                class=""
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Hide Inline Comments
+            </span>        </a>
+    </li>
+                                                <li
+                    role="presentation"
+            >
+
+    
+        
+    
+                                                                        
+    
+    
+            <a  id="action-copy-page-link"                href="/pages/copypage.action?idOfPageToCopy=94962815&amp;spaceKey=MASTDOCS"
+                rel="nofollow"
+                class="action-copy"
+                                                                                 role="menuitem"                >
+
+                        <span>
+                                Copy
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                    </div>
+    </li>
+            </ul>
+    </div>
+
+        
+
+
+         <div id="title-heading" class="pagetitle with-breadcrumbs">
+
+                            <div id="breadcrumb-section">
+                    
+    
+    
+    <nav aria-label="Breadcrumbs">
+        <ol id="breadcrumbs">
+                                                            
+                                
+            <li class="first" >
+                                
+                                    <span class=""><a href="/collector/pages.action?key=MASTDOCS">Pages</a></span>
+                                                                                                    </ol>
+    </nav>
+
+
+                </div>
+            
+            
+		<a href="#page-banner-end" class="assistive">Skip to end of banner</a>
+<div id="page-banner-start" class="assistive"></div>
+
+                    
+            <div id="page-metadata-banner"><ul class="banner"><li id="system-content-items" class="noprint"><a href="" aria-label="Unrestricted" data-tooltip="Unrestricted" id="content-metadata-page-restrictions-hidden"  class="hidden"></a><a href="/pages/viewpageattachments.action?pageId=94962815&amp;metadataLink=true" aria-label="9 attachments" data-tooltip="9 attachments" id="content-metadata-attachments"  class="aui-icon aui-icon-small aui-iconfont-attachment"></a></li><li class="page-metadata-item noprinthas-button"  id="content-metadata-jira-wrapper"><a href=""  id="content-metadata-jira"  class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden"><span>Jira links</span></a></li><li class="page-metadata-item noprint"  id="adhocWorkflowsInfoBanner-wrapper"><a href="" aria-label="Workflow Information" data-tooltip="Workflow Information" id="adhocWorkflowsInfoBanner"  class="cw-inactive"><span>Workflow</span></a></li><li class="page-metadata-item noprint"  id="reporting-single-content-link-wrapper"><a href="/spaces/viewtrackerreport.action?key=MASTDOCS"  id="reporting-single-content-link"  class="auto-track-icon"><span>Viewtracker</span></a></li><li class="page-metadata-item noprint"  id="readackInfoBanner-wrapper"><a href="" aria-label="Read Confirmation" data-tooltip="Read Confirmation" id="readackInfoBanner"  class="cw-inactive"><span>Read Confirmation</span></a></li></ul></div>
+            
+
+<a href="#page-banner-start" class="assistive">Go to start of banner</a>
+<div id="page-banner-end" class="assistive"></div>
+	
+
+
+                            <h1 id="title-text" class="with-breadcrumbs">
+                                                        <a href="/display/MASTDOCS/MAST+User+Documentation">MAST User Documentation</a>
+                                        </h1>
+                    </div>
+    </div><!-- \#main-header -->
+
+
+
+            
+            
+    
+
+        
+
+
+
+
+            
+    <!-- this is page.vmd -->
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+    
+    
+        
+    
+    
+                    
+    
+
+	                    
+    
+	
+
+
+
+
+
+	
+    <script>
+  AJS.toInit(function() {
+    if(AJS.$("#action-menu-link").length > 0) {
+      AJS.$(window).trigger("resize");
+    }
+  });
+</script>
+ 
+		
+
+		
+
+
+
+
+
+
+
+    
+
+							
+	
+
+
+
+
+
+
+<div id="action-messages">
+                        </div>
+
+
+
+            <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">Page Title</th>
+                <th class="search-result-space">Space</th>
+                <th class="search-result-date">Updated</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/display/{4}/" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+
+
+
+        
+
+            
+
+                            
+    
+
+
+
+
+
+            <div class="page-metadata-wrapper">
+    
+    <div class="page-metadata">
+    <ul>
+        <li class="page-metadata-modification-info">
+            
+        
+    
+    
+        
+    
+        
+            
+            Created by <span class='author'>     <a href="    /display/~shaw
+"
+            aria-label="created by Richard A. Shaw"                       class="url fn"
+                            >Richard A. Shaw</a></span>, last modified by <span class='editor'>     <a href="    /display/~tdutkiewicz
+"
+            aria-label="modified by Thomas Dutkiewicz"                       class="url fn"
+                            >Thomas Dutkiewicz</a></span> on <a class='last-modified' aria-label='modified on Nov 16, 2023, select to show changes' title='Show changes' href='/pages/diffpagesbyversion.action?pageId=94962815&amp;selectedPageVersions=20&amp;selectedPageVersions=21'>Nov 16, 2023</a>
+            </li>
+    </ul>
+</div>    </div>
+
+
+
+
+
+
+<div style="clear:both;"></div>
+
+
+            
+  <div id="content" class="page view">
+		<article>
+		<div id="main-content" class="wiki-content">
+		                   
+        <div class="contentLayout2">
+<div class="columnLayout single" data-layout="single">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>This is the home for MAST User reference documentation. This collection of documents includes new user guides as well as updated and reorganized versions of old documents. The content on these pages features improved organization, and makes it easier to navigate and search for critical information on: the substantial MAST holdings; interfaces for searching, browsing, and retrieving data; mission-specific tools; and on seeking help when you need it.</p><div role="region" aria-label="Tip" class="confluence-information-macro confluence-information-macro-tip conf-macro output-block" data-hasbody="true" data-macro-name="tip"><span role="presentation" class="aui-icon aui-icon-small aui-iconfont-approve confluence-information-macro-icon"></span><div class="confluence-information-macro-body"><p>Some MAST documentation is still being migrated from the old platform, and will appear here when ready. In the meantime, links to older content will be provided where necessary.</p></div></div></div>
+</div>
+</div>
+<div class="columnLayout single" data-layout="single">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<h1 id="MASTUserDocumentation-MASTDocumentGuide">MAST Document Guide</h1><p>The following table summarizes where to look for MAST documentation on this platform.</p><div class="table-wrap"><table class="fixed-table wrapped confluenceTable"><colgroup><col style="width: 161.0px;"/><col style="width: 525.0px;"/></colgroup><tbody><tr><th class="highlight-#c1c7d0 confluenceTh" data-highlight-colour="#c1c7d0" title="Background color : Medium grey 45%">Space</th><th class="highlight-#c1c7d0 confluenceTh" data-highlight-colour="#c1c7d0" title="Background color : Medium grey 45%">Description</th></tr><tr><td class="confluenceTd"><p>MAST Docs</p><p>(This space) </p></td><td class="confluenceTd">Up-to-date manuals and user guides for MAST search and data exploration tools, and a guide for users who wish to contribute data collections.</td></tr><tr><td class="confluenceTd"><a href="https://outerspace.stsci.edu/display/MASTDATA" rel="nofollow">MAST Data Holdings</a></td><td class="confluenceTd">Descriptions of MAST data holdings (all catalogs, all missions), summary of data file semantic types, and links to catalog search interfaces.</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://archive.stsci.edu/" rel="nofollow">MAST Home Page</a></td><td class="confluenceTd">High-level summaries of hosted missions, catalogs, publishing resources, data policies, and summaries of HLSP collections.</td></tr></tbody></table></div><h1 id="MASTUserDocumentation-SearchandDiscoveryWebApplications">Search and Discovery Web Applications</h1><p>Here is a comparison of MAST tools for searching and retrieving data.</p><div class="table-wrap"><table class="wrapped fixed-table confluenceTable"><colgroup><col style="width: 173.0px;"/><col style="width: 170.0px;"/><col style="width: 341.0px;"/></colgroup><tbody><tr><th class="highlight-#c1c7d0 confluenceTh" data-highlight-colour="#c1c7d0" title="Background color : Medium grey 45%">Application</th><th class="highlight-#c1c7d0 confluenceTh" data-highlight-colour="#c1c7d0" title="Background color : Medium grey 45%">Searchable Data</th><th class="highlight-#c1c7d0 confluenceTh" data-highlight-colour="#c1c7d0" title="Background color : Medium grey 45%">Functional Highlights</th></tr><tr><td class="confluenceTd"><a class="external-link" href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html" rel="nofollow">Portal</a></td><td class="confluenceTd"><p>All hosted missions,</p><p>Selected catalogs: GAIA DR3, Hubble Source Catalog, TIC,</p><p>Virtual Observatory</p></td><td class="confluenceTd">Data visualization tools, data product selection, access to calibration reference files (for HST and JWST), data subscriptions and notifications for active missions, cross-matching with user-defined source lists. Direct download of data through the browser.</td></tr><tr><td class="confluenceTd"><a class="external-link" href="https://mast.stsci.edu/search/ui/#/" rel="nofollow">MAST Mission Search</a></td><td class="confluenceTd"><p>HST, JWST</p><p>Various HLSPs</p></td><td class="confluenceTd">Query for observations with a larger range of criteria than is possible in the Portal. Generate equivalent command-line queries for scripted access to data. Direct download of data through the browser.</td></tr><tr><td class="confluenceTd">Classic Mission Searches</td><td class="confluenceTd">Individual missions only</td><td class="confluenceTd"><div class="content-wrapper"><p class="auto-cursor-target">Offers query forms that are customized to available metadata for each mission, including <a class="external-link" href="https://archive.stsci.edu/kepler/data_search/search.php" rel="nofollow">Kepler</a>, <a class="external-link" href="https://archive.stsci.edu/k2/data_search/search.php" rel="nofollow">K2</a>, <a class="external-link" href="https://archive.stsci.edu/fuse/search.php" rel="nofollow">FUSE</a>, <a class="external-link" href="https://archive.stsci.edu/iue/search.php" rel="nofollow">IUE</a>, and many others. </p><div role="region" aria-label="Note" class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><span role="presentation" class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span><div class="confluence-information-macro-body"><p>These search forms will eventually be replaced by the new Missions query tools.</p></div></div></div></td></tr></tbody></table></div></div>
+</div>
+</div>
+<div class="columnLayout single" data-layout="single">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<h1 id="MASTUserDocumentation-AvailableManuals">Available Manuals</h1></div>
+</div>
+</div>
+<div class="columnLayout two-equal" data-layout="two-equal">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p>The available documents now include the following; they are also listed in the navigation panel on the left-hand side of these pages.</p><p><ul class="childpages-macro conf-macro output-block" data-hasbody="false" data-macro-name="sv-children"><li><a href="/display/MASTDOCS/Archive+Support">Archive Support</a></li><li><a href="/display/MASTDOCS/MAST+Pro+Tips">MAST Pro Tips</a></li><li><a href="/display/MASTDOCS/Portal+Guide">Portal Guide</a></li><li><a href="/display/MASTDOCS/JWST+Archive+Manual">JWST Archive Manual</a></li><li><a href="/display/MASTDOCS/Mission+Search+Guide">Mission Search Guide</a></li><li><a href="/display/MASTDOCS/HLSP+Contributor+Guide">HLSP Contributor Guide</a></li><li><a href="/display/MASTDOCS/Jdaviz+Guide">Jdaviz Guide</a></li><li><a href="/display/MASTDOCS/Cloud+Services+Manual">Cloud Services Manual</a></li><li><a href="/display/MASTDOCS/CaSSI+Manual">CaSSI Manual</a></li><li><a href="/display/MASTDOCS/HST+Classic+Migration+Manual">HST Classic Migration Manual</a></li></ul></p><h2 id="MASTUserDocumentation-Searchthisdocumentation">Search this documentation</h2><p><div class="search-macro search-macro-medium conf-macro output-inline" data-hasbody="false" data-macro-name="livesearch">
+    <form class="aui aui-dd-parent" name="livesearchForm" method="GET" action="/dosearchsite.action" role="search">
+        <fieldset class="search-macro-fields">
+            <div class="search-macro-query">
+                <input type="text" class="text" name="queryString" aria-label="Search" placeholder="" autocomplete="off"/>
+                            </div>
+                        <button type="submit" class="search-macro-button aui-button">
+                <span class="aui-icon aui-icon-small aui-iconfont-search">Search</span>
+            </button>
+                        <input type="hidden" name="where" value="MASTDOCS"/>
+            <input type="hidden" name="additional" value="space name"/>
+            <input type="hidden" name="labels" value=""/>
+            <input type="hidden" name="contentType" value=""/>
+        </fieldset>
+    </form>
+    <div role="region" class="aui-dd-parent"></div>
+    <div role="alert" class="assistive" aria-live="polite"></div>
+</div></p></div>
+</div>
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<h2 id="MASTUserDocumentation-PopularTopics">Popular Topics</h2><p><ul class="popularlabels-list conf-macro output-block" data-hasbody="false" data-macro-name="popular-labels">
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/mast">mast</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/portal">portal</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/jwst">jwst</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/hlsp">hlsp</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/metadata">metadata</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/download">download</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/api">api</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/mission-search">mission-search</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/data-retrieval">data-retrieval</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/data-selection">data-selection</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/cassi">cassi</a>
+</li>
+                    <li class="popularlabel">    <a class="label" rel="nofollow" href="/label/MASTDOCS/engineering-data">engineering-data</a>
+</li>
+                </ul></p></div>
+</div>
+</div>
+</div>
+
+                
+        
+    
+		</div>
+	</article>
+</div>
+
+<div style="clear:both;"></div>
+
+
+<div style="clear:both;"></div>
+
+
+			    
+    
+
+
+
+<div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="94962815" entitytype="page">
+	<div class="labels-content">
+		
+    <ul class="label-list label-list-right ">
+                    
+        <li class="aui-label " data-label-id="92307481"><a class="aui-label-split-main" href="/label/MASTDOCS/user-documents" rel="tag">user-documents</a></li><li class="aui-label " data-label-id="28770306"><a class="aui-label-split-main" href="/label/MASTDOCS/mast" rel="tag">mast</a></li>
+            </ul>
+
+    </div>
+</div>
+</div>
+	
+<div style="clear:both;"></div>
+
+
+<div style="clear:both;"></div>
+
+		<div id="rw_hidden_editor" style="display:none;" data-anti-xss="true">
+		    
+
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+                        
+    
+<div id="comments-section" class="pageSection group">
+        
+    
+
+
+
+</div>
+        
+
+	</div>
+		<script>
+	  var AJSShortcuts = AJS && AJS.Confluence && AJS.Confluence.KeyboardShortcuts && AJS.Confluence.KeyboardShortcuts.shortcuts;
+			if(!AJSShortcuts)
+			{
+				AJS.bind("shortcuts-loaded.keyboardshortcuts", function (e, data) {
+					// Remove the add comment section, also binding the keyboard shortcut.
+					$("#comments-section").remove();
+				});
+			}
+			else
+			{
+				// Remove the add comment section, also binding the keyboard shortcut.
+				$("#comments-section").remove();
+			}
+	</script>
+
+	<div style="clear:both;"></div>
+	<div class="rw_custom_section wiki-content">
+		<p style="text-align: center;"><a class="external-link" href="https://archive.stsci.edu/publishing/data-use" rel="nofollow">Data Use</a> | <a class="external-link" href="https://archive.stsci.edu/publishing/mission-acknowledgements" rel="nofollow">Acknowledgements</a> | <a class="external-link" href="https://archive.stsci.edu/publishing/doi" rel="nofollow">DOI</a> | <a class="external-link" href="https://www.stsci.edu/privacy" rel="nofollow">Privacy</a></p><p>Send comments &amp; corrections on this MAST document to: <a class="external-link" href="mailto:archive@stsci.edu" rel="nofollow">archive@stsci.edu</a></p>
+	</div>
+
+
+
+
+
+
+
+    
+	
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+        
+
+
+
+
+        </div><!-- .rw_content -->
+    </div><!-- #rw_main_column -->
+    <div class="rw_clear"></div>
+</div><!-- #content -->
+										<script>
+						// Now we can show the sidebar..
+						$('#rw_left_column').removeClass('rw_visibility_hidden');
+						$('#rw_right_column').removeClass('rw_visibility_hidden');
+					</script>
+								
+		        <div style="clear:both;"></div>
+		    </div><!-- \#main -->
+
+
+		
+				</div>
+
+
+	<div
+		id="rw_footer_wrapper"
+
+					        	class="rw_theme_dark"
+				>
+    	<div id="rw_footer_container">
+						                    </div>
+    </div>
+
+						
+
+
+                                
+            
+    
+
+			</div> <!-- rw_main -->
+
+						<div class="rw_background_section_background1"></div>
+<div id='rw_popup_bg' style='display:none;'></div>
+
+
+		</div><!-- rw_wrapper -->
+
+
+	
+	
+
+		
+
+	
+
+
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+    <!-- Avoid json parse error for Atlassian metrics not present on Refined pages. -->
+<div id="confluence-server-performance" style="display:none;">null</div>
+</body>
+</html>

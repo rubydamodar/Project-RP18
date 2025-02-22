@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><link rel="canonical" href="https://archive.stsci.edu/publishing/doi" />
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<meta name="description" content="">
+	<meta name="target_country" content="us">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:title" content="Digital Object Identifier (DOI)">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="MAST">
+	<meta property="og:url" content="https://archive.stsci.edu/home/publishing/doi">
+	<meta property="og:image" content="https://archive.stsci.edu/modules/stsci-www-assets/assets/favicons/android-chrome-256x256.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:alt" content="">
+	<title>Digital Object Identifier (DOI) | MAST</title>
+
+	<link rel="apple-touch-icon-precomposed" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-precomposed.png">
+	<link rel="apple-touch-icon" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/modules/stsci-www-assets/assets/favicons/apple-touch-icon-180x180.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="Q Starter Kit">
+	<link rel="icon" type="image/png" sizes="228x228" href="/modules/stsci-www-assets/assets/favicons/coast-228x228.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/modules/stsci-www-assets/assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/modules/stsci-www-assets/assets/favicons/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/modules/stsci-www-assets/assets/favicons/favicon-16x16.png">
+	<link rel="shortcut icon" href="/modules/stsci-www-assets/assets/favicons/favicon.ico">
+	<link rel="manifest" href="/modules/stsci-www-assets/assets/favicons/manifest.json">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#fff">
+	<meta name="application-name" content="Q Starter Kit">
+	<meta name="msapplication-TileColor" content="#fff">
+	<meta name="msapplication-TileImage" content="/modules/stsci-www-assets/assets/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="/modules/stsci-www-assets/assets/favicons/browserconfig.xml">
+	<meta name="ucode" content="7EjHDCsimuhXhSQbYRmjcRWav3ttb3oEyGA9w9gU">
+	<link rel="apple-touch-startup-image" media="(width: 320px) and (height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-320x460.png">
+	<link rel="apple-touch-startup-image" media="(width: 320px) and (height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-640x920.png">
+	<link rel="apple-touch-startup-image" media="(width: 320px) and (height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-640x1096.png">
+	<link rel="apple-touch-startup-image" media="(width: 375px) and (height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-750x1294.png">
+	<link rel="apple-touch-startup-image" media="(width: 414px) and (height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-1182x2208.png">
+	<link rel="apple-touch-startup-image" media="(width: 414px) and (height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-1242x2148.png">
+	<link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-748x1024.png">
+	<link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-768x1004.png">
+	<link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-1496x2048.png">
+	<link rel="apple-touch-startup-image" media="(width: 768px) and (height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/modules/stsci-www-assets/assets/favicons/apple-touch-startup-image-1536x2008.png">
+<!-- video-js -->
+	<link href="//vjs.zencdn.net/8.3.0/video-js.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="/modules/stsci-www-assets/assets/css/mast-override-17792714bb.css" media="all" type="text/css"/>
+	<script src="/modules/stsci-www-assets/assets/js/app-9f174fa77e5619a497e6.js"></script>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-P3KJ62V');
+		</script>
+	
+<script type="application/json" id="jahia-data-ctx">{"contextPath":"","lang":"en","uilang":"en","siteUuid":"2cd84c29-0956-46c6-a5a1-111ae98f48e9","wcag":true,"ckeCfg":""}</script>
+<script type="application/json" id="jahia-data-ck">{"path":"/modules/ckeditor/javascript/","lng":"en_US"}</script>
+<link id="staticAssetCSS0" rel="stylesheet" href="/generated-resources/24d5508fe572991b84aae8ec34ae329e.min.css" media="screen" type="text/css"/>
+<script id="staticAssetJavascript0" src="/generated-resources/77b3968b691aabebbef121c55a5c2c5c.min.js"  ></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf1JKUUAAAAADlRmvbTMzYD_fmo83Av-gytnpXw"></script>
+    <script >
+        $(document).ready(function() {
+            const siteSearchForm = {
+                searchForm: document.getElementById('search-input'),
+                submitHandler:         function submitHandler(e) {
+                    e.preventDefault();
+                    
+                    grecaptcha.ready(function() {
+                        grecaptcha.execute('6Lf1JKUUAAAAADlRmvbTMzYD_fmo83Av-gytnpXw', {action: 'searchSubmission'}).then(function(token) {
+                            
+                            $('#search-input').prepend('<input type="hidden" name="token" value="' + token + '">');
+                            $('#search-input').prepend('<input type="hidden" name="action" value="searchSubmission">');
+                            
+                            document.getElementById('search-input').submit();
+                        });
+                    });
+                },
+            };
+            siteSearchForm.searchForm.onsubmit = siteSearchForm.submitHandler;
+        });
+    </script>
+
+<script type="application/json" id="jahia-data-aggregatedjs">{"scripts":["/modules/stsci-www-components/javascript/highlight.pack.js"]}</script>
+
+</head>
+<body id="body" data-module-core="offcanvas-nav media-queries focus-links scroll-anchor-links mathjax img-lightbox link-icons touch-detector list-style" data-site-key="mast" class="mast">
+<!-- Google Tag Manager (noscript) -->
+	<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3KJ62V" height="0" width="0" style="display:none;visibility:hidden">
+			</iframe>
+		</noscript>
+	<header class="site-header">
+		<a href="#top-of-page" data-module-dynamic="scroll-to" class="skip-to-main btn">Skip to main content</a>
+		<div class="navbar navbar-default clearfix container-fluid">
+			<div class="h2">
+				<div class="svg-sprite -stsci-logo logo">
+						<div class="logo-container">
+    <a href="/home" class=" no-file-icon" target="_self">
+        <picture class='flex-ratio'>
+<img alt="Barbara A. Mikulski Archive for Space Telescopes" src='/files/live/sites/mast/files/MAST-Logo-Horizontal.svg?t=tn370' sizes='(max-width: 370px) 370px,(max-width: 768px) 768px,(max-width: 992px) 992px,(max-width: 1200px) 1200px,(max-width: 1600px) 1600px,(max-width: 2400px) 2400px, 2400px' srcset='/files/live/sites/mast/files/MAST-Logo-Horizontal.svg?t=tn370 370w,/files/live/sites/mast/files/MAST-Logo-Horizontal.svg?t=tn768 768w,/files/live/sites/mast/files/MAST-Logo-Horizontal.svg?t=tn992 992w,/files/live/sites/mast/files/MAST-Logo-Horizontal.svg?t=tn1200 1200w,/files/live/sites/mast/files/MAST-Logo-Horizontal.svg?t=tn1600 1600w,/files/live/sites/mast/files/MAST-Logo-Horizontal.svg?t=tn2400 2400w ' /></picture></a></div></div>
+				</div>
+			<div class="button-div">
+				
+<div class="search-widget clearfix pull-left" data-module-core="search-widget">
+    <button class="btn  navbar-btn search-widget__toggle advanced-search-toggle" aria-expanded="false" aria-label="search">
+		<span class="svg-sprite -close">
+			<svg role="img" focusable="false" aria-hidden="true">
+				<use xlink:href="#close"></use>
+			</svg>
+		</span>
+        <span class="svg-sprite -search">
+			<svg role="img" focusable="false" aria-hidden="true">
+				<use xlink:href="#search"></use>
+			</svg>
+		</span>
+        <span class="hidden-xs" aria-hidden="true">Search</span>
+    </button>
+    <div id="advancedSearch" class="search-widget__panel js-search-panel" style="display:none;">
+        <div class="search-widget__input-group clearfix">
+            <form method="post" autocomplete="off" name="searchForm" action="/search-results.searchVerifyRecaptcha.do" id="search-input" class="Form search-widget__form search-widget__search-field dark-background-" >
+    <input type="hidden" name="jcrMethodToCall" value="get" />
+    <input type="hidden" name="src_originSiteKey" value="mast"/>
+    <input type="hidden" id="searchURL" name="searchURL" value="/publishing/doi.default"/>
+                <label for="searchTerm">Search for news, events, etc.</label>
+                <input name="src_terms[0].term" placeholder="Enter Search Terms" id="searchTerm" type="text" class="form-control"  value=""/>
+<input type="hidden" name="src_terms[0].applyFilter" value="true"/>
+<input type="hidden" value="true" name="src_terms[0].fields.siteContent">
+                <input type="hidden" value="true" name="src_terms[0].fields.fileContent">
+                <input type="hidden" value="true" name="src_terms[0].fields.description">
+                <input type="hidden" value="true" name="src_terms[0].fields.title">
+                <input type="hidden" value="true" name="src_terms[0].fields.keywords">
+                <input type="hidden" value="false" name="src_terms[0].fields.tags">
+                <div class="exact-phrase" id="exact-phrase">
+                    <p>Do not include words like a, and, for, the, etc.</p>
+                </div>
+                <div class="search-help" >
+                    <p><a href="/search-results/advanced-search-syntax">Advanced Query Syntax</a></p>
+                </div>
+                <label class="left" for="searchMethod">&nbsp;Search Method</label>
+                <input type="hidden" name="src_sites.values" value="mast"/><input type="hidden" name="src_sitesForReferences.values" value="systemsite"/>
+<input name="src_pagePath.value" id="src_pagePath_value" type="hidden"  value="/sites/mast"/>
+
+<input type="hidden" name="src_pagePath.includeChildren" value="true"/>
+<select name="src_terms[0].match" id="searchMethod" >
+        <option value="all_words" >All These Words</option>
+        <option value="exact_phrase" >This Exact Phrase</option>
+        <option value="any_word" >Any of These Words</option>
+        <option value="as_is" >Advanced</option>
+        </select>
+    <div id="search-documents-criteria">
+                    <label class="left" for="searchNodeType">&nbsp;Content Type</label>
+                    <select id="searchNodeType"  name="src_nodeType">
+    	<option value="jnt:page" >Page</option>
+    		<option value="stnt:newsletterArticle" >Newsletter Article</option>
+    		<option value="stnt:hlspBox" >HLSP</option>
+    		<option value="jnt:file" >File</option>
+    		<option value="stmix:searchableContent" >All Searchable Content</option>
+    		</select>
+</div>
+                <div id="searchOrderByContainer"><label class="left" for="searchOrderBy">&nbsp;Sort By</label>
+                <input id="searchOrderOperand" type="hidden" name="src_orderings[0].operand" value="score">
+                    <select id="searchOrderBy" name="src_orderings[0].propertyName">
+                        <option id="searchOrderByScore" value="score" selected>Relevancy Score</option>
+                        <option id="searchOrderByDate" value="jcr:lastModified">Date</option>
+                    </select>
+                </div>
+                <div class="divButton">
+                    <input type="submit" name="search" class="btn" value="Submit"/>
+                </div>
+                <div class="recaptcha-branding">
+                    <div>This site is protected by reCAPTCHA and the Google</div>
+                    <div><a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</div>
+                </div>
+            </form></div>
+    </div>
+</div><button class="navbar-btn js-nav-btn btn" aria-expanded="false" aria-label="Main Menu" aria-controls="MainMenu">
+					<span class="svg-sprite -hamburger">
+						<svg role="img" aria-hidden="true" focusable="false">
+							<use xlink:href="#hamburger"></use>
+						</svg>
+					</span>
+					<span class="hidden-xs">Menu</span>
+				</button>
+			</div>
+		</div>
+	</header>
+<nav class="offcanvas is-at-top-level" aria-label="Main Menu" id="MainMenu">
+		<div class="offcanvas__control-bar">
+			<button class="navbar-btn js-nav-btn btn pull-right" aria-expanded="false" aria-label="Main Menu" aria-controls="MainMenu" tabindex="-1">
+				<span>Menu</span>
+				<span class="svg-sprite -close">
+					<svg role="img" aria-hidden="true" focusable="false"><use xlink:href="#close"></use></svg>
+				</span>
+			</button>
+		</div>
+		<h2 id="h2-sr-only-main-navigation" class="sr-only">Main Navigation</h2>
+		<div class="offcanvas__scroll-wrapper">
+			<div class="back-to-main">
+					<a href="/home"  tabindex="-1">MAST Home</a>
+				</div>
+			<ul role="list" class="offcanvas__list" data-level="1"><li class="offcanvas__item hasChildren firstInLevel"><a href='/hlsp' class="offcanvas__section-link"  >HLSP</a><button class="offcanvas__section-toggle" id="HLSP_0_control" type="button" aria-label="HLSP submenu" aria-controls="HLSP_0_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="HLSP_0_section" class="offcanvas__list" data-level="2" aria-labelledby="HLSP_0_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/hlsp-table' class="offcanvas__section-link"  >Table of HLSPs</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/3d-dash' class="offcanvas__section-link"  >3D-DASH</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/agnsedatlas' class="offcanvas__section-link"  >AGNSEDATLAS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/aspic' class="offcanvas__section-link"  >asPIC</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/atlas-refcat2' class="offcanvas__section-link"  >ATLAS-REFCAT2</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/atlas-var' class="offcanvas__section-link"  >ATLAS-VAR</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/bluetides' class="offcanvas__section-link"  >BLUETIDES</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/boocats' class="offcanvas__section-link"  >BOOCATS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/bosz' class="offcanvas__section-link"  >BOSZ</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/buffalo' class="offcanvas__section-link"  >BUFFALO</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/candels' class="offcanvas__section-link"  >CANDELS</a><button class="offcanvas__section-toggle" id="CANDELS_1_control" type="button" aria-label="CANDELS submenu" aria-controls="CANDELS_1_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="CANDELS_1_section" class="offcanvas__list" data-level="3" aria-labelledby="CANDELS_1_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/candels/goods-n-catalogs' class="offcanvas__section-link"  >GOODS-N Catalogs</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/candels/goods-s-catalogs' class="offcanvas__section-link"  >GOODS-S Catalogs</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/candels/uds-catalogs' class="offcanvas__section-link"  >UDS Catalogs</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/candels/egs-catalogs' class="offcanvas__section-link"  >EGS Catalogs</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/candels/cosmos-catalogs' class="offcanvas__section-link"  >COSMOS Catalogs</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/candels/goods-n-images' class="offcanvas__section-link"  >GOODS-N Images</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/candels/goods-s-images' class="offcanvas__section-link"  >GOODS-S Images</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/candels/uds-images' class="offcanvas__section-link"  >UDS Images</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/candels/egs-images' class="offcanvas__section-link"  >EGS Images</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/candels/cosmos-images' class="offcanvas__section-link"  >COSMOS Images</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/candelsnirwl' class="offcanvas__section-link"  >CANDELSNIRWL</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/cdips' class="offcanvas__section-link"  >CDIPS</a><button class="offcanvas__section-toggle" id="CDIPS_2_control" type="button" aria-label="CDIPS submenu" aria-controls="CDIPS_2_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="CDIPS_2_section" class="offcanvas__list" data-level="3" aria-labelledby="CDIPS_2_control"><li class="offcanvas__item noChildren firstInLevel lastInLevel"><a href='/hlsp/cdips/cdips-bulk-download-scripts' class="offcanvas__section-link"  >CDIPS Bulk Download Scripts</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/ceers' class="offcanvas__section-link"  >CEERS</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/classy' class="offcanvas__section-link"  >CLASSY</a><button class="offcanvas__section-toggle" id="CLASSY_3_control" type="button" aria-label="CLASSY submenu" aria-controls="CLASSY_3_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="CLASSY_3_section" class="offcanvas__list" data-level="3" aria-labelledby="CLASSY_3_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/classy/classy-observation-details' class="offcanvas__section-link"  >CLASSY Observation Details</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/classy/classy-target-properties' class="offcanvas__section-link"  >CLASSY Target Properties</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/classy/classy-data-products' class="offcanvas__section-link"  >CLASSY Data Products</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/clear' class="offcanvas__section-link"  >CLEAR</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/clues' class="offcanvas__section-link"  >CLUES</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/cos-gal' class="offcanvas__section-link"  >COS-GAL</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/cosmos-dash' class="offcanvas__section-link"  >COSMOS-DASH</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/crater' class="offcanvas__section-link"  >CRATER</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/deepmerge' class="offcanvas__section-link"  >DEEPMERGE</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/diamante' class="offcanvas__section-link"  >DIAmante</a><button class="offcanvas__section-toggle" id="DIAmante_4_control" type="button" aria-label="DIAmante submenu" aria-controls="DIAmante_4_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="DIAmante_4_section" class="offcanvas__list" data-level="3" aria-labelledby="DIAmante_4_control"><li class="offcanvas__item noChildren firstInLevel lastInLevel"><a href='/hlsp/diamante/diamante-data-access-table' class="offcanvas__section-link"  >DIAmante Data Access Table</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/eleanor' class="offcanvas__section-link"  >ELEANOR</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/elk' class="offcanvas__section-link"  >ELK</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/everest' class="offcanvas__section-link"  >EVEREST</a><button class="offcanvas__section-toggle" id="EVEREST_5_control" type="button" aria-label="EVEREST submenu" aria-controls="EVEREST_5_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="EVEREST_5_section" class="offcanvas__list" data-level="3" aria-labelledby="EVEREST_5_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/everest/everestc00' class="offcanvas__section-link"  >everest_c00</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc01' class="offcanvas__section-link"  >everest_c01</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc02' class="offcanvas__section-link"  >everest_c02</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc03' class="offcanvas__section-link"  >everest_c03</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc04' class="offcanvas__section-link"  >everest_c04</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc05' class="offcanvas__section-link"  >everest_c05</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc06' class="offcanvas__section-link"  >everest_c06</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc07' class="offcanvas__section-link"  >everest_c07</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc08' class="offcanvas__section-link"  >everest_c08</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc102' class="offcanvas__section-link"  >everest_c102</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc111' class="offcanvas__section-link"  >everest_c111</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc112' class="offcanvas__section-link"  >everest_c112</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc12' class="offcanvas__section-link"  >everest_c12</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc13' class="offcanvas__section-link"  >everest_c13</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc14' class="offcanvas__section-link"  >everest_c14</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc15' class="offcanvas__section-link"  >everest_c15</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc16' class="offcanvas__section-link"  >everest_c16</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/everest/everestc17' class="offcanvas__section-link"  >everest_c17</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/everest/everestc18' class="offcanvas__section-link"  >everest_c18</a></li></ul></li><li class="offcanvas__item hasChildren"><a href='/hlsp/fhufd' class="offcanvas__section-link"  >FHUFD</a><button class="offcanvas__section-toggle" id="FHUFD_6_control" type="button" aria-label="FHUFD submenu" aria-controls="FHUFD_6_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="FHUFD_6_section" class="offcanvas__list" data-level="3" aria-labelledby="FHUFD_6_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/fhufd/bootes' class="offcanvas__section-link"  >bootes</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/fhufd/canesvenatici' class="offcanvas__section-link"  >canes_venatici</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/fhufd/comaberenices' class="offcanvas__section-link"  >coma_berenices</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/fhufd/hercules' class="offcanvas__section-link"  >hercules</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/fhufd/leo' class="offcanvas__section-link"  >leo</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/fhufd/ursamajor' class="offcanvas__section-link"  >ursa_major</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/fresco' class="offcanvas__section-link"  >FRESCO</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/fuvs' class="offcanvas__section-link"  >FUVS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/galsedatlas' class="offcanvas__section-link"  >GALSEDATLAS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/gfcat' class="offcanvas__section-link"  >GFCAT</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/glass-jwst' class="offcanvas__section-link"  >GLASS-JWST</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/goals' class="offcanvas__section-link"  >GOALS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/grs-wfc3' class="offcanvas__section-link"  >GRS-WFC3</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/gsfc-eleanor-lite' class="offcanvas__section-link"  >GSFC-ELEANOR-LITE</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/guvcat' class="offcanvas__section-link"  >GUVCAT</a><button class="offcanvas__section-toggle" id="GUVCAT_7_control" type="button" aria-label="GUVCAT submenu" aria-controls="GUVCAT_7_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="GUVCAT_7_section" class="offcanvas__list" data-level="3" aria-labelledby="GUVCAT_7_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/guvcat/guvcat-column-description---gaia-dr2-columns' class="offcanvas__section-link"  >GUVCat Column Description - Gaia DR2 Columns</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/guvcat/guvcat-column-description' class="offcanvas__section-link"  >GUVCat Column Description</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/guvcat/guvcat-column-description---sdss-dr14-columns' class="offcanvas__section-link"  >GUVCat Column Description - SDSS DR14 Columns</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/guvcat-hotstars' class="offcanvas__section-link"  >GUVCAT-HOTSTARS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/guvpncat' class="offcanvas__section-link"  >GUVPNCAT</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/hacks' class="offcanvas__section-link"  >HACKS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/halo' class="offcanvas__section-link"  >HALO</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/hamsters' class="offcanvas__section-link"  >HAMSTERS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/hazmat' class="offcanvas__section-link"  >HAZMAT</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/hcv' class="offcanvas__section-link"  >HCV</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/hffcatalogs' class="offcanvas__section-link"  >HFFCATALOGS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/hipeec' class="offcanvas__section-link"  >HiPEEC</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/http' class="offcanvas__section-link"  >HTTP</a><button class="offcanvas__section-toggle" id="HTTP_8_control" type="button" aria-label="HTTP submenu" aria-controls="HTTP_8_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="HTTP_8_section" class="offcanvas__list" data-level="3" aria-labelledby="HTTP_8_control"><li class="offcanvas__item noChildren firstInLevel lastInLevel"><a href='/hlsp/http/http-observational-details' class="offcanvas__section-link"  >HTTP Observational Details</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/illustris' class="offcanvas__section-link"  >ILLUSTRIS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/iris' class="offcanvas__section-link"  >IRIS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/lars' class="offcanvas__section-link"  >LARS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/lcgcosmos' class="offcanvas__section-link"  >LCGCOSMOS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/jades' class="offcanvas__section-link"  >JADES</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/jems' class="offcanvas__section-link"  >JEMS</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/jwst-ero' class="offcanvas__section-link"  >JWST-ERO</a><button class="offcanvas__section-toggle" id="JWST-ERO_9_control" type="button" aria-label="JWST-ERO submenu" aria-controls="JWST-ERO_9_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="JWST-ERO_9_section" class="offcanvas__list" data-level="3" aria-labelledby="JWST-ERO_9_control"><li class="offcanvas__item noChildren firstInLevel lastInLevel"><a href='/hlsp/jwst-ero/jwst-ero-team' class="offcanvas__section-link"  >JWST-ERO Team</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/jwststars' class="offcanvas__section-link"  >JWSTSTARS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/k2sff' class="offcanvas__section-link"  >K2SFF</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/k2yso' class="offcanvas__section-link"  >K2YSO</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/kbonus-apexba' class="offcanvas__section-link"  >KBONUS-APEXBA</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/kbonus-bkg' class="offcanvas__section-link"  >KBONUS-BKG</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/kepler-smear' class="offcanvas__section-link"  >KEPLER-SMEAR</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/kswags' class="offcanvas__section-link"  >KSwAGS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/lmc-flows' class="offcanvas__section-link"  >LMC-FLOWS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/lowlib' class="offcanvas__section-link"  >LOWLIB</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/m31-satellites' class="offcanvas__section-link"  >M31-SATELLITES</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/mstarpanspec' class="offcanvas__section-link"  >MSTARPANSPEC</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/mudf' class="offcanvas__section-link"  >MUDF</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/mysst' class="offcanvas__section-link"  >MYSST</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/nds-2018' class="offcanvas__section-link"  >NDS-2018</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/ngc5253-dr2' class="offcanvas__section-link"  >NGC5253-DR2</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/nlr-agn' class="offcanvas__section-link"  >NLR-AGN</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/nlte-obgrid' class="offcanvas__section-link"  >NLTE-OBGRID</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/opal' class="offcanvas__section-link"  >OPAL</a><button class="offcanvas__section-toggle" id="OPAL_10_control" type="button" aria-label="OPAL submenu" aria-controls="OPAL_10_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="OPAL_10_section" class="offcanvas__list" data-level="3" aria-labelledby="OPAL_10_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/opal/opal-jupiter-cycle-22' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 22</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-23' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 23</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-24' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 24</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-25' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 25</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-26' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 26</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-27' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 27</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-28' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 28</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-29' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 29</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-30' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 30</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-jupiter-cycle-31' class="offcanvas__section-link"  >OPAL - Jupiter Cycle 31</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-saturn-cycle-25' class="offcanvas__section-link"  >OPAL - Saturn Cycle 25</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-saturn-cycle-26' class="offcanvas__section-link"  >OPAL - Saturn Cycle 26</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-saturn-cycle-27' class="offcanvas__section-link"  >OPAL - Saturn Cycle 27</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-saturn-cycle-28' class="offcanvas__section-link"  >OPAL - Saturn Cycle 28</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-saturn-cycle-29' class="offcanvas__section-link"  >OPAL - Saturn Cycle 29</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-saturn-cycle-30' class="offcanvas__section-link"  >OPAL - Saturn Cycle 30</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-saturn-cycle-31' class="offcanvas__section-link"  >OPAL - Saturn Cycle 31</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-22' class="offcanvas__section-link"  >OPAL - Uranus Cycle 22</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-23' class="offcanvas__section-link"  >OPAL - Uranus Cycle 23</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-24' class="offcanvas__section-link"  >OPAL - Uranus Cycle 24</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-25' class="offcanvas__section-link"  >OPAL - Uranus Cycle 25</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-26' class="offcanvas__section-link"  >OPAL - Uranus Cycle 26</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-27' class="offcanvas__section-link"  >OPAL - Uranus Cycle 27</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-28' class="offcanvas__section-link"  >OPAL - Uranus Cycle 28</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-29' class="offcanvas__section-link"  >OPAL - Uranus Cycle 29</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-30' class="offcanvas__section-link"  >OPAL - Uranus Cycle 30</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-31' class="offcanvas__section-link"  >OPAL - Uranus Cycle 31</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-uranus-cycle-32' class="offcanvas__section-link"  >OPAL - Uranus Cycle 32</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-neptune-cycle-22' class="offcanvas__section-link"  >OPAL - Neptune Cycle 22</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-neptune-cycle-23' class="offcanvas__section-link"  >OPAL - Neptune Cycle 23</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-neptune-cycle-24' class="offcanvas__section-link"  >OPAL - Neptune Cycle 24</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-neptune-cycle-25' class="offcanvas__section-link"  >OPAL - Neptune Cycle 25</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-neptune-cycle-26' class="offcanvas__section-link"  >OPAL - Neptune Cycle 26</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-neptune-cycle-27' class="offcanvas__section-link"  >OPAL - Neptune Cycle 27</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-neptune-cycle-28' class="offcanvas__section-link"  >OPAL - Neptune Cycle 28</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/opal/opal-neptune-cycle-29' class="offcanvas__section-link"  >OPAL - Neptune Cycle 29</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/opal/opal-neptune-cycle-30' class="offcanvas__section-link"  >OPAL - Neptune Cycle 30</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/pathos' class="offcanvas__section-link"  >PATHOS</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/phangs' class="offcanvas__section-link"  >PHANGS</a><button class="offcanvas__section-toggle" id="PHANGS_11_control" type="button" aria-label="PHANGS submenu" aria-controls="PHANGS_11_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="PHANGS_11_section" class="offcanvas__list" data-level="3" aria-labelledby="PHANGS_11_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/phangs/phangs-cat' class="offcanvas__section-link"  >PHANGS-CAT</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/phangs/phangs-hst' class="offcanvas__section-link"  >PHANGS-HST</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/phangs/phangs-jwst' class="offcanvas__section-link"  >PHANGS-JWST</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/phast' class="offcanvas__section-link"  >PHAST</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/phat' class="offcanvas__section-link"  >PHAT</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/phatagb' class="offcanvas__section-link"  >PHATAGB</a><button class="offcanvas__section-toggle" id="PHATAGB_12_control" type="button" aria-label="PHATAGB submenu" aria-controls="PHATAGB_12_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="PHATAGB_12_section" class="offcanvas__list" data-level="3" aria-labelledby="PHATAGB_12_control"><li class="offcanvas__item noChildren firstInLevel lastInLevel"><a href='/hlsp/phatagb/phatagb-cluster-finding-charts' class="offcanvas__section-link"  >PHATAGB Cluster Finding Charts</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/phathighmass' class="offcanvas__section-link"  >PHATHIGHMASS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/phatter' class="offcanvas__section-link"  >PHATTER</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/ps1-strm' class="offcanvas__section-link"  >PS1-STRM</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/psfk2' class="offcanvas__section-link"  >PSFK2</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/pqs' class="offcanvas__section-link"  >PQS</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/qlp' class="offcanvas__section-link"  >QLP</a><button class="offcanvas__section-toggle" id="QLP_13_control" type="button" aria-label="QLP submenu" aria-controls="QLP_13_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="QLP_13_section" class="offcanvas__list" data-level="3" aria-labelledby="QLP_13_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/qlp/provenancesearch' class="offcanvas__section-link"  >provenance_search</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/qlp/searchbytic' class="offcanvas__section-link"  >search_by_tic</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/reference-atlases' class="offcanvas__section-link"  >REFERENCE-ATLASES</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/relics' class="offcanvas__section-link"  >RELICS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/rslss' class="offcanvas__section-link"  >RSLSS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/scylla' class="offcanvas__section-link"  >SCYLLA</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/sgas' class="offcanvas__section-link"  >SGAS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/smarts' class="offcanvas__section-link"  >SMARTS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/smiles' class="offcanvas__section-link"  >SMILES</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/stella' class="offcanvas__section-link"  >STELLA</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/storm' class="offcanvas__section-link"  >STORM</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/storm2' class="offcanvas__section-link"  >STORM2</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/superborg' class="offcanvas__section-link"  >SUPERBORG</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/t16' class="offcanvas__section-link"  >T16</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/tasoc' class="offcanvas__section-link"  >TASOC</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/templates' class="offcanvas__section-link"  >TEMPLATES</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/tess-coadd-cutouts' class="offcanvas__section-link"  >TESS-COADD-CUTOUTS</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/tess-ebs' class="offcanvas__section-link"  >TESS-EBs</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/tess-spoc' class="offcanvas__section-link"  >TESS-SPOC</a><button class="offcanvas__section-toggle" id="TESS-SPOC_14_control" type="button" aria-label="TESS-SPOC submenu" aria-controls="TESS-SPOC_14_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="TESS-SPOC_14_section" class="offcanvas__list" data-level="3" aria-labelledby="TESS-SPOC_14_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/tess-spoc/provenancesearch' class="offcanvas__section-link"  >provenance_search</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/tess-spoc/searchbytic' class="offcanvas__section-link"  >search_by_tic</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/tess-svc' class="offcanvas__section-link"  >TESS-SVC</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/tglc' class="offcanvas__section-link"  >TGLC</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/tica' class="offcanvas__section-link"  >TICA</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/ullyses' class="offcanvas__section-link"  >ULLYSES</a><button class="offcanvas__section-toggle" id="ULLYSES_15_control" type="button" aria-label="ULLYSES submenu" aria-controls="ULLYSES_15_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="ULLYSES_15_section" class="offcanvas__list" data-level="3" aria-labelledby="ULLYSES_15_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/ullyses/hlspauthors' class="offcanvas__section-link"  >hlsp_authors</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/ullyses/provenancesearch' class="offcanvas__section-link"  >provenance_search</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/ullyses/linkeddatasets' class="offcanvas__section-link"  >linked_datasets</a></li></ul></li><li class="offcanvas__item hasChildren"><a href='/hlsp/uvcandels' class="offcanvas__section-link"  >UVCANDELS</a><button class="offcanvas__section-toggle" id="UVCANDELS_16_control" type="button" aria-label="UVCANDELS submenu" aria-controls="UVCANDELS_16_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="UVCANDELS_16_section" class="offcanvas__list" data-level="3" aria-labelledby="UVCANDELS_16_control"><li class="offcanvas__item noChildren firstInLevel lastInLevel"><a href='/hlsp/uvcandels/uvcandels-team' class="offcanvas__section-link"  >UVCANDELS Team</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/uvescape' class="offcanvas__section-link"  >UVESCAPE</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/uvot-oc' class="offcanvas__section-link"  >UVOT-OC</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/uvudf' class="offcanvas__section-link"  >UVUDF</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wd-grid' class="offcanvas__section-link"  >WD-GRID</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfc3ir-fluxcal' class="offcanvas__section-link"  >WFC3IR-FLUXCAL</a></li><li class="offcanvas__item hasChildren"><a href='/hlsp/wfcj' class="offcanvas__section-link"  >WFCJ</a><button class="offcanvas__section-toggle" id="WFCJ_17_control" type="button" aria-label="WFCJ submenu" aria-controls="WFCJ_17_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="WFCJ_17_section" class="offcanvas__list" data-level="3" aria-labelledby="WFCJ_17_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hlsp/wfcj/pj03global' class="offcanvas__section-link"  >pj03_global</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj03niri' class="offcanvas__section-link"  >pj03_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj03bglobal' class="offcanvas__section-link"  >pj03b_global</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj03bniri' class="offcanvas__section-link"  >pj03b_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj04global' class="offcanvas__section-link"  >pj04_global</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj04niri' class="offcanvas__section-link"  >pj04_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj05snapshot' class="offcanvas__section-link"  >pj05_snapshot</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj06niri' class="offcanvas__section-link"  >pj06_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj06snapshot' class="offcanvas__section-link"  >pj06_snapshot</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj07niri' class="offcanvas__section-link"  >pj07_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj07snapshot' class="offcanvas__section-link"  >pj07_snapshot</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj11global' class="offcanvas__section-link"  >pj11_global</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj12global' class="offcanvas__section-link"  >pj12_global</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj12niri' class="offcanvas__section-link"  >pj12_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj13niri' class="offcanvas__section-link"  >pj13_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj13snapshot' class="offcanvas__section-link"  >pj13_snapshot</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj14niri' class="offcanvas__section-link"  >pj14_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj14snapshot' class="offcanvas__section-link"  >pj14_snapshot</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj15snapshot' class="offcanvas__section-link"  >pj15_snapshot</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj18snapshot' class="offcanvas__section-link"  >pj18_snapshot</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj19global' class="offcanvas__section-link"  >pj19_global</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj19niri' class="offcanvas__section-link"  >pj19_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj20niri' class="offcanvas__section-link"  >pj20_niri</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wfcj/pj21snapshot' class="offcanvas__section-link"  >pj21_snapshot</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/wfcj/pj22snapshot' class="offcanvas__section-link"  >pj22_snapshot</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/hlsp/wide' class="offcanvas__section-link"  >WIDE</a></li><li class="offcanvas__item noChildren"><a href='/hlsp/wise-ps1-strm' class="offcanvas__section-link"  >WISE-PS1-STRM</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hlsp/wisp' class="offcanvas__section-link"  >WISP</a></li></ul></li><li class="offcanvas__item hasChildren"><a href='/hello-universe' class="offcanvas__section-link"  >Hello Universe</a><button class="offcanvas__section-toggle" id="Hello_Universe_18_control" type="button" aria-label="Hello Universe submenu" aria-controls="Hello_Universe_18_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="Hello_Universe_18_section" class="offcanvas__list" data-level="2" aria-labelledby="Hello_Universe_18_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/hello-universe/deepmerge' class="offcanvas__section-link"  >DEEPMERGE</a></li><li class="offcanvas__item noChildren"><a href='/hello-universe/stella' class="offcanvas__section-link"  >stella</a></li><li class="offcanvas__item noChildren"><a href='/hello-universe/3d-hst' class="offcanvas__section-link"  >3D-HST</a></li><li class="offcanvas__item noChildren"><a href='/hello-universe/ps1-strm' class="offcanvas__section-link"  >PS1-STRM</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/hello-universe/interpretability' class="offcanvas__section-link"  >Interpretability</a></li></ul></li><li class="offcanvas__item hasChildren"><a href='/missions-and-data' class="offcanvas__section-link"  >Missions and Data</a><button class="offcanvas__section-toggle" id="Missions_and_Data_19_control" type="button" aria-label="Missions and Data submenu" aria-controls="Missions_and_Data_19_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="Missions_and_Data_19_section" class="offcanvas__list" data-level="2" aria-labelledby="Missions_and_Data_19_control"><li class="offcanvas__item noChildren"><a href='/missions-and-data/sdss' class="offcanvas__section-link"  >SDSS</a></li></ul></li><li class="offcanvas__item hasChildren"><a href='/search-interfaces' class="offcanvas__section-link"  >Search Interfaces</a><button class="offcanvas__section-toggle" id="Search_Interfaces_20_control" type="button" aria-label="Search Interfaces submenu" aria-controls="Search_Interfaces_20_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="Search_Interfaces_20_section" class="offcanvas__list" data-level="2" aria-labelledby="Search_Interfaces_20_control"><li class="offcanvas__item noChildren firstInLevel"><a href='/search-interfaces/phad' class="offcanvas__section-link"  >RETIRED: PHAD</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/search-interfaces/galexview' class="offcanvas__section-link"  >RETIRED: GalexView</a></li></ul></li><li class="offcanvas__item hasChildren inPath"><a href='/publishing' class="offcanvas__section-link"  >Publishing</a><button class="offcanvas__section-toggle" id="Publishing_21_control" type="button" aria-label="Publishing submenu" aria-controls="Publishing_21_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="Publishing_21_section" class="offcanvas__list" data-level="2" aria-labelledby="Publishing_21_control"><li class="offcanvas__item noChildren inPath selected firstInLevel"><a href='/publishing/doi' class="offcanvas__section-link"  aria-current='page'>DOI</a></li><li class="offcanvas__item noChildren"><a href='https://archive.stsci.edu/publishing/bibliography' class="offcanvas__section-link" target='_blank' >Bibliography Search</a></li><li class="offcanvas__item noChildren"><a href='/publishing/data-attributions' class="offcanvas__section-link"  >Data Attributions</a></li><li class="offcanvas__item noChildren"><a href='/publishing/mission-acknowledgements' class="offcanvas__section-link"  >Mission Acknowledgements</a></li><li class="offcanvas__item noChildren"><a href='/publishing/mission-publications-mailing-list' class="offcanvas__section-link"  >Mission Publications Mailing List</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/news' class="offcanvas__section-link"  >News</a></li><li class="offcanvas__item hasChildren"><a href='/asdi' class="offcanvas__section-link"  >Archived Synthetic Data</a><button class="offcanvas__section-toggle" id="Archived_Synthetic_Data_22_control" type="button" aria-label="Archived Synthetic Data submenu" aria-controls="Archived_Synthetic_Data_22_section" tabindex="-1" aria-expanded="false"><span class="svg-sprite -plus"><svg role="img" aria-label="open section"><use xlink:href="#plus"></use></svg></span><span class="svg-sprite -slider-dash"><svg role="img" aria-label="close section"><use xlink:href="#slider-dash"></use></svg></span></button><ul role="list" id="Archived_Synthetic_Data_22_section" class="offcanvas__list" data-level="2" aria-labelledby="Archived_Synthetic_Data_22_control"><li class="offcanvas__item noChildren firstInLevel lastInLevel"><a href='/asdi/prototype-demo' class="offcanvas__section-link"  >Prototype Demo</a></li></ul></li><li class="offcanvas__item noChildren"><a href='/virtual-observatory' class="offcanvas__section-link"  >Virtual Observatory</a></li><li class="offcanvas__item noChildren"><a href='http://archive.stsci.edu/searches.html#missions' class="offcanvas__section-link" target='_blank' >Mission Data Search</a></li><li class="offcanvas__item noChildren"><a href='/mug' class="offcanvas__section-link"  >MUG</a></li><li class="offcanvas__item noChildren"><a href='/about-mast' class="offcanvas__section-link"  >About MAST</a></li><li class="offcanvas__item noChildren"><a href='/new-mission-partnerships-with-mast' class="offcanvas__section-link"  >New Mission Partnerships with MAST</a></li><li class="offcanvas__item noChildren"><a href='/astro-art-internship' class="offcanvas__section-link"  >Astro Art Internship</a></li><li class="offcanvas__item noChildren lastInLevel"><a href='/2024-summer-webinar' class="offcanvas__section-link"  >2024 MAST Summer Webinar</a></li></ul></div>
+	</nav>
+<div class="offcanvas-body">
+		<section id="top-of-page">
+<main id="main-content" class=" "  >
+				<div class="background-img banner__interior content-section-3"
+								 aria-labelledby="page-title"
+							>
+								<div class="row banner__content">
+										<div class="col-md-12 text-center">
+											<h1 id="page-title" class="interior-page-title ">Digital Object Identifier (DOI)</h1>
+											</div>
+									</div>
+								<picture class="stretch-container">
+										<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Page banner image"  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 1w, /files/live/sites/mast/files/home/_images/hero-items/HeroVideoFallback-S106-Mobile-001.jpg?t=tn370 370w, /files/live/sites/mast/files/home/_images/hero-items/HeroVideoFallback-S106-Mobile-001.jpg?t=tn768 768w, /files/live/sites/mast/files/home/_images/hero-items/HeroVideoFallback-S106-Mobile-001.jpg?t=tn992 992w, /files/live/sites/mast/files/home/_images/hero-items/HeroVideoFallback-S106-Mobile-001.jpg?t=tn1200 1200w, /files/live/sites/mast/files/home/_images/hero-items/HeroVideoFallback-S106-Mobile-001.jpg?t=tn1600 1600w, /files/live/sites/mast/files/home/_images/hero-items/HeroVideoFallback-S106-Mobile-001.jpg?t=tn2400 2400w" sizes="(max-width: 370px) 370px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 2400px"/>
+									</picture>
+								</div>
+						<div class="container-fluid breadcrumbs-container">
+        <nav class="breadcrumbs-share row hidden-xs hidden-sm" aria-label="Breadcrumb" data-module-dynamic="toggle-links-display">
+            <div class="col-sm-12">
+                <h2 id="h2-sr-only-breadcrumbs-navigation" class="sr-only">Breadcrumbs Navigation</h2>
+                <ul role="list" class="breadcrumbs">
+                    <li class="breadcrumb">
+                                <a href="/home">
+                                            <span>Home</span></a>
+                                    </li>
+
+                            <li class="breadcrumb">
+                                <a href="/publishing">
+                                            <span>Publishing</span></a>
+                                    </li>
+
+                            </ul>
+            </div>
+        </nav>
+    </div><div class="main">
+					<section id="section-33d38021-5e0a-4905-b018-04764bc5f1fd" data-name="section-what-is-a-doi" class="section-row dark-background-stsci-blue" >
+    <div class="component-block container-fluid">
+            <div class="row">
+                <div class="section-header col-xs-12 text-center">
+                    <h2 id="h2-dcff3093-759c-4d76-85de-314941b7cbba" data-name="h2-what-is-a-doi" class="section-header__title" data-include-in-navigation="true">
+                            What is a DOI?</h2>
+
+                        </div>
+            </div>
+        </div>
+    <div class="component-block container-fluid">
+        <p>A <em>Digital Object Identifie</em>r provides easy access to specific data sets, providing readers with fast, efficient, and durable access to your data. Papers with links to data are <a href="http://articles.adsabs.harvard.edu/pdf/2012ASPC..461..763H">cited more frequently</a> and non-durable data links <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104798">tend to fail over time</a>.</p>
+
+<p>You may have seen them used in links to scholarly journal articles and in the NASA Astrophysics Data System. DOIs create permanent and unique links to text, web pages, data and other digital resources.</p>
+
+<p><img alt="DOI Workflow - Paper to MAST Archive" class="embedded-img lazyload" data-lazy-srcset="/files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn370 370w, /files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn768 768w, /files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn992 992w, /files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn1200 1200w, /files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn2400 2400w" srcset="/files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn370 370w, /files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn768 768w, /files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn992 992w, /files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn1200 1200w, /files/live/sites/mast/files/home/missions-and-data/_images/DOI-Image.png?t=tn2400 2400w" sizes="(max-width: 370px) 370px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 2400px" height="378" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1230" /></p>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+    </div></section><section id="section-796fba45-cf66-45e3-9355-297e227b27b0" data-name="section-how-to-get-a-mast-doi" class="section-row none" >
+    <div class="component-block container-fluid">
+            <div class="row">
+                <div class="section-header col-xs-12 text-center">
+                    <h2 id="h2-23753a17-d1f3-4ab2-b5d8-48bc65f5bb96" data-name="h2-how-to-get-a-mast-doi" class="section-header__title" data-include-in-navigation="true">
+                            How to get a MAST DOI</h2>
+
+                        </div>
+            </div>
+        </div>
+    <div class="component-block container-fluid">
+        <p>Help us provide a permanent reference to the data you used in writing your manuscript!</p>
+
+<p><a href="https://archive.stsci.edu/publishing/doi#Step1">Step 1</a>: Generate a new DOI or select an existing one.</p>
+
+<p><a href="https://archive.stsci.edu/publishing/doi#Step2">Step 2</a>: Add the DOI to your manuscript.</p>
+
+<p><a href="https://archive.stsci.edu/publishing/doi#Step3">Step 3</a>: Enter the DOI during article submission (for AAS Journals).</p>
+
+<hr aria-hidden="true" />
+<h3 data-name="h4-"><a id="Step1" name="Step1"></a>Step 1: Generate a new DOI or select an existing one</h3>
+
+<p>There are two ways to get a MAST DOI:</p>
+
+<h5 data-index="0" data-name="h5-a" id="h5-CK-b3184c6d-15e6-45c9-894f-bfa89fe7aef9" style="text-align: left;"><strong>(a) </strong>Generate a DOI for a custom collection of one or more observations</h5>
+
+<div class="clearfix" style="margin-left: 40px;">Use the <a href="https://mast.stsci.edu/portal/Mashup/Clients/DOI/DOIPortal.html">MAST DOI Portal</a> to generate a DOI for one or more datasets including images, spectra, or time-series data generated by one of our missions (JWST, Hubble, Kepler, GALEX, IUE, <a href="https://archive.stsci.edu/missions-and-data" target="_blank">etc.</a>). See the MAST Docs webpage for <a href="https://outerspace.stsci.edu/display/MASTDOCS/Special+Searches#SpecialSearches-DOICreateaDOI" target="_blank">instructions on DOI creation (&quot;Create a DOI&quot;)</a> or our <a href="https://youtu.be/rsEMl1TqrQw" target="_blank">video tutorial</a>.</div>
+
+<div class="clearfix" style="margin-left: 40px;">&nbsp;</div>
+
+<div class="clearfix" style="margin-left: 40px;">There is a limit to the number of observations (~10,000) that can be included in a user-generated custom DOI. To reference data in bulk, including large datasets from catalogs, High Level Science Products, or the Kepler/K2 or TESS missions, see option (b) below.</div>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+    </div><div class="component-block container-fluid">
+        <div class="large-cta-row--full-width">
+            <div class="col-sm-12">
+                <a href="https://mast.stsci.edu/portal/Mashup/Clients/DOI/DOIPortal.html" class="btn large-cta external" target="_blank">
+                        <span class='large-cta__inner link-icon-container'>MAST DOI Portal</span></a></div>
+                </div>
+    </div><div class="component-block container-fluid">
+        <div class="clearfix" data-name="h5-b-find-existing-dois" style="text-align: center;">
+<p class="centered"><a href="https://youtu.be/rsEMl1TqrQw" target="_blank"><img alt="Button link to captioned video tutorial." class="embedded-img lazyload no-lightbox" data-lazy-srcset="/files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn370 370w, /files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn768 768w, /files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn992 992w, /files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn1200 1200w, /files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn2400 2400w" srcset="/files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn370 370w, /files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn768 768w, /files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn992 992w, /files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn1200 1200w, /files/live/sites/mast/files/home/publishing/doi/_images/videotutorial_v6.png?t=tn2400 2400w" sizes="(max-width: 370px) 370px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 2400px" height="262" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="466" /></a></p>
+
+<h5 data-name="h5-b-find-existing-dois" id="h5-CK-3f31a2bd-3341-47bf-889b-90aa201a6208" style="text-align: left;">(b) Find existing DOIs</h5>
+</div>
+
+<p style="margin-left: 40px;">We have pre-made DOIs for certain collections, including High Level Science Products, certain catalogs, and various subsets of Kepler/K2 and TESS bulk mission data. If the DOI you want is not on this list and the dataset is too large to create a DOI yourself, please <a href="mailto:archive@stsci.edu">contact us</a> to request a new bulk DOI.</p>
+
+<h6 data-name="h6-data-from-a-highlevel-science-product-candels-k2sf" id="h6-CK-515414e6-0a87-4c07-9628-2be2dd636a30" style="margin-left: 40px;">Data from a High Level Science Product? (CANDELS, K2SFF, QLP, TASOC, etc.)</h6>
+
+<p style="margin-left: 40px;">High Level Science Products (HLSPs) are pre-processed, community-provided datasets that already have DOI links.&nbsp; A pre-defined DOI can be found on the <a href="https://archive.stsci.edu/hlsp" target="_blank">HLSP search page</a> above the name of each HSLP project, and in the top section of each HLSP&#39;s landing page. This DOI refers to a given HLSP as a whole.</p>
+
+<p style="margin-left: 40px;"><em>Note: A separate DOI link is occasionally available on an HLSP project&#39;s landing page under &quot;Source Data&quot;. This additional DOI refers to the original mission products from which the HLSP was derived, rather than to the HLSP products themselves.</em></p>
+
+<h6 data-index="1" data-name="h6-a-catalog-kepler-kic-galex-mcat-etc" id="h6-CK-d7499d29-17d6-4b78-9f2d-a71625762830" style="text-align: left; margin-left: 40px;"><strong>A catalog? (Kepler KIC, GALEX MCAT, etc.)</strong></h6>
+
+<p style="margin-left: 40px;">At present, we provide a DOI for each of the following MAST catalogs and surveys.</p>
+
+<ul class="bulleted" style="margin-left: 80px;">
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9H59D">GALEX MCAT</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9CC7G">GALEX gPhoton</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T97P46">Hubble Source Catalog</a></li>
+ <li><a href="https://dx.doi.org/10.17909/fwdt-2x66">TESS Input Catalog (TIC)</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9059R">Kepler Input Catalog (KIC)</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T93W28">K2 EPIC</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9VC7T">Guide Star Catalog 2</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9QP4J">Digitized Sky Survey</a></li>
+ <li><a href="https://doi.org/10.17909/55e7-5x63">Pan-STARRS1 DR1</a></li>
+ <li><a href="https://doi.org/10.17909/s0zg-jx37">Pan-STARRS1 DR2</a></li>
+</ul>
+
+<h6 data-index="2" data-name="h6-an-entire-quarter-or-campaign-from-keplerk2" id="h6-CK-999f1588-c2e5-4d65-9aef-a3710b8591b7" style="text-align: left; margin-left: 40px;"><strong>A quarter or campaign from Kepler/K2 </strong>or a sector from TESS?</h6>
+
+<p style="margin-left: 40px;">Data from the Kepler space telescope is often referred to in large collections, either by quarter, by cadence, or as a whole. Data from TESS is referred to by sector. Find the corresponding DOI for these data collections below.</p>
+
+<div class="clearfix">&nbsp;</div>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+    </div><div class="component-block container-fluid">
+        <div class="accordion" data-module-dynamic="accordion">
+            <h3 id="accordion-34b726d0-2cbe-4a71-b893-666b7abfa0bb"  class="sr-only">Accordion</h3>
+            <div class="sr-only" aria-live="polite" aria-atomic="true"></div>
+            <div class="accordion__controls">
+                <button type="button" class="accordion__control" aria-label="Expand All Accordion Panels" data-accordion-button="expand-all">Expand All</button>
+                <span class="accordion__controls-divider"></span>
+                <button type="button" class="accordion__control" aria-label="Collapse All Accordion Panels" data-accordion-button="collapse-all">Collapse All</button>
+            </div>
+            <ul role="list" aria-labelledby="accordion-34b726d0-2cbe-4a71-b893-666b7abfa0bb">
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-9dd3e3cf-5574-44be-9a91-f6e6b6f021d8" data-name="h4-kepler---long-cadence" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_0_control" data-toggle="collapse" type="button" aria-label="Kepler - Long Cadence Navigation Section" aria-controls="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_0_section" data-target="#tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_0_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">Kepler - Long Cadence</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_0_section" aria-labelledby="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_0_control">
+        <div class="accordion__content-inner light-background-">
+            <div><ul class="bulleted">
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T98304">All Kepler</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9488N">Long Cadence</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9VS3F">Quarter 00</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9R30G">Quarter 01</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9M880">Quarter 02</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9GK5Q">Quarter 03</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9BS3S">Quarter 04</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9730T">Quarter 05</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9388B">Quarter 06</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9ZK52">Quarter 07</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9TS34">Quarter 08</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9Q305">Quarter 09</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9K88P">Quarter 10</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9FK5D">Quarter 11</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T99W24">Quarter 12</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9630H">Quarter 13</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T92C7P">Quarter 14</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9XK5R">Quarter 15</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9SW2G">Quarter 16</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9P30V">Quarter 17</a></li>
+</ul>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-ce1bfe3b-4810-465e-b2bf-7542e124eedc" data-name="h4-kepler---short-cadence" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_1_control" data-toggle="collapse" type="button" aria-label="Kepler - Short Cadence Navigation Section" aria-controls="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_1_section" data-target="#tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_1_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">Kepler - Short Cadence</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_1_section" aria-labelledby="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_1_control">
+        <div class="accordion__content-inner light-background-">
+            <div><ul class="bulleted">
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T98304">All Kepler</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T90K5C">Short Cadence</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9JC71">Quarter 00</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9DK53">Quarter 01</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T98W2T">Quarter 02</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T95306">Quarter 03</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T91C7C">Quarter 04</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9WK5F">Quarter 05</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9RW25">Quarter 06</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9N30J">Quarter 07</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9HC7Q">Quarter 08</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9CP4F">Quarter 09</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T97W2H">Quarter 10</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T94590">Quarter 11</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T90C72">Quarter 12</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9VP4S">Quarter 13</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9QW2V">Quarter 14</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9M59B">Quarter 15</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9GC7D">Quarter 16</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9BP44">Quarter 17</a></li>
+</ul>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-5f0f16a1-22b0-4464-a452-e98a9b7917c4" data-name="h4-k2---light-curves" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_2_control" data-toggle="collapse" type="button" aria-label="K2 - Light Curves Navigation Section" aria-controls="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_2_section" data-target="#tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_2_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">K2 - Light Curves</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_2_section" aria-labelledby="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_2_control">
+        <div class="accordion__content-inner light-background-">
+            <div><ul class="bulleted">
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9WS3R">All Light Curves</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T93029">Campaign 01</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-pfap-df08">Campaign 02</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9S014">Campaign 03</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9N889">Campaign 04</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9HG6C">Campaign 05</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9CS33">Campaign 06</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9Z883">Campaign 07</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9TG7J">Campaign 08</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9PS3W">Campaign 10</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T98D6H">Campaign 11</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9D10P">Campaign 12</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T93M48">Campaign 13</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-sygx-1w59">Campaign 14</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-t4y8-eh81">Campaign 15</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-g3gg-0h10">Campaign 16</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-z076-yp42">Campaign 17</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-cvkm-2c55">Campaign 18</a></li>
+ <li><a href="https://dx.doi.org/10.17909/qx4g-k849">Campaign 19</a></li>
+</ul>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-d39ae4f7-3ae9-4cd7-8dce-e0b9170c36fd" data-name="h4-k2---target-pixel-files" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_3_control" data-toggle="collapse" type="button" aria-label="K2 - Target Pixel Files Navigation Section" aria-controls="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_3_section" data-target="#tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_3_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">K2 - Target Pixel Files</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_3_section" aria-labelledby="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_3_control">
+        <div class="accordion__content-inner light-background-">
+            <div><ul class="bulleted">
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9K30X">All Target Pixel Files</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9F88F">Campaign 00</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T99K55">Campaign 01</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T95S37">Campaign 02</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T92308">Campaign 03</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9X88S">Campaign 04</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9SK5H">Campaign 05</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9NS3K">Campaign 06</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9J30M">Campaign 07</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9D884">Campaign 08</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T98K5V">Campaign 09</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T94S49">Campaign 10</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T94Q1G">Campaign 11</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T98953">Campaign 12</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/T9ZT1Z">Campaign 13</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-nbeh-z484">Campaign 14</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-mztc-jj54">Campaign 15</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-zwmr-1a47">Campaign 16</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-zktn-1v95">Campaign 17</a></li>
+ <li><a href="http://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-zmte-d528">Campaign 18</a></li>
+ <li><a href="https://dx.doi.org/10.17909/2tqw-gk90">Campaign 19</a></li>
+</ul>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-b55ada36-9204-4cc5-8de5-089fc60becc7" data-name="h4-tess---long-cadence-2-minute" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_4_control" data-toggle="collapse" type="button" aria-label="TESS - Long Cadence (2-minute) Navigation Section" aria-controls="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_4_section" data-target="#tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_4_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">TESS - Long Cadence (2-minute)</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_4_section" aria-labelledby="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_4_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>NOTE: Specify the Sector range used in your paper alongside the DOI(s).</p>
+
+<p><a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-nmc8-f686" target="_blank">All Lightcurves, All Sectors</a></p>
+
+<p><a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-yk4w-zc73" target="_blank">All Target Pixel Files, All Sectors</a></p>
+
+<p><a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-2tc5-a751" target="_blank">All Data Validation Files, All Single-Sector Searches</a></p>
+
+<p><a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-yjj5-4t42" target="_blank">All Data Validation Files, All Multi-Sector Searches</a></p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-2e592212-6fc3-432e-ae74-8d49c70ea6dd" data-name="h4-tess---fast-cadence-20-second" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_5_control" data-toggle="collapse" type="button" aria-label="TESS - Fast Cadence (20-second) Navigation Section" aria-controls="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_5_section" data-target="#tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_5_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">TESS - Fast Cadence (20-second)</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_5_section" aria-labelledby="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_5_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>NOTE: Specify the Sector range used in your paper alongside the DOI(s).</p>
+
+<p><a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-st5g-3177" target="_blank">All Lightcurves, All Sectors</a></p>
+
+<p><a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/t9-tcn7-7g94" target="_blank">All Target Pixel Files, All Sectors</a></p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-3f101ea6-ae2b-4dcb-8d1e-9e2cb1a1d3f0" data-name="h4-tess---full-frame-images" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_6_control" data-toggle="collapse" type="button" aria-label="TESS - Full Frame Images Navigation Section" aria-controls="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_6_section" data-target="#tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_6_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">TESS - Full Frame Images</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_6_section" aria-labelledby="tab_34b726d0-2cbe-4a71-b893-666b7abfa0bb_6_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>NOTE: Specify the Sector range used in your paper alongside the DOI(s).</p>
+
+<p><a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/3y7c-wa45" target="_blank">All Raw FFIs, All Sectors</a></p>
+
+<p><a href="https://archive.stsci.edu/doi/resolve/resolve.html?doi=10.17909/0cp4-2j79" target="_blank">All Calibrated FFIs, All Sectors</a></p>
+</div>
+        </div>
+    </div>
+</div></li>
+                </ul>
+        </div>
+    </div><div class="component-block container-fluid">
+        <h3 data-name="h4-" id="h3-CK-64486371-945f-4b6b-a133-e2aff42a6bb4"><a id="Step2" name="Step2"></a>Step 2: Add the DOI to your manuscript</h3>
+
+<p>It is critical that you cite your MAST DOI in your manuscript; otherwise, your reader will have no link between your publication and the data you analyzed.</p>
+
+<p>For AAS journal authors, we recommend updating to the most recent version of <a href="https://journals.aas.org/authors/aastex.html" target="_blank">AASTeX</a>. Where exactly you decide to cite the DOI will depend on your article. The important thing is to include it somewhere, so that readers can access the data you analyzed. For further information and examples for non-AAS journals, visit the FAQ at the end of this page.</p>
+
+<p style="margin-left: 40px;"><strong>Example 1 (Data Analysis section): </strong><br />
+All the [mission] data used in this paper can be found in MAST: \dataset[https://doi.org/10.17909/######]{https://doi.org/10.17909/######}.</p>
+
+<p style="margin-left: 40px;"><strong>Example 2 (Acknowledgments): </strong><br />
+Some/all of the data presented in this paper were obtained from the Mikulski Archive for Space Telescopes (MAST) at the Space Telescope Science Institute. The specific observations analyzed can be accessed via \dataset[https://doi.org/10.17909/######]{https://doi.org/10.17909/######}. STScI is operated by the Association of Universities for Research in Astronomy, Inc., under NASA contract NAS5&ndash;26555. Support to MAST for these data is provided by the NASA Office of Space Science via grant NAG5&ndash;7584 and by other grants and contracts.</p>
+
+<h3 data-name="h4-" id="h3-CK-65f19079-4f71-4949-a5c8-fb32a46f8d61"><a id="Step3" name="Step3"></a>Step 3: Enter the DOI during article submission</h3>
+
+<p>Some journals, such as AAS journals, will require you to enter data DOIs in their journal submission interface during the article submission process. Other journals may instead recommend only that you insert your DOI in the manuscript using the \dataset or similar tag in their markup language, as outlined in Step 2 above.</p>
+
+<div class="clearfix">Below is an example from the EJournal Press interface for AAS Journals:</div>
+
+<p><img alt="&quot;Insert DOI here&quot; screenshot." class="embedded-img lazyload no-lightbox" data-lazy-srcset="/files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn370 370w, /files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn768 768w, /files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn992 992w, /files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn1200 1200w, /files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn2400 2400w" srcset="/files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn370 370w, /files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn768 768w, /files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn992 992w, /files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn1200 1200w, /files/live/sites/mast/files/home/publishing/doi/_images/aas_doi_demo.png?t=tn2400 2400w" sizes="(max-width: 370px) 370px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 2400px" height="115" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="159" /></p>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+    </div></section><section id="section-b54442cf-b05f-410e-91c9-db4ae39cd510" data-name="section-faq" class="section-row light-background-stsci-light-grey" >
+    <div class="component-block container-fluid">
+            <div class="row">
+                <div class="section-header col-xs-12 text-center">
+                    <h2 id="h2-fb9df684-1dee-469b-a98f-2554a7679335" data-name="h2-faq" class="section-header__title" data-include-in-navigation="true">
+                            FAQ</h2>
+
+                        </div>
+            </div>
+        </div>
+    <div class="component-block container-fluid">
+        <div class="accordion" data-module-dynamic="accordion">
+            <h3 id="accordion-189b3c6c-6372-4ad4-b540-52347889610f"  class="sr-only">Accordion</h3>
+            <div class="sr-only" aria-live="polite" aria-atomic="true"></div>
+            <div class="accordion__controls">
+                <button type="button" class="accordion__control" aria-label="Expand All Accordion Panels" data-accordion-button="expand-all">Expand All</button>
+                <span class="accordion__controls-divider"></span>
+                <button type="button" class="accordion__control" aria-label="Collapse All Accordion Panels" data-accordion-button="collapse-all">Collapse All</button>
+            </div>
+            <ul role="list" aria-labelledby="accordion-189b3c6c-6372-4ad4-b540-52347889610f">
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-6cebd32d-8cd7-4fdd-be98-d55ecaf859ea" data-name="h4-more-about-dois-at-mast" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_0_control" data-toggle="collapse" type="button" aria-label="More about DOIs at MAST Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_0_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_0_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">More about DOIs at MAST</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_0_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_0_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>The MAST DOI Initiative is a system at MAST for assigning, preserving, and dereferencing DOIs for MAST data. It began with a partnership with American Astronomical Society Journals (Astrophysical Journal, Astronomical Journal, Astrophysical Journal Supplements, Astrophysical Journal Letters, and Planetary Science Journal) in which MAST and AAS Journals collaborated to bring MAST DOIs to AAS Journal articles. At present, only authors at select institutions are being asked to provide DOIs to their MAST data in the publication process. In 2022, all institutions will be prompted to provide MAST DOIs during submission to AAS journals.<br />
+<br />
+Grant recipients using JWST data in a publication are obligated to identify their data using a MAST DOI. See <a href="https://jwst-docs.stsci.edu/accessing-jwst-data" target="_blank">https://jwst-docs.stsci.edu/accessing-jwst-data</a> and <a href="https://outerspace.stsci.edu/display/MASTDOCS/Special+Topics" target="_blank">https://outerspace.stsci.edu/display/MASTDOCS/Special+Topics</a> for further information.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-dc60440d-c192-4ab4-b698-5e1099de9ea9" data-name="h4-how-do-i-create-a-doi-are-there-step-by-step-instructions" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_1_control" data-toggle="collapse" type="button" aria-label="How do I create a DOI? Are there step-by-step instructions? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_1_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_1_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">How do I create a DOI? Are there step-by-step instructions?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_1_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_1_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>You can find detailed instructions on DOI creation on the <a href="https://outerspace.stsci.edu/display/MASTDOCS/Special+Searches#SpecialSearches-DOICreateaDOI" target="_blank">MAST Docs webpage (&quot;Create a DOI&quot;)</a>. Contact Archive Scientists at <a href="mailto:archive@stsci.edu">archive@stsci.edu</a> if you have questions.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-cfa7033a-626f-46a3-b2fb-f0fc96e0a273" data-name="h4-should-i-reference-a-dataset-doi-in-my-aas-manuscript-how" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_2_control" data-toggle="collapse" type="button" aria-label="Should I reference a dataset DOI in my AAS manuscript? How? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_2_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_2_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">Should I reference a dataset DOI in my AAS manuscript? How?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_2_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_2_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>Once your custom DOI has been created or you have selected an existing DOI, you must add a statement similar to the below examples in the data, analysis, or acknowledgment section using the AASTeX \dataset markup. Where exactly you decide to cite the DOI will depend on your article. The important thing is to include it, so that readers can access the data you analyzed. Additional guidance for non-AAS journals is provided in the next question. For AAS journal authors, we recommend updating to the most recent version of <a href="https://journals.aas.org/authors/aastex.html" target="_blank">AASTeX</a>:</p>
+
+<p style="margin-left: 40px;"><strong>Example 1 (Data Analysis section): </strong><br />
+All the [mission] data used in this paper can be found in MAST: \dataset[https://doi.org/10.17909/######]{https://doi.org/10.17909/######}.</p>
+
+<p style="margin-left: 40px;"><strong>Example 2 (Acknowledgments): </strong><br />
+Some/all of the data presented in this paper were obtained from the Mikulski Archive for Space Telescopes (MAST) at the Space Telescope Science Institute. The specific observations analyzed can be accessed via \dataset[https://doi.org/10.17909/######]{https://doi.org/10.17909/######}. STScI is operated by the Association of Universities for Research in Astronomy, Inc., under NASA contract NAS5&ndash;26555. Support to MAST for these data is provided by the NASA Office of Space Science via grant NAG5&ndash;7584 and by other grants and contracts.</p>
+
+<p>The DOI citation can be included with your manuscript at the time of submission or amended to your text file during the revision process. More information about the AASTeX \dataset command can be found <a href="https://journals.aas.org/authors/aastex/aasguide.html#celestial_object" target="_blank">here</a>.</p>
+
+<p>See the following links for specific information about <a href="https://archive.stsci.edu/data_use.html" target="_blank">MAST&#39;s Data Use Policy</a>, <a href="https://archive.stsci.edu/publishing/data-attributions" target="_blank">Data Attributions</a>, and <a href="https://archive.stsci.edu/publishing/mission-acknowledgements" target="_blank">Mission Acknowledgments</a>.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-fafb24e9-fbce-4b05-9a63-fc16a45a27c2" data-name="h4-can-i-reference-mast-dois-in-other-journals-or-on-the-arxiv" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_3_control" data-toggle="collapse" type="button" aria-label="Can I reference MAST DOIs in other journals, or on the arXiv? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_3_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_3_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">Can I reference MAST DOIs in other journals, or on the arXiv?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_3_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_3_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>While MAST does not have explicit agreements in place with other publishers, you may use a MAST DOI in any way you see fit. We would be happy if you used them in any publication referencing MAST-supported products. Resources for data citation in different journals can be obtained at the following links.</p>
+
+<ul class="bulleted">
+ <li>AAS Journals: &quot;3rd party data repositories and software&quot; at <a href="https://journals.aas.org/aastexguide/" target="_blank">https://journals.aas.org/aastexguide/</a></li>
+ <li>MNRAS: &quot;Data Policy&quot; at <a href="https://academic.oup.com/mnras/pages/General_Instructions" target="_blank">https://academic.oup.com/mnras/pages/General_Instructions</a></li>
+ <li>A&amp;A: &quot;Data Policy&quot; at <a href="https://www.aanda.org/for-authors/author-information/paper-organization" target="_blank">https://www.aanda.org/for-authors/author-information/paper-organization</a></li>
+ <li>Icarus: <a href="https://www.elsevier.com/__data/assets/file/0011/852995/Data-Availability-section.html" target="_blank">&quot;Data Availability&quot;</a></li>
+ <li>Nature: &quot;Availability of Data&quot; at <a href="https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards" target="_blank">https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards</a></li>
+ <li>Science: <a href="https://www.science.org/content/page/science-journals-editorial-policies#data-and-code-deposition" target="_blank">&quot;Data and Code Deposition&quot;</a></li>
+</ul>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-741d3106-8174-4aa0-b669-684690280efe" data-name="h4-can-i-create-more-than-one-doi-should-i" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_4_control" data-toggle="collapse" type="button" aria-label="Can I create more than one DOI? Should I? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_4_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_4_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">Can I create more than one DOI? Should I?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_4_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_4_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>You may create more than one DOI for your manuscript. We suggest that you create DOIs for each dataset that is discussed independently in the manuscript. If datasets are analyzed in conjunction they should be put into the same DOI. We recommend that you not generate many DOIs with similar content; don&#39;t generate one for each target. If you discuss, for instance, FUSE and HST data that a reader would most likely want to access independently, you can create a separate DOI for each of them.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-cb5c0141-31db-4374-82bf-c23debddaf7e" data-name="h4-what-if-i-want-to-make-a-doi-for-non-mast-data-or-software" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_5_control" data-toggle="collapse" type="button" aria-label="What if I want to make a DOI for non-MAST data or software? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_5_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_5_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">What if I want to make a DOI for non-MAST data or software?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_5_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_5_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>There are services that provide free DOIs and hosting for scientific data and software, such as <a href="https://dataverse.org/">Dataverse</a> and <a href="https://zenodo.org/">Zenodo.</a> MAST DOIs are only possible to apply to MAST data and data products.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-369d1dd4-6663-4123-ba69-3948362b63f3" data-name="h4-how-do-i-cite-an-hlsp-or-an-already-established-doi" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_6_control" data-toggle="collapse" type="button" aria-label="How do I cite an HLSP or an already-established DOI? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_6_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_6_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">How do I cite an HLSP or an already-established DOI?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_6_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_6_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>High Level Science Products, certain catalogs (like the Hubble Source Catalog), and certain collections of data (like subsets of Kepler/K2 and TESS data) have pre-assigned DOIs that can be found on the <a href="https://archive.stsci.edu/hlsp" target="_blank">HLSP search page</a> or here, on the MAST DOI Home page. You can directly copy the DOIs provided for these data sets and insert them into your manuscript. When entering the url, be sure to use the standard DOI.org url prefix, e.g., https://doi.org/10.17909/######.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-32b8ee64-6fbc-4e76-849c-5aca8b95204f" data-name="h4-are-data-dois-citable" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_7_control" data-toggle="collapse" type="button" aria-label="Are data DOIs citable? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_7_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_7_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">Are data DOIs citable?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_7_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_7_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>While MAST DOIs can be referenced by journals, they are not kept track of like articles or other &quot;first-class citable objects&quot;. Thus, MAST DOIs do not accrue citations in the same way articles do. Data DOIs can be thought of more like &quot;permanent URLs&quot; than independent scholarly works.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-cdc9dffc-41aa-43cf-a24a-01b03f92e649" data-name="h4-what-if-i-need-to-edit-a-doi" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_8_control" data-toggle="collapse" type="button" aria-label="What if I need to edit a DOI? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_8_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_8_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">What if I need to edit a DOI?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_8_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_8_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>DOIs can be edited with permission of MAST staff as well as permission from all publications that currently reference the DOI. It is the position of MAST and AAS Journals that the DOI should reference the data the author intended at the time of publication, rather than any data unintentionally referenced by clerical error. Contact us at <a href="mailto:archive@stsci.edu">archive@stsci.edu</a> if edits are needed.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-59a1a632-5422-460a-93ee-f95ca3038782" data-name="h4-do-i-still-need-to-specify-the-product-versions-in-my-paper-can-the-data-a-doi-points-to-change" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_9_control" data-toggle="collapse" type="button" aria-label="Do I still need to specify the product versions in my paper? Can the data a DOI points to change? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_9_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_9_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">Do I still need to specify the product versions in my paper? Can the data a DOI points to change?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_9_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_9_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>Yes. Re-processing of data from active missions does occur, and we typically only host the latest version of a file. In these cases, the data that the DOI points to will change to the latest version. Similarly, usually only the latest version of a High Level Science Product is discoverable in the MAST Portal, and the DOIs for HLSP webpages may point to multiple versions.</p>
+
+<ul class="bulleted">
+ <li>For active missions (JWST, HST, TESS): Often the easiest thing to do is to specify the &quot;file creation&quot; or &quot;processing&quot; date or time, which is captured in FITS header keywords like DATE or PROCTIME. Note that for HST and JWST, the version of the processing pipeline software and the version of the calibration reference files (flats, darks, etc.) can change independently of each other.</li>
+ <li><a href="https://archive.stsci.edu/hlsp" target="_blank">High Level Science Products (HLSPs)</a>: use the version number specified in the file name, which follows the syntax outlined on that HLSP&#39;s webpage under &quot;Data Products&quot;.</li>
+ <li>For legacy missions (other than HLSPs), version changes are less of a concern, though specifying the version is still good practice. In general, you can find the processing date in the FITS header, or as a last resort specify the date on which you retrieved the data from MAST.</li>
+</ul>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-06004361-98e3-48df-8760-6c2d2965cbd2" data-name="h4-what-if-i-m-only-using-a-subset-of-an-existing-doi" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_10_control" data-toggle="collapse" type="button" aria-label="What if I'm only using a subset of an existing DOI? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_10_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_10_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">What if I'm only using a subset of an existing DOI?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_10_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_10_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>The goal is to provide readers of your paper with enough information to retrieve the exact set of data that you used in your science. If you only used a subset of the data represented by an existing DOI, you have two options: reference the existing DOI and explain exactly how to narrow that dataset down to the observations that you actually used, or follow the procedures above to create/request a new DOI comprising the exact subset that you used. Which option is easiest for you and your readers may depend on how much of the existing DOI you are utilizing, the size of the existing DOI, or the complexity of your selection function.</p>
+
+<p>Sometimes the larger DOI may contain metadata or contextual information that could be useful to readers (e.g., <a href="https://archive.stsci.edu/hlsp" target="_blank">HLSP</a> DOIs are permanent pointers to the webpage describing that HLSP), and in such cases you might want to consider referencing both the larger DOI and your new subset DOI.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                <li>
+                        <div class="accordion-container panel">
+    <h4 id="h4-6cc035ec-e59c-490f-abb1-9c4200d871e2" data-name="h4-how-do-i-access-the-data-referenced-by-a-doi-can-i-load-it-in-the-mast-portal" class="accordion-header">
+        <button class="accordion__section-toggle collapsed accordion-header" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_11_control" data-toggle="collapse" type="button" aria-label="How do I access the data referenced by a DOI? Can I load it in the MAST Portal? Navigation Section" aria-controls="tab_189b3c6c-6372-4ad4-b540-52347889610f_11_section" data-target="#tab_189b3c6c-6372-4ad4-b540-52347889610f_11_section"  tabindex="0" aria-expanded="false">
+            <span class="accordion__title-text">How do I access the data referenced by a DOI? Can I load it in the MAST Portal?</span>
+        </button>
+    </h4>
+
+    <div class="accordion__content collapse " aria-expanded="false" id="tab_189b3c6c-6372-4ad4-b540-52347889610f_11_section" aria-labelledby="tab_189b3c6c-6372-4ad4-b540-52347889610f_11_control">
+        <div class="accordion__content-inner light-background-">
+            <div><p>See the <a href="https://outerspace.stsci.edu/display/MASTDOCS/Special+Searches#SpecialSearches-LoadaDOI" target="_blank">instructions on loading a DOI (&quot;Load a DOI&quot;)</a>.</p>
+</div>
+        </div>
+    </div>
+</div></li>
+                </ul>
+        </div>
+    </div></section><section id="section-5c681f23-a293-4e38-83bd-6787aa7ad64a" data-name="section-contact" class="section-row none" >
+    <div class="component-block container-fluid">
+            <div class="row">
+                <div class="section-header col-xs-12 text-center">
+                    <h2 id="h2-db3eefc5-5012-46ec-b995-12fee8549979" data-name="h2-contact" class="section-header__title" data-include-in-navigation="true">
+                            Contact</h2>
+
+                        </div>
+            </div>
+        </div>
+    <div class="component-block container-fluid">
+        <div class="related-links">
+            <div class="row-flex-sm related-links-row">
+            <h3 id="c490b2fc-e1f3-466a-8043-ccd2948fa336" class="sr-only">Contact</h3>
+            <ul role="list" class="col-md-12" aria-labelledby="c490b2fc-e1f3-466a-8043-ccd2948fa336">
+                <li class="entry link-with-divider">
+        <div class="related-link">
+            <a href="mailto:archive@stsci.edu" class="" >
+                        MAST Helpdesk</a><p>archive@stsci.edu</p>
+            </div>
+    </li><li class="entry link-with-divider">
+        <div class="related-link">
+            <a href="mailto:data-editors@aas.org" class="" >
+                        AAS Data Scientist</a><p>data-editors@aas.org</p>
+            </div>
+    </li><li class="entry link-with-divider">
+        <div class="related-link">
+            <a href="mailto:library@stsci.edu" class="" >
+                        STScI Library</a><p>library@stsci.edu</p>
+            </div>
+    </li></ul>
+        </div>
+    </div></section></div>
+			</main>
+<div data-module-dynamic="scroll-affix" data-activate-on-scroll="true" class="back-to-top">
+				<a class="back-to-top-button" href="#body" data-module-dynamic="scroll-to" aria-label="back to top">
+					<span class="svg-sprite -back-to-top">
+						<svg role="img" focusable="false" aria-hidden="true">
+							<use xlink:href="#back-to-top"></use>
+						</svg>
+					</span>
+				</a>
+			</div>
+		</section>
+<footer class="footer dark-background-">
+			<h2 id="h2-sr-only-footer" class="sr-only">Footer</h2>
+			<div class="container-fluid">
+				<div class="row">
+					<nav aria-labelledby="h3-sr-only-af6ab465-f1d0-4abe-bd12-dfb4cb577696">
+    <h3 id="h3-sr-only-af6ab465-f1d0-4abe-bd12-dfb4cb577696" data-name="h3-sr-only-secondary-navigation" class="sr-only">Secondary Navigation</h3>
+    <div class="col-md-2 hidden-xs hidden-sm footer__logo">
+        <a href="https://www.stsci.edu/" class=" no-file-icon" target="_self">
+        <img alt="Space Telescope Science Institute Logo" src='/files/live/sites/mast/files/home/_images/footer/stsci_pri_combo_mark_white_bkgd.png?t=tn370' sizes='(max-width: 370px) 370px,(max-width: 768px) 768px,(max-width: 992px) 992px,(max-width: 1200px) 1200px,(max-width: 1600px) 1600px,(max-width: 2400px) 2400px, 2400px' srcset='/files/live/sites/mast/files/home/_images/footer/stsci_pri_combo_mark_white_bkgd.png?t=tn370 370w,/files/live/sites/mast/files/home/_images/footer/stsci_pri_combo_mark_white_bkgd.png?t=tn768 768w,/files/live/sites/mast/files/home/_images/footer/stsci_pri_combo_mark_white_bkgd.png?t=tn992 992w,/files/live/sites/mast/files/home/_images/footer/stsci_pri_combo_mark_white_bkgd.png?t=tn1200 1200w,/files/live/sites/mast/files/home/_images/footer/stsci_pri_combo_mark_white_bkgd.png?t=tn1600 1600w,/files/live/sites/mast/files/home/_images/footer/stsci_pri_combo_mark_white_bkgd.png?t=tn2400 2400w ' /></a></div>
+    <div class="col-xs-12 col-md-8">
+            <ul role="list" class="footer__link-list list-inline"> <li><a href="https://proper.stsci.edu/proper/authentication/auth" class="" target="_blank">
+                        MyST</a></li>
+                <li><a href="https://stsci.service-now.com/mast" class="" target="_blank">
+                        Help Desk</a></li>
+                <li><a href="mailto:archive@stsci.edu" class="" >
+                        archive@stsci.edu</a></li>
+                <li><a href="http://archive.stsci.edu/site-classic.html" class="" target="_self">
+                        MAST Classic</a></li>
+                <li><a href="https://archive.stsci.edu/about-mast#section-d11fd734-67cc-4e65-91a2-570fa015a228" class="" target="_blank">
+                        MAST Credits</a></li>
+                <li><a href="/nasa-data-centers" class="" target="_self">
+                        NASA Data Centers</a></li>
+                <li><a href="/publishing" class="" target="_self">
+                        Data Policies</a></li>
+                <li><a href="/site-map" class="" target="_self">
+                        Site Map</a></li>
+                <li><a href="https://www.stsci.edu/copyright" class="" target="_blank">
+                        Copyright</a></li>
+                <li><a href="https://www.stsci.edu/privacy" class="" target="_blank">
+                        Privacy</a></li>
+                </ul>
+        </div>
+    </nav><div class="col-xs-12 col-md-2 footer__social-media">
+                <h3 id="h3-sr-only-e2993e44-3250-4c68-9ddb-ac8b6567b73e" data-name="h3-sr-only-social-media" class="sr-only">Social Media</h3>
+                <ul role="list" class="footer__link-list--icons list-inline">
+                    <li>
+        <a href="https://www.facebook.com/MASTArchive/" target="_blank" aria-label="facebook" class="has-icon">
+            <span class="svg-sprite -facebook">
+                <svg role="img" focusable="false" aria-hidden="true">
+                     <use xlink:href="#facebook"></use>
+                </svg>
+            </span>
+        </a>
+    </li><li>
+        <a href="https://twitter.com/mast_news?lang=en" target="_blank" aria-label="x" class="has-icon">
+            <span class="svg-sprite -x">
+                <svg role="img" focusable="false" aria-hidden="true">
+                     <use xlink:href="#x"></use>
+                </svg>
+            </span>
+        </a>
+    </li><li>
+        <a href="https://www.youtube.com/user/STScIMAST" target="_blank" aria-label="youtube" class="has-icon">
+            <span class="svg-sprite -youtube">
+                <svg role="img" focusable="false" aria-hidden="true">
+                     <use xlink:href="#youtube"></use>
+                </svg>
+            </span>
+        </a>
+    </li></ul>
+            </div><div class="logo-container">
+    </div></div>
+			</div>
+		</footer>
+	</div>
+<div id="spriteSheet" class="svg-sprite-sheet sr-only" aria-hidden="true">
+	</div>
+<!-- Sprite Sheet -->
+	<script>
+		$(function(){
+			let svg;
+			
+				svg = "/modules/stsci-www-assets/assets/svg/mast-9a48814ca5.svg";
+			
+			$("#spriteSheet").load(svg, function() {
+				$('.animate-icon').trigger('spriteSheetLoaded')
+			});
+		});
+	</script>
+	<!-- video-js -->
+	<script src="//vjs.zencdn.net/8.5.2/video.min.js"></script>
+</body>
+</html>

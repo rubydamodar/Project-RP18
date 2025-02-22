@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyST Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For new browsers - multisize ico  -->
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/proper/assets/proper/myst-favicon-31094b5d77d48f52b4ff22631242cae9.ico">
+
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/proper/assets/proper/myst-favicon-152-7a0b327a0e91d6f6a4b9ac9af69514f1.png">
+
+    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/proper/assets/proper/myst-favicon-144-4bb3a35a79666599330f6f6afe8502f6.png">
+
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/proper/assets/proper/myst-favicon-120-ec07e636d77362b8643da30b21924265.png">
+
+    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/proper/assets/proper/myst-favicon-114-fa7905d85797f8f20b00cabe7e47471a.png">
+
+    <!-- For iPhone 6+ -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/proper/assets/proper/myst-favicon-180-f6bd98839eaae4dd1e4eab609b26ea72.png">
+
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/proper/assets/proper/myst-favicon-72-7b23de4a8c2895b40ef0f4369d6cb9a7.png">
+
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="/proper/assets/proper/myst-favicon-57-7162026ed5dd9c74ce955ae07717a8a3.png">
+
+    <!-- For IE10 Metro -->
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/proper/assets/proper/myst-favicon-144-4bb3a35a79666599330f6f6afe8502f6.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/proper/assets/public-233c673e1a47d27d8648f089b0dc96d4.css" />
+    <link rel="stylesheet" href="/proper/assets/mobile-61b8607741e97aa19553f856bc5da637.css" />
+    <script type="text/javascript" src="/proper/assets/public-92de237b767abe0fd05ae63bb362e7a3.js" ></script>
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="layout" content="public"/>
+    <script type="text/javascript" src="/proper/assets/external/authentication-0fa66c055a7585a5506d72397d87411e.js" ></script>
+    
+
+</head>
+
+<body>
+
+<noscript>
+  <div style="left:0;position:fixed;right:0;top:0;z-index:2000;background-color:#3398cc;width: 100%;height: 100%">
+    <div style="font-size:10em;font-weight:bold;text-align:center;">Please enable Javascript to use this site</div>
+  </div>
+</noscript>
+
+<div style='display:none;' class='helpPane ' id='fieldHelpPane'><div id='fieldHelpContents'></div></div><div style='display:none;' class='helpPane ' id='pageHelpPane'><div id='pageHelpContents'></div></div><img src=/proper/assets/spinner-c7b3cbb3ec8249a7121b722cdd76b870.gif alt="loading..." style="display:none;z-index:75;" id="helpLoading"/>
+<div id="waitScreen" style="display: none" aria-label="Working..."><p><i class="fa fa-5x fa-cog fa-spin"></i></p></div>
+<div id='header'>
+    <div>
+        <div>
+            <div class="myst-logo"><img src="/proper/assets/proper/myst_logo_flat-c889e62d76a3ecdb72f9837be0d6fcc8.png" /></div>
+            <span class="portal">MyST</span>
+            <span class="application">MY SPACE TELESCOPE</span>
+            
+        </div>
+    </div>
+</div>
+
+
+<div id="container">
+ <div id='content'>
+<div class="page-container">
+
+    <div class="publicHelp">
+        <div class='pageInstructions notHideable'><h2>Welcome to <strong>My Space Telescope</strong> (MyST)</h2>
+
+<p>MyST maintains Single Sign-On (SSO) accounts held at <strong><a href="http://www.stsci.edu">Space Telescope Science Institute (STScI)</a></strong>.</p></div>
+    </div>
+    <!-- message -->
+    
+    <div class="row">
+        <div class="half-page">
+            <!-- CAPTCHA for anonymous create-->
+            <div id='captchaBox' class="service-box bg-lt-blue" style="cursor:pointer">
+                <i class="fa fa-pencil fa-4x home-icons"></i>
+                <h4>Create</h4>
+                <p class="cta-line">Limited Access to Create New Account</p>
+                <button class="btn btn-med btn-primary btn-lg" aria-label="Create New Account" >Launch <i class="fa fa-chevron-right fa-padding"></i> </button>
+            </div>
+        </div>
+        <div class="half-page">
+            <!-- Username/Password -->
+            <div id="loginBox" class="service-box bg-lt-blue" style="cursor:pointer">
+                <i class="fa fa-user fa-4x home-icons"></i>
+                <h4>Registered User</h4>
+                <p class="cta-line">Full Access for Registered Users</p>
+                <button class="btn btn-med btn-primary btn-lg" aria-label="Open Login Dialog" >Launch <i class="fa fa-chevron-right fa-padding"></i> </button>
+                <script type="text/javascript">
+    var lpAuth;
+    function showLPAuthentication() {
+        lpAuth = window.open('/proper/login/ajaxAuth', "lpAuth", "width=450,height=850,menubar=no,resizable=no,status=no,location=no");
+    }
+
+    function authenticated() {
+        if(lpAuth) {
+            lpAuth.close();
+        }
+        passwordVerified();
+    }
+</script>
+
+            </div>
+        </div>
+    </div>
+    <div id="lp-login-failure-dialog" title="Login Failure">
+        
+        <div class="dialogButtons">
+            <button id="lp-login-failure-close" class="btn btn-primary">Dismiss</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="footer">
+    <div class="container footer-container">
+        <div class="row">
+            <div class="half-page">
+                <div class="stsci-footer-logo">
+                    <img src="/proper/assets/proper/STScI-footer-logo@2x-e47e7171f67891f2f23b65e7c8f23ffa.png" alt="STScI Logo"/>
+                </div>
+            </div>
+            <div class="half-page">
+                <div class="footer-info">
+                    <p>
+                        MyST v2025.2.2
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-contact">
+            Having problems? Contact
+            The STScI Service Desk
+            <strong>
+                <a href="mailto:support&#64;stsci.edu?Subject=MyST%20Question">support&#64;stsci.edu</a>
+            </strong>
+            or call
+            (+1 410-338-4400).
+            <br>
+            <a href="https://www.stsci.edu/privacy" target="_blank" style="color:inherit">Privacy Policy</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

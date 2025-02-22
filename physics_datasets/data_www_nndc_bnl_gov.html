@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nuclear Science References (NSR)</title>
+	<link
+		rel="icon"
+		type="image/svg+xml"
+		href="/common/images/NNDC_Barn_Logomark_RGB.svg"
+	>
+	<link rel="alternate icon" href="/common/images/favicon.ico">
+	<link rel="stylesheet" href="/common/styles/style.css?v=1.007">
+	<link rel="stylesheet" href="/common/styles/lib/all.min.css?v=1.007">
+	<link rel="stylesheet" href="lib/tabulator/css/tabulator.min.css">
+	<link rel="stylesheet" href="lib/autoComplete/css/autoComplete.02.css">
+	<link rel="stylesheet" href="css/nsr.css?v=1.007">
+	<link rel="stylesheet" href="css/tabs.css?v=1.007">
+	<link rel="stylesheet" href="css/loading-overlay.css?v=1.007">
+	<link rel="stylesheet" href="css/indexed-search-dialog.css?v=1.007">
+	<link rel="stylesheet" href="css/search-progress.css?v=1.007">
+	<link rel="stylesheet" href="css/search/controls.css?v=1.007">
+	<link rel="stylesheet" href="css/search/filters.css?v=1.007">
+	<link rel="stylesheet" href="css/search/results.css?v=1.007">
+	<link rel="stylesheet" href="css/search/quick.css?v=1.007">
+	<link rel="stylesheet" href="css/search/text.css?v=1.007">
+	<link rel="stylesheet" href="css/search/indexed.css?v=1.007">
+	<link rel="stylesheet" href="css/search/keynumber.css?v=1.007">
+	<link rel="stylesheet" href="css/search/doi.css?v=1.007">
+	<link rel="stylesheet" href="css/tabulator-config.css?v=1.007">
+	<link rel="stylesheet" href="css/index.css?v=1.007">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GRBL0F016R"></script>
+	<script async src="js/google-analytics.js?v=1.007"></script>
+	<script>
+		MathJax = {
+			tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']]
+			}
+		};
+	</script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+	<header id="header"></header>
+	<main>
+		<div id="loading-overlay"></div>
+		<dialog id="indexed-search-dialog">
+			<div id="browse-dialog-buttons">
+				<button id="close-browse-dialog">
+					<i class="fas fa-window-close"></i>&nbsp;Close
+				</button>
+			</div>
+			<iframe id="browse-frame"></iframe>
+		</dialog>
+		<h1 id="page-title">Nuclear Science References (NSR)</h1>
+		<h3 id="page-citation">
+			NSR Reference Paper
+			<a
+				target="_blank"
+				href="http://dx.doi.org/10.1016/j.nima.2011.03.018"
+			>NIM <b>A 640</b>, 213 (2011)</a>
+		</h3>
+		<h3 id="coding-manual">
+			NSR Coding Manual
+			(<a target="_blank" href="docs/nsr-coding-manual.pdf">PDF</a>)
+		</h3>
+		<p id="description">
+			The <a target="_blank" href="http://dx.doi.org/10.1016/j.nima.2011.03.018">NSR database</a>
+			is a bibliography of nuclear physics articles, indexed according
+			to content and spanning more than 100 years of research.<br>
+			Over 80 journals are checked on a regular basis for articles to be included.
+		</p>
+		<div id="link-buttons">
+			<a id="contact-link" href="/contact-us/?topic=nsr">
+				<i class="fas fa-comments"></i> Contact Us
+			</a>
+			<a id="help-link" href="help.html">
+				<i class="fas fa-question-circle"></i> Help
+			</a>
+		</div>
+		<p id="recent-references-link">
+			To search recent references by entry date, click <a href="recent-references.html" target="_blank">here</a>.
+		</p>
+		<p id="archive-link">
+			Archive files from previous versions of NSR
+			can be found <a href="/nsrarchivals/" target="_blank">here</a>.
+		</p>
+		<div id="all-tabs" class="tabs">
+			<button class="active" value="quick-panel">Quick Search</button>
+			<button value="text-panel">Text Search</button>
+			<button value="indexed-panel">Indexed Search</button>
+			<button value="keynumber-panel">Keynumber Search</button>
+			<button value="doi-panel">DOI Search</button>
+		</div>
+		<div id="extra-tabs" class="tabs">
+			<button class="active" value="quick-panel">Quick Search</button>
+			<button value="text-panel">Text Search</button>
+			<button value="indexed-panel">Indexed Search</button>
+			<button value="keynumber-panel">Keynumber Search</button>
+			<div class="menu-tab-container">
+				<button id="menu-tab-extra" value="tabMenu">
+					<i class="fas fa-bars"></i>
+				</button>
+				<div id="menu-tab-content-extra">
+					<button value="doi-panel">DOI Search</button>
+				</div>
+			</div>
+		</div>
+		<div id="large-tabs" class="tabs">
+			<button class="active" value="quick-panel">Quick Search</button>
+			<button value="text-panel">Text Search</button>
+			<button value="indexed-panel">Indexed Search</button>
+			<div class="menu-tab-container">
+				<button id="menu-tab-large" value="tabMenu">
+					<i class="fas fa-bars"></i>
+				</button>
+				<div id="menu-tab-content-large">
+					<button value="keynumber-panel">Keynumber Search</button>
+					<button value="doi-panel">DOI Search</button>
+				</div>
+			</div>
+		</div>
+		<div id="medium-tabs" class="tabs">
+			<button class="active" value="quick-panel">Quick Search</button>
+			<button value="text-panel">Text Search</button>
+			<div class="menu-tab-container">
+				<button id="menu-tab-medium" value="tabMenu">
+					<i class="fas fa-bars"></i>
+				</button>
+				<div id="menu-tab-content-medium">
+					<button value="indexed-panel">Indexed Search</button>
+					<button value="keynumber-panel">Keynumber Search</button>
+					<button value="doi-panel">DOI Search</button>
+				</div>
+			</div>
+		</div>
+		<div id="small-tabs" class="tabs">
+			<button class="active" value="quick-panel">Quick Search</button>
+			<div class="menu-tab-container">
+				<button id="menu-tab-small" value="tabMenu">
+					<i class="fas fa-bars"></i>
+				</button>
+				<div id="menu-tab-content-small">
+					<button value="text-panel">Text Search</button>
+					<button value="indexed-panel">Indexed Search</button>
+					<button value="keynumber-panel">Keynumber Search</button>
+					<button value="doi-panel">DOI Search</button>
+				</div>
+			</div>
+		</div>
+		<div id="tab-contents">
+			<div id="quick-panel" class="active tab-panel">
+				<div class="panel-vbox">
+					<div class="row">
+						<div class="cell">
+							<label for="quick-author">Author</label>
+							<br>
+							<label class="sub-label">'Brown', 'B.A.Brown', 'Brown,B.A.'</label>
+						</div>
+						<div class="cell">
+							<input id="quick-author" type="text" data-open="false">
+						</div>
+					</div>
+					<div class="row">
+						<div class="cell">
+							<label for="quick-nuclide">Nuclide</label>
+							<br>
+							<label class="sub-label">31Na, 144xe, etc.</label>
+						</div>
+						<div class="cell">
+							<input id="quick-nuclide" type="text" data-open="false">
+						</div>
+					</div>
+					<div class="row">
+						<div class="cell">
+							<label for="quick-reaction">Reaction</label>
+							<br>
+							<label class="sub-label">n,g or (n,g) or (16O,16O)</label>
+						</div>
+						<div class="cell">
+							<input id="quick-reaction" type="text" data-open="false">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="text-panel" class="tab-panel">
+				<div class="panel-vbox">
+					<div class="row">
+						<div class="cell">
+							<label for="text-title">Title</label>
+						</div>
+						<div class="cell">
+							<input id="text-title" type="text">
+						</div>
+					</div>
+					<div class="row">
+						<div class="cell">
+							<label for="text-keywords">Keywords</label>
+						</div>
+						<div class="cell">
+							<input id="text-keywords" type="text">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="indexed-panel" class="tab-panel">
+				<div class="panel-vbox">
+					<button id="indexed-condition-button">
+						&plus; Add Condition
+					</button>
+					<div id="indexed-table-container">
+						<div id="indexed-conditions-table"></div>
+					</div>
+				</div>
+			</div>
+			<div id="keynumber-panel" class="tab-panel">
+				<div class="panel-vbox">
+					<textarea
+						id="input-key-numbers"
+						placeholder="ex. 1857DE01, 2001me04, 2022Mc01"
+					></textarea>
+				</div>
+			</div>
+			<div id="doi-panel" class="tab-panel">
+				<div class="panel-vbox">
+					<textarea
+						id="doi-input"
+						placeholder="ex. 10.1051/epjconf/202328412005, 10.1139/cjp-2022-0041"
+					></textarea>
+				</div>
+			</div>
+		</div>
+		<div id="filters-panel">
+			<div id="filter-dropdown" class="active">
+				<i id="filter-icon" class="fas fa-filter"></i>
+				<p id="filter-title">Filters</p>
+			</div>
+			<div id="filter-controls" class="panel-hbox active">
+				<div class="filter-cell">
+					<input
+						id="publication-year"
+						class="filter-input cell-checkbox"
+						type="checkbox"
+					>
+					<div class="cell-content">
+						<label
+							class="filter-label"
+							for="publication-year"
+						>
+							Publication Year:
+						</label>
+						<br>
+						<input
+							id="year-min"
+							class="filter-input"
+							type="number"
+						>
+						&nbsp;to&nbsp;
+						<input
+							id="year-max"
+							class="filter-input"
+							type="number"
+						>
+					</div>
+				</div>
+				<div class="filter-cell">
+					<input
+						id="entry-date-checkbox"
+						class="cell-checkbox filter-input"
+						type="checkbox"
+					>
+					<div class="cell-content">
+						<label
+							class="filter-label"
+							for="entry-date"
+						>
+							Entries added since:
+						</label>
+						<br>
+						<input
+							id="entry-date"
+							class="filter-input"
+							type="date"
+						>
+					</div>
+				</div>
+				<div class="filter-cell">
+					<input
+						id="reference-type"
+						class="cell-checkbox filter-input"
+						type="checkbox"
+					>
+					<div class="cell-content">
+						<label
+							class="filter-label"
+							for="reference-type"
+						>
+							Subject / Reference:
+						</label>
+						<br>
+						<select
+							id="subject-type"
+							class="filter-input"
+						>
+							<option value="measured">
+								Measured / Experimental
+							</option>
+							<option value="calculated">
+								Calculated / Theory
+							</option>
+							<option value="deduced">
+								Deduced
+							</option>
+						</select>
+					</div>
+				</div>
+				<div class="filter-cell">
+					<input
+						id="primary-only"
+						class="cell-checkbox filter-input"
+						type="checkbox"
+					>
+					<div class="cell-content">
+						<label
+							class="filter-label"
+							for="primary-only"
+						>
+							Primary Only
+						</label>
+					</div>
+				</div>
+				<div class="filter-cell">
+					<input
+						id="exfor-data-available"
+						class="cell-checkbox filter-input"
+						type="checkbox"
+					>
+					<div>
+						<label
+							class="filter-label"
+							for="exfor-data-available"
+						>
+							EXFOR Data Available
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="search-buttons-panel">
+			<div id="search-subpanel">
+				<button id="search-button">Search</button>
+				<button id="reset-button">Reset</button>
+			</div>
+			<div id="download-subpanel">
+				<button id="download-button">Download</button>
+				<button id="new-tab-button">
+					<i class="fas fa-window-restore"></i> New Tab
+				</button>
+				<button id="clipboard-button">
+					<i class="fas fa-clipboard"></i> Copy
+				</button>
+				<select id="download-format">
+					<option value="keynum">Key Numbers Only</option>
+					<option value="json">JSON</option>
+					<option value="csv">CSV</option>
+					<option value="text">Text</option>
+					<option value="bibtex">BibTex</option>
+					<option value="exchange">NSR Exchange</option>
+				</select>
+			</div>
+			<div id="print-subpanel">
+				<button id="print-button" disabled>
+					<i class="fas fa-print"></i> Printer-Friendly
+				</button>
+			</div>
+		</div>
+		<div id="progress-panel">
+			<p id="message"></p>
+			<ul id="summary"></ul>
+			<p id="counter"></p>
+			<p id="mac-mouse-note">
+				Note: Mac users may need to <a target="_blank" href="https://support.apple.com/guide/mac-help/right-click-mh35853/mac">enable right-clicking</a> to use table features.
+			</p>
+		</div>
+		<div id="results-table-container">
+			<div id="page-controls-container">
+				<div class="tabulator">
+					<div id="page-controls" class="tabulator-footer"></div>
+				</div>
+			</div>
+			<div id="results-table"></div>
+		</div>
+	</main>
+	<footer id="footer"></footer>
+</body>
+<script src="/common/js/nndcMenu.js?v=1.007"></script>
+<script src="lib/tabulator/js/tabulator.min.js"></script>
+<script src="lib/autoComplete/js/autoComplete.min.js"></script>
+<script src="js/loading-overlay.js?v=1.007"></script>
+<script src="js/http.js?v=1.007"></script>
+<script src="js/tab-manager.js?v=1.007"></script>
+<script src="js/entry-table.js?v=1.007"></script>
+<script src="js/search-filters.js?v=1.007"></script>
+<script src="js/search-buttons.js?v=1.007"></script>
+<script src="js/search-progress.js?v=1.007"></script>
+<script src="js/entry-search.js?v=1.007"></script>
+<script src="js/auto-complete/listeners.js?v=1.007"></script>
+<script src="js/auto-complete/author-auto-complete.js?v=1.007"></script>
+<script src="js/auto-complete/nuclide-auto-complete.js?v=1.007"></script>
+<script src="js/auto-complete/reaction-auto-complete.js?v=1.007"></script>
+<script src="js/search/quick.js?v=1.007"></script>
+<script src="js/search/quick-analytics.js?v=1.007"></script>
+<script src="js/search/text.js?v=1.007"></script>
+<script src="js/search/text-analytics.js?v=1.007"></script>
+<script src="js/search/indexed.js?v=1.007"></script>
+<script src="js/search/indexed-analytics.js?v=1.007"></script>
+<script src="js/search/keynumber.js?v=1.007"></script>
+<script src="js/search/keynumber-analytics.js?v=1.007"></script>
+<script src="js/search/doi.js?v=1.007"></script>
+<script src="js/search/doi-analytics.js?v=1.007"></script>
+<script src="js/download.js?v=1.007"></script>
+<script src="js/download-analytics.js?v=1.007"></script>
+<script src="js/format/html.js?v=1.007"></script>
+<script src="js/format/csv.js?v=1.007"></script>
+<script src="js/format/txt.js?v=1.007"></script>
+<script src="js/format/bibtex.js?v=1.007"></script>
+<script src="js/format/exchange.js?v=1.007"></script>
+<script src="js/entry-printer.js?v=1.007"></script>
+<script src="js/query.js?v=1.007"></script>
+<script src="js/index.js?v=1.007"></script>
+</html>

@@ -1,0 +1,676 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>CERN Open Data Portal</title>
+      <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+          <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-touch-icon-120.png"/>
+          <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-touch-icon-152.png"/>
+          <link rel="apple-touch-icon" sizes="167x167" href="/static/apple-touch-icon-167.png"/>
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon-180.png"/>
+    
+    
+      <!-- theme.css -->
+<link rel="stylesheet" href="/static/dist/css/526.0acb92cb715320f046cc.css" />
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- cernopendata_css.css -->
+<link rel="stylesheet" href="/static/dist/css/cernopendata_css.286dc34b54d7e118ab9f.css" />
+    <!-- glossary_css.css -->
+<link rel="stylesheet" href="/static/dist/css/glossary_css.a62774f2dcbbcb0e07dc.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body itemscope itemtype="http://schema.org/WebPage" data-spy="scroll" data-target=".scrollspy-target">
+      <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+  <!--Wrapper for page content to push down footer-->
+  <div class="footer-wrap background">
+    <!-- Begin page content -->
+    <div>
+
+
+
+<header class="theme header">
+  <div class="outer-navbar">
+<nav class="navbar-custom">
+  <a class="navbar-brand" href="/">
+    <img src="/static/assets/img/logo_blue.png" width="115" alt="">
+  </a>
+
+  <ul class="link-menu">
+    <li class="ui dropdown">
+      <span class="navbar-item">
+        <span>Help<i class="dropdown icon"></i></span>
+      </span>
+      <div class="menu dropdown-items">
+        <div class="item"><a href="https://opendata-forum.cern.ch/">Discussion forum</a></div>
+        <div class="item"><a href="/docs/cod-search-tips">Search tips</a></div>
+      </div>
+    </li>
+    <li class="ui dropdown">
+      <span class="navbar-item">
+        <span>About<i class="dropdown icon"></i></span>
+      </span>
+      <div class="menu dropdown-items">
+        <div class="item"><a href="/docs/about">CERN Open Data</a></div>
+        
+          <div class="item"><a href="/docs/about-alice">ALICE</a></div>
+        
+          <div class="item"><a href="/docs/about-atlas">ATLAS</a></div>
+        
+          <div class="item"><a href="/docs/about-cms">CMS</a></div>
+        
+          <div class="item"><a href="/docs/about-delphi">DELPHI</a></div>
+        
+          <div class="item"><a href="/docs/about-lhcb">LHCb</a></div>
+        
+          <div class="item"><a href="/docs/about-opera">OPERA</a></div>
+        
+          <div class="item"><a href="/docs/about-totem">TOTEM</a></div>
+        
+        <div class="item"><a href="/search?type=Glossary&sort=title">Glossary</a></div>
+      </div>
+    </li>
+    <span class="menu-icon"/>
+  </ul>
+</nav>
+</header>
+      
+    </div>
+        <div
+  class="homepage-section main section align-items-center"
+  data-anchor="main"
+>
+  <div class="ui container container-main">
+    <div class="cod-banner row">
+      <h2>
+        <span>
+          Explore more than <span><strong>five petabytes</strong></span> <br />
+          <span class="scnd-line"
+            >of open data from particle physics!</span
+          ></span
+        >
+      </h2>
+    </div>
+    <div class="cod-search row">
+      <form
+        class="search-form container"
+        action="/search"
+        role="search"
+      >
+        <input
+          autofocus
+          type="text"
+          class="form-control search"
+          name="q"
+          aria-label="search"
+        />
+        <div>
+          <button type="submit">Search</button>
+          <div class="cod-home-image">
+            <img
+              src="/static/assets/img/header-image.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </form>
+      <div class="search-examples row">
+        <span class="example-title">search examples:</span>
+        <a href="/search?subtype=Collision&type=Dataset">collision datasets</a>,
+        <a href="/search?keywords=education">keywords:education</a>,
+        <a href="/search?collision_energy=7TeV">energy:7TeV</a>
+      </div>
+    </div>
+
+    <div class="cod-collections row">
+      <div class="collections-col">
+        <header><span>Explore</span></header>
+        <ul>
+          <li><a href="/search?type=Dataset">datasets</a></li>
+          <li><a href="/search?type=Software">software</a></li>
+          <li><a href="/search?type=Environment">environments</a></li>
+          <li><a href="/search?type=Documentation">documentation</a></li>
+        </ul>
+      </div>
+      <div class="collections-col">
+        <header><span>Focus on</span></header>
+        <ul>
+          
+            <li><a href="/search?experiment=ALICE">ALICE</a></li>
+          
+            <li><a href="/search?experiment=ATLAS">ATLAS</a></li>
+          
+            <li><a href="/search?experiment=CMS">CMS</a></li>
+          
+            <li><a href="/search?experiment=DELPHI">DELPHI</a></li>
+          
+            <li><a href="/search?experiment=LHCb">LHCb</a></li>
+          
+            <li><a href="/search?experiment=OPERA">OPERA</a></li>
+          
+            <li><a href="/search?experiment=PHENIX">PHENIX</a></li>
+          
+            <li><a href="/search?experiment=TOTEM">TOTEM</a></li>
+          
+          <li><a href="/search?keywords=datascience">Data Science</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cod-scroll row">
+      <div class="icon">
+        <a href="#lva">
+          <img
+            src="/static/assets/img/mouse-scrolling.png"
+            alt=""
+          />
+          <span>Get started</span>
+          <img
+            src="/static/assets/img/mouse-scrolling.png"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="homepage-section section lva" id="lva" data-anchor="lva">
+    <div class="container lva-container">
+        <div class="lva-item-container">
+            <div class="lva-item">
+                <header>
+                    <h3 class="row">Learn</h3>
+                    <div class="row">
+                        <div class="text">
+                            Discover the world of open data from particle physics
+                        </div>
+                    </div>
+                </header>
+
+                <div class="body">
+                    <ul>
+                        <li class="row">
+                            <a href="/docs/welcome">Welcome to our
+                                updated portal</a>
+                        </li>
+                        <li class="row">
+                            <a href="/docs/cms-guide-for-education">CMS
+                                Guide to education use of CMS Open Data</a>
+                        </li>
+                        <li class="row">
+                            <a
+                                href="/docs/cms-summer-student-report-2017">Improving
+                                educational content with high school teachers: A
+                                field report from our summer students</a>
+                        </li>
+                        <li class="row">
+                            <a href="/glossary">Glossary</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="more">
+                    <a href="/search?type=Documentation">more</a>
+                </div>
+            </div>
+        </div>
+        <div id="visualize" class="lva-item-container">
+            <div class="lva-item">
+                <header>
+                    <h3 class="row">Visualise</h3>
+                    <div class="row">
+                        <div class="text">
+                            Explore detector events and run basic histogramming
+                        </div>
+                    </div>
+                </header>
+
+                <div class="body">
+                    <ul>
+                        <li>
+                            <a href="/visualise/events/cms">CMS Event
+                                Display</a>
+                        </li>
+                        <li>
+                            <a href="/visualise/events/opera">OPERA Event
+                                Display</a>
+                        </li>
+                        <li>
+                            <a href="/visualise/histograms">CMS Histograms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="lva-item-container">
+            <div class="lva-item">
+                <header>
+                    <h3 class="row">Analyse</h3>
+                    <div class="row">
+                        <div class="text">
+                            Run your own physics analyses, start virtual machines
+                        </div>
+                    </div>
+                </header>
+
+                <div class="body">
+                    <ul>
+                        <li class="row">
+                            <a href="/docs/cms-guide-for-research">CMS
+                                Guide to research use of CMS Open Data</a>
+                        </li>
+                        <li class="row">
+                            <a
+                                href="/docs/atlas-higgs-machine-learning-challenge">ATLAS
+                                Higgs Machine Learning Challenge</a>
+                        </li>
+                        <li class="row">
+                            <a href="/docs/lhcb-getting-started">Getting
+                                Started with LHCb Open Data</a>
+                        </li>
+                        <li class="row">
+                            <a href="/docs/alice-getting-started">Getting
+                                Started with ALICE Open Data</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="more">
+                    <a href="/research">more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cod-scroll">
+        <div class="icon">
+            <a href="#news">
+                <img src="/static/assets/img/mouse-scrolling.png" alt=""/>
+                <span>News</span>
+                <img src="/static/assets/img/mouse-scrolling.png" alt=""/>
+            </a>
+        </div>
+    </div>
+</div>
+        <div class="homepage-section news section" id="news" data-anchor="news">
+    <div class="ui container fluid">
+        <div class="news-header">
+            <h3 class="">News & Updates</h3>
+        </div>
+        <div class="ui grid news-wrapper">
+            
+            
+            <div class="news-item ui five wide column card-body">
+                <div class="news-card">
+                    <p class="date-author-small">
+                        2024-12-13 by
+                        ATLAS Collaboration
+                    </p>
+                    <div>
+                        <h4>
+                            <a href="/docs/atlas-heavy-ion-open-data-for-research-release-2024">ATLAS releases first open data from heavy-ion collisions</a>
+                        </h4>
+                    </div>
+                    <div class="tags-box">
+                        <a href="/search?type=News"
+                            class="ui label blue">
+                            News
+                        </a>
+                        
+                        
+                        
+                        <a href="/search?experiment=ATLAS"
+                            class="ui label orange">
+                            ATLAS
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="news-item ui five wide column card-body">
+                <div class="news-card">
+                    <p class="date-author-small">
+                        2024-12-10 by
+                        CERN Open Data team
+                    </p>
+                    <div>
+                        <h4>
+                            <a href="/docs/ten-years-of-cern-open-data-portal">Ten years of CERN Open Data portal</a>
+                        </h4>
+                    </div>
+                    <div class="tags-box">
+                        <a href="/search?type=News"
+                            class="ui label blue">
+                            News
+                        </a>
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="news-item ui five wide column card-body">
+                <div class="news-card">
+                    <p class="date-author-small">
+                        2024-12-05 by
+                        TOTEM Collaboration
+                    </p>
+                    <div>
+                        <h4>
+                            <a href="/docs/totem-releases-first-set-of-open-data">TOTEM releases first set of open data</a>
+                        </h4>
+                    </div>
+                    <div class="tags-box">
+                        <a href="/search?type=News"
+                            class="ui label blue">
+                            News
+                        </a>
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="news-item ui five wide column card-body">
+                <div class="news-card">
+                    <p class="date-author-small">
+                        2024-08-15 by
+                        DELPHI Collaboration
+                    </p>
+                    <div>
+                        <h4>
+                            <a href="/docs/delphi-data-release-2024">DELPHI Collaboration releases its entire data collection</a>
+                        </h4>
+                    </div>
+                    <div class="tags-box">
+                        <a href="/search?type=News"
+                            class="ui label blue">
+                            News
+                        </a>
+                        
+                        
+                        
+                        <a href="/search?experiment=DELPHI"
+                            class="ui label orange">
+                            DELPHI
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="news-item ui five wide column card-body">
+                <div class="news-card">
+                    <p class="date-author-small">
+                        2024-07-01 by
+                        ATLAS Collaboration
+                    </p>
+                    <div>
+                        <h4>
+                            <a href="/docs/atlas-open-data-for-research-release-2024">ATLAS releases 65 TB of open data for research</a>
+                        </h4>
+                    </div>
+                    <div class="tags-box">
+                        <a href="/search?type=News"
+                            class="ui label blue">
+                            News
+                        </a>
+                        
+                        
+                        
+                        <a href="/search?experiment=ATLAS"
+                            class="ui label orange">
+                            ATLAS
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="news-item ui five wide column card-body">
+                <div class="news-card">
+                    <p class="date-author-small">
+                        2024-04-02 by
+                        CMS Collaboration
+                    </p>
+                    <div>
+                        <h4>
+                            <a href="/docs/cms-releases-2016data-2024">CMS releases 13 TeV proton collision data from 2016</a>
+                        </h4>
+                    </div>
+                    <div class="tags-box">
+                        <a href="/search?type=News"
+                            class="ui label blue">
+                            News
+                        </a>
+                        
+                        
+                        
+                        <a href="/search?experiment=CMS"
+                            class="ui label orange">
+                            CMS
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="more-container">
+            <div class="more"><a
+                    href="/search?f=type%3ANews">more</a></div>
+        </div>
+    </div>
+</div>
+
+    <!-- End page content -->
+    <div class="footer-push"></div> <!-- Make room for footer -->
+
+  </div>
+  <section class="footer">
+  <div class="ui grid padded">
+    <div class="row">
+      <div class="six wide column">
+        <div class="ui list horizontal logos">
+          
+          <div class="item">
+            <a href="https://alice.cern">
+              <img
+                src="/static/img/experiments/alice.gif"
+                alt="ALICE experiment"
+                width="55"
+                height="55"
+              />
+            </a>
+          </div>
+          
+          <div class="item">
+            <a href="https://atlas.cern">
+              <img
+                src="/static/img/experiments/atlas.gif"
+                alt="ATLAS experiment"
+                width="55"
+                height="55"
+              />
+            </a>
+          </div>
+          
+          <div class="item">
+            <a href="https://cms.cern">
+              <img
+                src="/static/img/experiments/cms.gif"
+                alt="CMS experiment"
+                width="55"
+                height="55"
+              />
+            </a>
+          </div>
+          
+          <div class="item">
+            <a href="https://delphi-www.web.cern.ch">
+              <img
+                src="/static/img/experiments/delphi.gif"
+                alt="DELPHI experiment"
+                width="55"
+                height="55"
+              />
+            </a>
+          </div>
+          
+          <div class="item">
+            <a href="https://lhcb.web.cern.ch">
+              <img
+                src="/static/img/experiments/lhcb.gif"
+                alt="LHCb experiment"
+                width="55"
+                height="55"
+              />
+            </a>
+          </div>
+          
+          <div class="item">
+            <a href="https://en.wikipedia.org/wiki/OPERA_experiment">
+              <img
+                src="/static/img/experiments/opera.gif"
+                alt="OPERA experiment"
+                width="55"
+                height="55"
+              />
+            </a>
+          </div>
+          
+          <div class="item">
+            <a href="https://www.phenix.bnl.gov">
+              <img
+                src="/static/img/experiments/phenix.gif"
+                alt="PHENIX experiment"
+                width="auto"
+                height="35"
+              />
+            </a>
+          </div>
+          
+          <div class="item">
+            <a href="https://totem-experiment.web.cern.ch">
+              <img
+                src="/static/img/experiments/totem.gif"
+                alt="TOTEM experiment"
+                width="auto"
+                height="55"
+              />
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="four wide column centered stretched middle aligned">
+        
+        <div class="ui list horizontal copyright ">
+          <div class="item">
+            © CERN, 2014–2025 &middot;
+          </div>
+          <div class="item">
+            <a href="/terms-of-use">Terms of Use</a> &middot;
+          </div>
+          <div class="item">
+            <a href="/privacy-policy">Privacy Policy</a> &middot;
+          </div>
+          <div class="item">
+            <a href="https://opendata-forum.cern.ch/">Help</a> &middot;
+          </div>
+          <div class="item">
+            <a href="https://github.com/cernopendata/opendata.cern.ch/issues"
+              >GitHub</a
+            >
+            &middot;
+          </div>
+          <div class="item">
+            <a href="https://twitter.com/cernopendata">Twitter</a> &middot;
+          </div>
+          <div class="item">
+            <a href="mailto:opendata-support@cern.ch">Email</a>
+          </div>
+        </div>
+      </div>
+      <div class="six wide column stretched align-items-end">
+        <div class="auto-column-grid">
+          <div >
+            <a href="https://inveniosoftware.org/">Powered by Invenio</a><br>
+            Open Data Portal v0.2.11
+          </div>
+          <div>
+            <a href="https://www.cern.ch">
+              <img
+                src="/static/assets/img/cern.svg"
+                width="80px"
+                alt="CERN"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+        
+
+<!-- base.js -->
+<script src="/static/dist/js/manifest.c0cb7c10e098d02dcf33.js"></script>
+<script src="/static/dist/js/73.b6b9397a87d45e8c7e79.js"></script>
+<script src="/static/dist/js/base.c6ef0decb799230599f5.js"></script>
+<!-- theme.js -->
+<script src="/static/dist/js/526.6343b5ae82779a59fad9.js"></script>
+<script src="/static/dist/js/theme.6156bd055cc2549a4dc8.js"></script>
+<!-- i18n_app.js -->
+<script src="/static/dist/js/i18n_app.65ea0468c608dd738560.js"></script>
+  <!-- cernopendata_js.js -->
+<script src="/static/dist/js/cernopendata_js.8014ec07ced3d9c7a708.js"></script>
+  <!-- glossary_js.js -->
+<script src="/static/dist/js/glossary_js.f7e285c50533ddf3f044.js"></script>
+  
+
+    <script>
+        jquery(document).ready(function () {
+          jquery('body').glossary('/glossary/json');
+        });
+    </script>
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"], matchFontHeight: false }
+      });
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+  
+
+
+  
+  </body>
+</html>
